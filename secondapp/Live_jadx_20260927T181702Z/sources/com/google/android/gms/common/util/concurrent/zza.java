@@ -1,0 +1,19 @@
+package com.google.android.gms.common.util.concurrent;
+
+import android.os.Process;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+final class zza implements Runnable {
+    private final Runnable zza;
+
+    public zza(Runnable runnable, int i10) {
+        this.zza = runnable;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        Process.setThreadPriority(0);
+        this.zza.run();
+    }
+}

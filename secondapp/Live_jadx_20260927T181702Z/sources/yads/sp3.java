@@ -1,0 +1,25 @@
+package yads;
+
+import org.xmlpull.v1.XmlPullParser;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes9.dex */
+public abstract class sp3 {
+    public static String a(XmlPullParser xmlPullParser, String str) {
+        int attributeCount = xmlPullParser.getAttributeCount();
+        for (int i10 = 0; i10 < attributeCount; i10++) {
+            if (xmlPullParser.getAttributeName(i10).equals(str)) {
+                return xmlPullParser.getAttributeValue(i10);
+            }
+        }
+        return null;
+    }
+
+    public static boolean b(XmlPullParser xmlPullParser, String str) {
+        return xmlPullParser.getEventType() == 3 && xmlPullParser.getName().equals(str);
+    }
+
+    public static boolean c(XmlPullParser xmlPullParser, String str) {
+        return xmlPullParser.getEventType() == 2 && xmlPullParser.getName().equals(str);
+    }
+}

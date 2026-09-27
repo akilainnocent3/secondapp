@@ -1,0 +1,44 @@
+package com.fyber.inneractive.sdk.bidder.adm;
+
+import com.fyber.inneractive.sdk.protobuf.y0;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes3.dex */
+public abstract /* synthetic */ class a {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final /* synthetic */ int[] f44153a;
+
+    static {
+        int[] iArr = new int[y0.values().length];
+        f44153a = iArr;
+        try {
+            iArr[y0.NEW_MUTABLE_INSTANCE.ordinal()] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            f44153a[y0.NEW_BUILDER.ordinal()] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            f44153a[y0.BUILD_MESSAGE_INFO.ordinal()] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        try {
+            f44153a[y0.GET_DEFAULT_INSTANCE.ordinal()] = 4;
+        } catch (NoSuchFieldError unused4) {
+        }
+        try {
+            f44153a[y0.GET_PARSER.ordinal()] = 5;
+        } catch (NoSuchFieldError unused5) {
+        }
+        try {
+            f44153a[y0.GET_MEMOIZED_IS_INITIALIZED.ordinal()] = 6;
+        } catch (NoSuchFieldError unused6) {
+        }
+        try {
+            f44153a[y0.SET_MEMOIZED_IS_INITIALIZED.ordinal()] = 7;
+        } catch (NoSuchFieldError unused7) {
+        }
+    }
+}

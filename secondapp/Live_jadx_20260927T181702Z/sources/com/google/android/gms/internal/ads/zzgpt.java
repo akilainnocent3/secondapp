@@ -1,0 +1,26 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzgpt implements zzhbf {
+    final /* synthetic */ zzgps zza;
+
+    public zzgpt(zzgpu zzgpuVar, zzgps zzgpsVar) {
+        this.zza = zzgpsVar;
+        Objects.requireNonNull(zzgpuVar);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzhbf
+    public final void zza(Throwable th2) {
+        zzgps zzgpsVar = this.zza;
+        zzgpsVar.zzb(th2);
+        zzgpsVar.zzc();
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzhbf
+    public final void zzb(Object obj) {
+        this.zza.zzc();
+    }
+}

@@ -1,0 +1,18 @@
+package kf;
+
+import af.d0;
+import af.n;
+import androidx.annotation.Nullable;
+import java.io.IOException;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+@Deprecated
+public interface g {
+    long a(n nVar) throws IOException;
+
+    @Nullable
+    d0 createSeekMap();
+
+    void startSeek(long j10);
+}

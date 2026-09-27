@@ -1,0 +1,106 @@
+package com.facebook.ads.redexgen.core;
+
+import android.content.ContentValues;
+import android.database.Cursor;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+import f6.q;
+import java.util.Arrays;
+import yr.a;
+import zi.c;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.5Q, reason: invalid class name */
+/* JADX INFO: loaded from: assets/audience_network/classes2.dex */
+public abstract class C5Q {
+    public static byte[] A00;
+    public static String[] A01 = {"ftBSrscYCZrU1XGsUffOBJlxDQfDqofj", "6A6pNCV2uhgoYcLypb", "8GOV2FUSZps1pTbJ4je5MwftASUnZkM1", "4wRLkwVxN17llLy", "8LQiKKC5rqzUsPzG", "bVt1RMPFhi5Vk9jMxK8mGuGgg99xJtg4", "bUya0H86JSXRIIoahVHYTIdtcqgWtSBf", "i4ePvK4hrBrPNKxpSWALXVVM3"};
+
+    /* JADX WARN: Failed to parse debug info
+    java.lang.ArrayIndexOutOfBoundsException
+     */
+    public static int A00(SQLiteDatabase sQLiteDatabase, int i10, String str) throws C5N {
+        try {
+            if (!C5C.A19(sQLiteDatabase, A01(159, 17, 73))) {
+                return -1;
+            }
+            Cursor cursorQuery = sQLiteDatabase.query(A01(159, 17, 73), new String[]{A01(244, 7, 93)}, A01(183, 32, 22), A05(i10, str), null, null, null);
+            try {
+                if (cursorQuery.getCount() == 0) {
+                    if (cursorQuery != null) {
+                        cursorQuery.close();
+                    }
+                    return -1;
+                }
+                cursorQuery.moveToNext();
+                int i11 = cursorQuery.getInt(0);
+                if (cursorQuery != null) {
+                    cursorQuery.close();
+                }
+                return i11;
+            } catch (Throwable th2) {
+                if (cursorQuery != null) {
+                    try {
+                        cursorQuery.close();
+                    } catch (Throwable th3) {
+                        th2.addSuppressed(th3);
+                    }
+                }
+                throw th2;
+            }
+            throw new C5N(e);
+        } catch (SQLException e10) {
+            throw new C5N(e10);
+        }
+    }
+
+    public static String A01(int i10, int i11, int i12) {
+        byte[] bArrCopyOfRange = Arrays.copyOfRange(A00, i10, i10 + i11);
+        for (int i13 = 0; i13 < bArrCopyOfRange.length; i13++) {
+            bArrCopyOfRange[i13] = (byte) ((bArrCopyOfRange[i13] ^ i12) ^ 17);
+        }
+        return new String(bArrCopyOfRange);
+    }
+
+    public static void A02() {
+        A00 = new byte[]{53, 36, 51, 55, 34, 51, 86, 34, 55, 52, 58, 51, 86, 63, 48, 86, 56, 57, 34, 86, 51, 46, 63, 37, 34, 37, 86, 51, c.f161638p, c.C, 38, c.D, c.A, c.f161639q, 19, 4, 32, 19, 4, 5, 31, c.C, c.B, 5, 86, 94, c.f161640r, 19, c.A, 2, 3, 4, 19, 86, 63, 56, 34, 51, 49, 51, 36, 86, 56, 57, 34, 86, 56, 35, 58, 58, 90, 31, c.B, 5, 2, c.A, c.B, c.f161647y, 19, 41, 3, 31, c.f161643u, 86, 34, 51, 46, 34, 86, 56, 57, 34, 86, 56, 35, 58, 58, 90, 0, 19, 4, 5, 31, c.C, c.B, 86, 63, 56, 34, 51, 49, 51, 36, 86, 56, 57, 34, 86, 56, 35, 58, 58, 90, 38, 36, 63, 59, 55, 36, 47, 86, a.f159811k, 51, 47, 86, 94, c.f161640r, 19, c.A, 2, 3, 4, 19, 90, 86, 31, c.B, 5, 2, c.A, c.B, c.f161647y, 19, 41, 3, 31, c.f161643u, 95, 95, c.G, 32, 55, 8, 52, 57, 33, a.f159811k, 42, c.f161638p, a.f159811k, 42, 43, 49, 55, 54, 43, 103, q.f83619w, 96, 117, 116, 115, q.f83619w, 97, 98, 102, 115, 114, 117, 98, 39, 58, 39, 56, 39, 70, 73, 67, 39, 110, 105, 116, 115, 102, 105, q.f83619w, 98, 88, 114, 110, 99, 39, 58, 39, 56, 64, 72, 72, 64, 9, 66, 95, 72, 9, 67, 70, 83, 70, 69, 70, 84, 66, 9, c.f161638p, 19, c.f161646x, 1, c.f161638p, 3, 5, 63, c.f161647y, 9, 4, 58, 41, 62, 63, 37, 35, 34};
+        String[] strArr = A01;
+        if (strArr[6].charAt(14) == strArr[5].charAt(14)) {
+            throw new RuntimeException();
+        }
+        A01[7] = "SNjSmBwt36dpbjCWXjm4KdaDp";
+    }
+
+    static {
+        A02();
+        AnonymousClass35.A03(A01(215, 17, 54));
+    }
+
+    public static void A03(SQLiteDatabase sQLiteDatabase, int i10, String str) throws C5N {
+        String strA01 = A01(159, 17, 73);
+        try {
+            if (!C5C.A19(sQLiteDatabase, strA01)) {
+                return;
+            }
+            sQLiteDatabase.delete(strA01, A01(183, 32, 22), A05(i10, str));
+        } catch (SQLException e10) {
+            throw new C5N(e10);
+        }
+    }
+
+    public static void A04(SQLiteDatabase sQLiteDatabase, int i10, String str, int i11) throws C5N {
+        try {
+            sQLiteDatabase.execSQL(A01(0, 159, 103));
+            ContentValues contentValues = new ContentValues();
+            contentValues.put(A01(176, 7, 16), Integer.valueOf(i10));
+            contentValues.put(A01(232, 12, 113), str);
+            contentValues.put(A01(244, 7, 93), Integer.valueOf(i11));
+            sQLiteDatabase.replaceOrThrow(A01(159, 17, 73), null, contentValues);
+        } catch (SQLException e10) {
+            throw new C5N(e10);
+        }
+    }
+
+    public static String[] A05(int i10, String str) {
+        return new String[]{Integer.toString(i10), str};
+    }
+}

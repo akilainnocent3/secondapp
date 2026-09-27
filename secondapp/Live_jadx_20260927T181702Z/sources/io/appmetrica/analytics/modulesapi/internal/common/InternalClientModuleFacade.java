@@ -1,0 +1,12 @@
+package io.appmetrica.analytics.modulesapi.internal.common;
+
+import io.appmetrica.analytics.modulesapi.internal.client.adrevenue.ModuleAdRevenue;
+import oy.l;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public interface InternalClientModuleFacade {
+    void reportAdRevenue(@l ModuleAdRevenue moduleAdRevenue);
+
+    void reportEvent(@l InternalModuleEvent internalModuleEvent);
+}

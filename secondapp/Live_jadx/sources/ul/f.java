@@ -1,0 +1,18 @@
+package ul;
+
+import com.google.auto.value.AutoValue;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+@AutoValue
+public abstract class f {
+    public static f a(String str, String str2) {
+        return new a(str, str2);
+    }
+
+    @zq.g
+    public abstract String b();
+
+    @zq.g
+    public abstract String c();
+}

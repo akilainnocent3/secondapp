@@ -1,0 +1,249 @@
+package com.iab.omid.library.fyber.adsession;
+
+import android.view.View;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.iab.omid.library.fyber.internal.c;
+import com.iab.omid.library.fyber.internal.e;
+import com.iab.omid.library.fyber.internal.f;
+import com.iab.omid.library.fyber.internal.i;
+import com.iab.omid.library.fyber.publisher.AdSessionStatePublisher;
+import com.iab.omid.library.fyber.publisher.b;
+import com.iab.omid.library.fyber.utils.g;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.UUID;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes4.dex */
+public class a extends AdSession {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private final AdSessionContext f53120a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    private final AdSessionConfiguration f53121b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    private final f f53122c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    private com.iab.omid.library.fyber.weakreference.a f53123d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    private AdSessionStatePublisher f53124e;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    private boolean f53125f;
+
+    /* JADX INFO: renamed from: g, reason: collision with root package name */
+    private boolean f53126g;
+
+    /* JADX INFO: renamed from: h, reason: collision with root package name */
+    private final String f53127h;
+
+    /* JADX INFO: renamed from: i, reason: collision with root package name */
+    private boolean f53128i;
+
+    /* JADX INFO: renamed from: j, reason: collision with root package name */
+    private boolean f53129j;
+
+    /* JADX INFO: renamed from: k, reason: collision with root package name */
+    private PossibleObstructionListener f53130k;
+
+    public a(AdSessionConfiguration adSessionConfiguration, AdSessionContext adSessionContext) {
+        this(adSessionConfiguration, adSessionContext, UUID.randomUUID().toString());
+    }
+
+    private void a() {
+        if (this.f53128i) {
+            throw new IllegalStateException("Impression event can only be sent once");
+        }
+    }
+
+    private void b() {
+        if (this.f53129j) {
+            throw new IllegalStateException("Loaded event can only be sent once");
+        }
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void addFriendlyObstruction(View view, FriendlyObstructionPurpose friendlyObstructionPurpose, @Nullable String str) {
+        if (this.f53126g) {
+            return;
+        }
+        this.f53122c.a(view, friendlyObstructionPurpose, str);
+    }
+
+    public String c() {
+        return this.f53127h;
+    }
+
+    public AdSessionStatePublisher d() {
+        return this.f53124e;
+    }
+
+    public View e() {
+        return this.f53123d.get();
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void error(ErrorType errorType, String str) {
+        if (this.f53126g) {
+            throw new IllegalStateException("AdSession is finished");
+        }
+        g.a(errorType, "Error type is null");
+        g.a(str, "Message is null");
+        d().a(errorType, str);
+    }
+
+    public List<e> f() {
+        return this.f53122c.a();
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void finish() {
+        if (this.f53126g) {
+            return;
+        }
+        this.f53123d.clear();
+        removeAllFriendlyObstructions();
+        this.f53126g = true;
+        d().f();
+        c.c().b(this);
+        d().b();
+        this.f53124e = null;
+        this.f53130k = null;
+    }
+
+    public boolean g() {
+        return this.f53130k != null;
+    }
+
+    public boolean h() {
+        return this.f53125f && !this.f53126g;
+    }
+
+    public boolean i() {
+        return this.f53126g;
+    }
+
+    public boolean j() {
+        return this.f53121b.isNativeImpressionOwner();
+    }
+
+    public boolean k() {
+        return this.f53121b.isNativeMediaEventsOwner();
+    }
+
+    public boolean l() {
+        return this.f53125f;
+    }
+
+    public void m() {
+        a();
+        d().g();
+        this.f53128i = true;
+    }
+
+    public void n() {
+        b();
+        d().h();
+        this.f53129j = true;
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void registerAdView(@Nullable View view) {
+        if (this.f53126g || e() == view) {
+            return;
+        }
+        b(view);
+        d().a();
+        a(view);
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void removeAllFriendlyObstructions() {
+        if (this.f53126g) {
+            return;
+        }
+        this.f53122c.b();
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void removeFriendlyObstruction(View view) {
+        if (this.f53126g) {
+            return;
+        }
+        this.f53122c.c(view);
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void setPossibleObstructionListener(PossibleObstructionListener possibleObstructionListener) {
+        this.f53130k = possibleObstructionListener;
+    }
+
+    @Override // com.iab.omid.library.fyber.adsession.AdSession
+    public void start() {
+        if (this.f53125f || this.f53124e == null) {
+            return;
+        }
+        this.f53125f = true;
+        c.c().c(this);
+        this.f53124e.a(i.c().b());
+        this.f53124e.a(com.iab.omid.library.fyber.internal.a.a().b());
+        this.f53124e.a(this, this.f53120a);
+    }
+
+    public a(AdSessionConfiguration adSessionConfiguration, AdSessionContext adSessionContext, String str) {
+        this.f53122c = new f();
+        this.f53125f = false;
+        this.f53126g = false;
+        this.f53121b = adSessionConfiguration;
+        this.f53120a = adSessionContext;
+        this.f53127h = str;
+        b(null);
+        this.f53124e = (adSessionContext.getAdSessionContextType() == AdSessionContextType.HTML || adSessionContext.getAdSessionContextType() == AdSessionContextType.JAVASCRIPT) ? new com.iab.omid.library.fyber.publisher.a(str, adSessionContext.getWebView()) : new b(str, adSessionContext.getInjectedResourcesMap(), adSessionContext.getOmidJsScriptContent());
+        this.f53124e.i();
+        c.c().a(this);
+        this.f53124e.a(adSessionConfiguration);
+    }
+
+    private void a(@Nullable View view) {
+        Collection<a> collectionB = c.c().b();
+        if (collectionB == null || collectionB.isEmpty()) {
+            return;
+        }
+        for (a aVar : collectionB) {
+            if (aVar != this && aVar.e() == view) {
+                aVar.f53123d.clear();
+            }
+        }
+    }
+
+    private void b(@Nullable View view) {
+        this.f53123d = new com.iab.omid.library.fyber.weakreference.a(view);
+    }
+
+    public void a(List<com.iab.omid.library.fyber.weakreference.a> list) {
+        if (g()) {
+            ArrayList arrayList = new ArrayList();
+            Iterator<com.iab.omid.library.fyber.weakreference.a> it = list.iterator();
+            while (it.hasNext()) {
+                View view = it.next().get();
+                if (view != null) {
+                    arrayList.add(view);
+                }
+            }
+            this.f53130k.onPossibleObstructionsDetected(this.f53127h, arrayList);
+        }
+    }
+
+    public void a(@NonNull JSONObject jSONObject) {
+        b();
+        d().a(jSONObject);
+        this.f53129j = true;
+    }
+}

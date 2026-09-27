@@ -1,0 +1,15 @@
+package yads;
+
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes9.dex */
+public interface r43 {
+    int a();
+
+    int a(long j10);
+
+    long a(int i10);
+
+    List b(long j10);
+}

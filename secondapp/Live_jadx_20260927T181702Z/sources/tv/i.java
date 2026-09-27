@@ -1,0 +1,61 @@
+package tv;
+
+import dr.w2;
+import kotlin.jvm.internal.x;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public final class i<Q> implements h<Q> {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    @oy.l
+    public final Object f137389a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    @oy.l
+    public final ds.q<Object, n<?>, Object, w2> f137390b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    @oy.l
+    public final ds.q<Object, Object, Object, Object> f137391c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    @oy.m
+    public final ds.q<n<?>, Object, Object, ds.q<Throwable, Object, or.j, w2>> f137392d;
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public i(@oy.l Object obj, @oy.l ds.q<Object, ? super n<?>, Object, w2> qVar, @oy.l ds.q<Object, Object, Object, ? extends Object> qVar2, @oy.m ds.q<? super n<?>, Object, Object, ? extends ds.q<? super Throwable, Object, ? super or.j, w2>> qVar3) {
+        this.f137389a = obj;
+        this.f137390b = qVar;
+        this.f137391c = qVar2;
+        this.f137392d = qVar3;
+    }
+
+    @Override // tv.l
+    @oy.m
+    public ds.q<n<?>, Object, Object, ds.q<Throwable, Object, or.j, w2>> a() {
+        return this.f137392d;
+    }
+
+    @Override // tv.l
+    @oy.l
+    public ds.q<Object, Object, Object, Object> b() {
+        return this.f137391c;
+    }
+
+    @Override // tv.l
+    @oy.l
+    public ds.q<Object, n<?>, Object, w2> c() {
+        return this.f137390b;
+    }
+
+    @Override // tv.l
+    @oy.l
+    public Object d() {
+        return this.f137389a;
+    }
+
+    public /* synthetic */ i(Object obj, ds.q qVar, ds.q qVar2, ds.q qVar3, int i10, x xVar) {
+        this(obj, qVar, qVar2, (i10 & 8) != 0 ? null : qVar3);
+    }
+}

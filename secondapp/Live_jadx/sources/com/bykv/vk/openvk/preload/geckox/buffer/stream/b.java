@@ -1,0 +1,14 @@
+package com.bykv.vk.openvk.preload.geckox.buffer.stream;
+
+import java.io.IOException;
+import java.io.OutputStream;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class b extends OutputStream {
+    public abstract void write(long j10, int i10) throws IOException;
+
+    public abstract void write(long j10, byte[] bArr) throws IOException;
+
+    public abstract void write(long j10, byte[] bArr, int i10, int i11) throws IOException;
+}

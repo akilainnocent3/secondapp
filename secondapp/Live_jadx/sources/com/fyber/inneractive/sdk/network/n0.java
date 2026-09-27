@@ -1,0 +1,17 @@
+package com.fyber.inneractive.sdk.network;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes3.dex */
+public final class n0 extends Exception {
+    public n0(Exception exc) {
+        super(exc);
+    }
+
+    public n0(String str) {
+        super(str);
+    }
+
+    public n0(String str, com.fyber.inneractive.sdk.response.nativead.a aVar) {
+        super(str, aVar);
+    }
+}

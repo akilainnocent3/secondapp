@@ -1,0 +1,9 @@
+package yads;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes9.dex */
+public interface rw2 {
+    void a(jb2 jb2Var);
+
+    void a(y63 y63Var, pq0 pq0Var, l93 l93Var);
+}

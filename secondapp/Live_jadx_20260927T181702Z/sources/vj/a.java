@@ -1,0 +1,13 @@
+package vj;
+
+import java.util.Set;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public interface a {
+    void a(Set set);
+
+    uj.a.b zza();
+
+    void zzc();
+}

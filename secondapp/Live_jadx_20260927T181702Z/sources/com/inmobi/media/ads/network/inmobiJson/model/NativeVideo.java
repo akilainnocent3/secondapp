@@ -1,0 +1,42 @@
+package com.inmobi.media.ads.network.inmobiJson.model;
+
+import androidx.annotation.Keep;
+import com.inmobi.media.ads.network.common.model.TrackingInfo;
+import java.util.ArrayList;
+import java.util.List;
+import oy.l;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+@Keep
+public final class NativeVideo {
+    private final boolean required;
+
+    @l
+    private final String vastTag = "";
+
+    @l
+    private final VideoExperience experience = new VideoExperience();
+
+    @l
+    private final List<TrackingInfo> trackers = new ArrayList();
+
+    @l
+    public final VideoExperience getExperience() {
+        return this.experience;
+    }
+
+    public final boolean getRequired() {
+        return this.required;
+    }
+
+    @l
+    public final List<TrackingInfo> getTrackers() {
+        return this.trackers;
+    }
+
+    @l
+    public final String getVastTag() {
+        return this.vastTag;
+    }
+}

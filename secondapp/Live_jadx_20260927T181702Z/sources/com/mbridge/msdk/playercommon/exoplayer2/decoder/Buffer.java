@@ -1,0 +1,39 @@
+package com.mbridge.msdk.playercommon.exoplayer2.decoder;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+public abstract class Buffer {
+    private int flags;
+
+    public final void addFlag(int i10) {
+        this.flags = i10 | this.flags;
+    }
+
+    public void clear() {
+        this.flags = 0;
+    }
+
+    public final void clearFlag(int i10) {
+        this.flags = (~i10) & this.flags;
+    }
+
+    public final boolean getFlag(int i10) {
+        return (this.flags & i10) == i10;
+    }
+
+    public final boolean isDecodeOnly() {
+        return getFlag(Integer.MIN_VALUE);
+    }
+
+    public final boolean isEndOfStream() {
+        return getFlag(4);
+    }
+
+    public final boolean isKeyFrame() {
+        return getFlag(1);
+    }
+
+    public final void setFlags(int i10) {
+        this.flags = i10;
+    }
+}

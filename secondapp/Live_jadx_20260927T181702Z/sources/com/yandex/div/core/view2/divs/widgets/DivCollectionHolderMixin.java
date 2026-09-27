@@ -1,0 +1,24 @@
+package com.yandex.div.core.view2.divs.widgets;
+
+import com.yandex.div.internal.core.DivItemBuilderResult;
+import java.util.List;
+import oy.m;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public final class DivCollectionHolderMixin implements DivCollectionHolder {
+
+    @m
+    private List<DivItemBuilderResult> items;
+
+    @Override // com.yandex.div.core.view2.divs.widgets.DivCollectionHolder
+    @m
+    public List<DivItemBuilderResult> getItems() {
+        return this.items;
+    }
+
+    @Override // com.yandex.div.core.view2.divs.widgets.DivCollectionHolder
+    public void setItems(@m List<DivItemBuilderResult> list) {
+        this.items = list;
+    }
+}

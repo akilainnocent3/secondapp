@@ -1,0 +1,27 @@
+package com.google.android.gms.ads.internal.client;
+
+import android.os.RemoteException;
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzfg implements Runnable {
+    final /* synthetic */ zzfh zza;
+
+    public zzfg(zzfh zzfhVar) {
+        Objects.requireNonNull(zzfhVar);
+        this.zza = zzfhVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        zzfh zzfhVar = this.zza;
+        if (zzfhVar.zzL() != null) {
+            try {
+                zzfhVar.zzL().zzc(1);
+            } catch (RemoteException e10) {
+                com.google.android.gms.ads.internal.util.client.zzo.zzj("Could not notify onAdFailedToLoad event.", e10);
+            }
+        }
+    }
+}

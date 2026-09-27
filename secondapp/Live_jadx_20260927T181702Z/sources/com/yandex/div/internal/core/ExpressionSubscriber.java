@@ -1,0 +1,21 @@
+package com.yandex.div.internal.core;
+
+import com.yandex.div.core.Disposable;
+import com.yandex.div.core.view2.Releasable;
+import java.util.List;
+import oy.l;
+import oy.m;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public interface ExpressionSubscriber extends Releasable {
+    void addSubscription(@m Disposable disposable);
+
+    void closeAllSubscription();
+
+    @l
+    List<Disposable> getSubscriptions();
+
+    @Override // com.yandex.div.core.view2.Releasable
+    void release();
+}

@@ -1,0 +1,28 @@
+package com.google.android.gms.measurement.internal;
+
+import android.os.Bundle;
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzlv implements Runnable {
+    final /* synthetic */ Bundle zza;
+    final /* synthetic */ zzlu zzb;
+    final /* synthetic */ zzlu zzc;
+    final /* synthetic */ long zzd;
+    final /* synthetic */ zzmb zze;
+
+    public zzlv(zzmb zzmbVar, Bundle bundle, zzlu zzluVar, zzlu zzluVar2, long j10) {
+        this.zza = bundle;
+        this.zzb = zzluVar;
+        this.zzc = zzluVar2;
+        this.zzd = j10;
+        Objects.requireNonNull(zzmbVar);
+        this.zze = zzmbVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        this.zze.zzt(this.zza, this.zzb, this.zzc, this.zzd);
+    }
+}

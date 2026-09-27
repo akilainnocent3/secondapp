@@ -1,0 +1,18 @@
+package com.applovin.sdk;
+
+import android.content.Intent;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes2.dex */
+public interface AppLovinEventService {
+    void trackCheckout(String str, Map<String, String> map);
+
+    void trackEvent(String str);
+
+    void trackEvent(String str, Map<String, ?> map);
+
+    void trackEvent(String str, Map<String, ?> map, Map<String, Object> map2);
+
+    void trackInAppPurchase(Intent intent, Map<String, String> map);
+}

@@ -1,0 +1,19 @@
+package com.startapp.sdk.internal;
+
+import java.io.ByteArrayOutputStream;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public final class a7 extends ByteArrayOutputStream {
+    public a7(int i10) {
+        super(i10);
+    }
+
+    public final byte[] a() {
+        return ((ByteArrayOutputStream) this).buf;
+    }
+
+    public final int b() {
+        return ((ByteArrayOutputStream) this).count;
+    }
+}

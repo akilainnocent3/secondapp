@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/notification_layout_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@android:color/white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg_live_may"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/whole_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="75sp"
+                    android:layout_marginLeft="20sp"
+                    android:elevation="1sp"
+                    app:cardCornerRadius="10sp"
+                    app:strokeWidth="250sp">
+                    <ImageView
+                        android:id="@+id/channel_image_show"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_launcher"
+                        android:scaleType="fitXY"/>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp">
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/noti_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PSG vs RMA"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/cambriab_bold"/>
+                <TextView
+                    android:textSize="11sp"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/noti_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:text="Wednesday, 13 January 2021"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/cambriab_bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

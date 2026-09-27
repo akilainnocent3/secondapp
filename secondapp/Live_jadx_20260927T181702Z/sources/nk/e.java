@@ -1,0 +1,9 @@
+package nk;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public enum e {
+    USE_CACHE,
+    SKIP_CACHE_LOOKUP,
+    IGNORE_CACHE_EXPIRATION
+}

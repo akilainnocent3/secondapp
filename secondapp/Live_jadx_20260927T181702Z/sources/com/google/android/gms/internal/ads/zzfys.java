@@ -1,0 +1,54 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzfys extends zzfyy {
+    private String zza;
+    private byte zzb;
+    private int zzc;
+    private int zzd;
+
+    public final zzfyy zza(String str) {
+        this.zza = "";
+        return this;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzfyy
+    public final zzfyy zzb(boolean z10) {
+        this.zzb = (byte) 1;
+        return this;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzfyy
+    public final zzfyz zzc() {
+        if (this.zzb == 1 && this.zza != null && this.zzc != 0 && this.zzd != 0) {
+            return new zzfyt(this.zza, false, this.zzc, null, this.zzd, null);
+        }
+        StringBuilder sb2 = new StringBuilder();
+        if (this.zza == null) {
+            sb2.append(" fileOwner");
+        }
+        if (this.zzb == 0) {
+            sb2.append(" hasDifferentDmaOwner");
+        }
+        if (this.zzc == 0) {
+            sb2.append(" fileChecks");
+        }
+        if (this.zzd == 0) {
+            sb2.append(" filePurpose");
+        }
+        throw new IllegalStateException("Missing required properties:".concat(sb2.toString()));
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzfyy
+    public final zzfyy zzd(int i10) {
+        this.zzc = i10;
+        return this;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzfyy
+    public final zzfyy zze(int i10) {
+        this.zzd = 1;
+        return this;
+    }
+}

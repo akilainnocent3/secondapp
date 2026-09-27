@@ -1,0 +1,33 @@
+package io.appmetrica.analytics;
+
+import androidx.annotation.NonNull;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public interface DeferredDeeplinkParametersListener {
+
+    /* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+    public enum Error {
+        NOT_A_FIRST_LAUNCH("Deferred deeplink parameters can be requested during first launch only."),
+        PARSE_ERROR("Google Play referrer did not contain valid deferred deeplink parameters."),
+        NO_REFERRER("No referrer was found"),
+        UNKNOWN("Unknown error");
+
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        private final String f94948a;
+
+        Error(String str) {
+            this.f94948a = str;
+        }
+
+        public String getDescription() {
+            return this.f94948a;
+        }
+    }
+
+    void onError(@NonNull Error error, @NonNull String str);
+
+    void onParametersLoaded(@NonNull Map<String, String> map);
+}

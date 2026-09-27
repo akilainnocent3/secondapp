@@ -1,0 +1,27 @@
+package io.appmetrica.analytics.coreutils.internal.io;
+
+import androidx.annotation.Nullable;
+import io.appmetrica.analytics.coreapi.internal.io.Compressor;
+import java.io.IOException;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public class GZIPCompressor implements Compressor {
+    @Override // io.appmetrica.analytics.coreapi.internal.io.Compressor
+    @Nullable
+    public byte[] compress(@Nullable byte[] bArr) throws IOException {
+        if (bArr == null) {
+            return null;
+        }
+        return GZIPUtils.gzipBytes(bArr);
+    }
+
+    @Override // io.appmetrica.analytics.coreapi.internal.io.Compressor
+    @Nullable
+    public byte[] uncompress(@Nullable byte[] bArr) throws IOException {
+        if (bArr == null) {
+            return null;
+        }
+        return GZIPUtils.unGzipBytes(bArr);
+    }
+}

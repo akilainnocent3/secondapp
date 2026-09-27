@@ -1,0 +1,28 @@
+package com.mbridge.msdk.config.component.load.downloader.core;
+
+import java.util.concurrent.Future;
+import java.util.concurrent.PriorityBlockingQueue;
+import java.util.concurrent.RejectedExecutionHandler;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+public class b extends ThreadPoolExecutor implements AutoCloseable {
+    public b(int i10, ThreadFactory threadFactory, RejectedExecutionHandler rejectedExecutionHandler) {
+        super(i10, i10 * 2, 15L, TimeUnit.MICROSECONDS, new PriorityBlockingQueue(), threadFactory, rejectedExecutionHandler);
+    }
+
+    @Override // java.lang.AutoCloseable
+    public /* synthetic */ void close() {
+        v1.h.a(this);
+    }
+
+    @Override // java.util.concurrent.AbstractExecutorService, java.util.concurrent.ExecutorService
+    public Future<?> submit(Runnable runnable) {
+        c cVar = new c((h) runnable);
+        execute(cVar);
+        return cVar;
+    }
+}

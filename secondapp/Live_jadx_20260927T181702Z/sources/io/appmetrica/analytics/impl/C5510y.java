@@ -1,0 +1,22 @@
+package io.appmetrica.analytics.impl;
+
+/* JADX INFO: renamed from: io.appmetrica.analytics.impl.y, reason: case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C5510y extends kotlin.jvm.internal.o0 implements ds.l {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ C5360s f98630a;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C5510y(C5360s c5360s) {
+        super(1);
+        this.f98630a = c5360s;
+    }
+
+    @Override // ds.l
+    public final Object invoke(Object obj) {
+        this.f98630a.f98273h = (byte[]) obj;
+        return dr.w2.f79517a;
+    }
+}

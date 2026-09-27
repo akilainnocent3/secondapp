@@ -1,0 +1,35 @@
+package ix;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Repeatable;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import ly.a0;
+import ly.p;
+import ly.x;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+@Target({ElementType.METHOD, ElementType.CONSTRUCTOR})
+@p
+@x(qualifier = ix.a.class)
+@Repeatable(a.class)
+public @interface d {
+
+    /* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+    @Target({ElementType.METHOD, ElementType.CONSTRUCTOR})
+    @p
+    @x(qualifier = ix.a.class)
+    @Documented
+    @Retention(RetentionPolicy.RUNTIME)
+    public @interface a {
+        d[] value();
+    }
+
+    @a0("value")
+    String[] methods();
+
+    String[] value();
+}

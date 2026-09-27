@@ -1,0 +1,22 @@
+package com.google.android.gms.dynamite;
+
+import dalvik.system.PathClassLoader;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzd extends PathClassLoader {
+    public zzd(String str, ClassLoader classLoader) {
+        super(str, classLoader);
+    }
+
+    @Override // java.lang.ClassLoader
+    public final Class loadClass(String str, boolean z10) throws ClassNotFoundException {
+        if (!str.startsWith("java.") && !str.startsWith("android.")) {
+            try {
+                return findClass(str);
+            } catch (ClassNotFoundException unused) {
+            }
+        }
+        return super.loadClass(str, z10);
+    }
+}

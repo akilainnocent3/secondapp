@@ -1,0 +1,65 @@
+package com.google.android.gms.auth.api.accounttransfer;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelReader;
+import java.util.HashSet;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzv implements Parcelable.Creator {
+    @Override // android.os.Parcelable.Creator
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        int i10;
+        int header;
+        int iValidateObjectHeader = SafeParcelReader.validateObjectHeader(parcel);
+        HashSet hashSet = new HashSet();
+        int i11 = 0;
+        zzw zzwVar = null;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        loop0: while (true) {
+            i10 = i11;
+            while (true) {
+                if (parcel.dataPosition() >= iValidateObjectHeader) {
+                    break loop0;
+                }
+                header = SafeParcelReader.readHeader(parcel);
+                int fieldId = SafeParcelReader.getFieldId(header);
+                if (fieldId != 1) {
+                    if (fieldId == 2) {
+                        zzw zzwVar2 = (zzw) SafeParcelReader.createParcelable(parcel, header, zzw.CREATOR);
+                        hashSet.add(2);
+                        zzwVar = zzwVar2;
+                    } else if (fieldId == 3) {
+                        String strCreateString = SafeParcelReader.createString(parcel, header);
+                        hashSet.add(3);
+                        str = strCreateString;
+                    } else if (fieldId == 4) {
+                        String strCreateString2 = SafeParcelReader.createString(parcel, header);
+                        hashSet.add(4);
+                        str2 = strCreateString2;
+                    } else if (fieldId != 5) {
+                        SafeParcelReader.skipUnknownField(parcel, header);
+                    } else {
+                        String strCreateString3 = SafeParcelReader.createString(parcel, header);
+                        hashSet.add(5);
+                        str3 = strCreateString3;
+                    }
+                }
+            }
+            i11 = SafeParcelReader.readInt(parcel, header);
+            hashSet.add(1);
+        }
+        if (parcel.dataPosition() == iValidateObjectHeader) {
+            return new zzu(hashSet, i10, zzwVar, str, str2, str3);
+        }
+        throw new SafeParcelReader.ParseException("Overread allowed size end=" + iValidateObjectHeader, parcel);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object[] newArray(int i10) {
+        return new zzu[i10];
+    }
+}

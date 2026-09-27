@@ -1,0 +1,23 @@
+package com.google.android.gms.common;
+
+import androidx.annotation.NonNull;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+final class zzac {
+    private final String zza;
+    private final PackageVerificationResult zzb;
+
+    public zzac(@NonNull String str, @NonNull PackageVerificationResult packageVerificationResult) {
+        this.zza = str;
+        this.zzb = packageVerificationResult;
+    }
+
+    public final /* synthetic */ String zza() {
+        return this.zza;
+    }
+
+    public final /* synthetic */ PackageVerificationResult zzb() {
+        return this.zzb;
+    }
+}

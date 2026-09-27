@@ -1,0 +1,28 @@
+package com.startapp.sdk.internal;
+
+import android.text.TextUtils;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public abstract class zk {
+    public static ArrayList a(Node node, String str, String str2, List list, Set set) {
+        NamedNodeMap attributes;
+        Node namedItem;
+        ArrayList arrayList = new ArrayList();
+        NodeList childNodes = node.getChildNodes();
+        int length = childNodes.getLength();
+        for (int i10 = 0; i10 < length; i10++) {
+            Node nodeItem = childNodes.item(i10);
+            if ((str == null || str.equals(nodeItem.getNodeName())) && ((TextUtils.isEmpty(str2) || list == null || ((attributes = nodeItem.getAttributes()) != null && (namedItem = attributes.getNamedItem(str2)) != null && list.contains(namedItem.getNodeValue()))) && (set == null || !set.contains(Short.valueOf(nodeItem.getNodeType()))))) {
+                arrayList.add(nodeItem);
+            }
+        }
+        return arrayList;
+    }
+}

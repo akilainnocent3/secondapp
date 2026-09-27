@@ -1,0 +1,27 @@
+package androidx.leanback.widget;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes.dex */
+public interface y1 {
+    void b(a aVar);
+
+    /* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+    public static class a {
+        public x1 a() {
+            return null;
+        }
+
+        public boolean b() {
+            return false;
+        }
+
+        public void c(boolean z10) {
+        }
+
+        public void d(long j10) {
+        }
+
+        public void e() {
+        }
+    }
+}

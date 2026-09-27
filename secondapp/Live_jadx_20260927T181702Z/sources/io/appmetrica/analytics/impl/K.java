@@ -1,0 +1,12 @@
+package io.appmetrica.analytics.impl;
+
+import android.content.Context;
+import io.appmetrica.analytics.coreapi.internal.identifiers.AdTrackingInfoResult;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public interface K {
+    AdTrackingInfoResult a(Context context);
+
+    AdTrackingInfoResult a(Context context, Hi hi2);
+}

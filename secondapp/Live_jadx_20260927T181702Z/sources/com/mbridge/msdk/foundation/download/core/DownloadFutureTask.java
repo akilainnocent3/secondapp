@@ -1,0 +1,24 @@
+package com.mbridge.msdk.foundation.download.core;
+
+import com.mbridge.msdk.foundation.download.DownloadPriority;
+import java.util.concurrent.FutureTask;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+public class DownloadFutureTask extends FutureTask<Downloader> implements Comparable<DownloadFutureTask> {
+    private final Downloader downloader;
+
+    public DownloadFutureTask(Downloader downloader) {
+        super(downloader, null);
+        this.downloader = downloader;
+    }
+
+    @Override // java.lang.Comparable
+    public int compareTo(DownloadFutureTask downloadFutureTask) {
+        Downloader downloader = this.downloader;
+        DownloadPriority downloadPriority = downloader.downloadPriority;
+        Downloader downloader2 = downloadFutureTask.downloader;
+        DownloadPriority downloadPriority2 = downloader2.downloadPriority;
+        return downloadPriority == downloadPriority2 ? downloader.sequence - downloader2.sequence : downloadPriority2.ordinal() - downloadPriority.ordinal();
+    }
+}

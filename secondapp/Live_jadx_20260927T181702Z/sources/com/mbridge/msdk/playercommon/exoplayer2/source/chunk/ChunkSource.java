@@ -1,0 +1,21 @@
+package com.mbridge.msdk.playercommon.exoplayer2.source.chunk;
+
+import com.mbridge.msdk.playercommon.exoplayer2.SeekParameters;
+import java.io.IOException;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+public interface ChunkSource {
+    long getAdjustedSeekPositionUs(long j10, SeekParameters seekParameters);
+
+    void getNextChunk(MediaChunk mediaChunk, long j10, long j11, ChunkHolder chunkHolder);
+
+    int getPreferredQueueSize(long j10, List<? extends MediaChunk> list);
+
+    void maybeThrowError() throws IOException;
+
+    void onChunkLoadCompleted(Chunk chunk);
+
+    boolean onChunkLoadError(Chunk chunk, boolean z10, Exception exc);
+}

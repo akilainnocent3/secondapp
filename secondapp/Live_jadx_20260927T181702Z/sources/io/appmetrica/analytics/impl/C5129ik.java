@@ -1,0 +1,20 @@
+package io.appmetrica.analytics.impl;
+
+import io.appmetrica.analytics.internal.AppMetricaService;
+
+/* JADX INFO: renamed from: io.appmetrica.analytics.impl.ik, reason: case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C5129ik {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final String f97588a;
+
+    public C5129ik(String str) {
+        this.f97588a = str;
+    }
+
+    public final String toString() {
+        return "ServiceDescription(packageName='" + this.f97588a + "', serviceScheme='appmetrica', serviceClass=" + AppMetricaService.class + ')';
+    }
+}

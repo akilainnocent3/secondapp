@@ -1,0 +1,29 @@
+package com.startapp.sdk.internal;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public final class oh implements Runnable {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ vh f75327a;
+
+    public oh(vh vhVar) {
+        this.f75327a = vhVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        vh vhVar = this.f75327a;
+        try {
+            sh shVar = vhVar.f75714f;
+            if (shVar != null) {
+                shVar.b();
+                vhVar.f75714f = null;
+            }
+        } catch (Throwable th2) {
+            if (vhVar.a(4)) {
+                d9.a(th2);
+            }
+        }
+    }
+}

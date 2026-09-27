@@ -1,0 +1,42 @@
+package com.fyber.inneractive.sdk.click;
+
+import java.util.ArrayList;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes3.dex */
+public final class b {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final q f44245a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final Throwable f44246b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final String f44247c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public final String f44248d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public long f44249e;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    public final ArrayList f44250f = new ArrayList();
+
+    public b(String str, q qVar, String str2, Exception exc) {
+        this.f44248d = str;
+        this.f44245a = qVar;
+        this.f44247c = str2;
+        this.f44246b = exc;
+    }
+
+    public final String toString() {
+        q qVar = this.f44245a;
+        if (qVar == q.FAILED) {
+            Throwable th2 = this.f44246b;
+            return "Open result: Failed! error: " + (th2 != null ? th2.getMessage() : "none");
+        }
+        return "Open result: Success! target: " + qVar + " method: " + this.f44247c;
+    }
+}

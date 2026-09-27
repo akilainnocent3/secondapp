@@ -1,0 +1,25 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzida {
+    private final Object zza;
+    private final int zzb;
+
+    public zzida(Object obj, int i10) {
+        this.zza = obj;
+        this.zzb = i10;
+    }
+
+    public final boolean equals(Object obj) {
+        if (!(obj instanceof zzida)) {
+            return false;
+        }
+        zzida zzidaVar = (zzida) obj;
+        return this.zza == zzidaVar.zza && this.zzb == zzidaVar.zzb;
+    }
+
+    public final int hashCode() {
+        return (System.identityHashCode(this.zza) * 65535) + this.zzb;
+    }
+}

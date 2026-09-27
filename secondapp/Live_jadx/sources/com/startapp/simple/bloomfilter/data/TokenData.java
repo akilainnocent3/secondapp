@@ -1,0 +1,61 @@
+package com.startapp.simple.bloomfilter.data;
+
+import com.startapp.simple.bloomfilter.version.BloomVersion;
+import java.io.Serializable;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public class TokenData implements Serializable {
+    private static final long serialVersionUID = 1261418233150941470L;
+    private final String bloom;
+    private final long timestamp;
+    private final BloomVersion version;
+
+    public TokenData(BloomVersion bloomVersion, long j10, String str) {
+        this.version = bloomVersion;
+        this.timestamp = j10;
+        this.bloom = str;
+    }
+
+    private boolean differentBloom(TokenData tokenData) {
+        return !this.version.substringFromBloom(this.bloom).equals(tokenData.version.substringFromBloom(tokenData.bloom()));
+    }
+
+    private boolean isNewerByTime(TokenData tokenData) {
+        return this.timestamp - tokenData.timestamp > 0;
+    }
+
+    private boolean isNewerByVersion(TokenData tokenData) {
+        return this.version.ordinal() > tokenData.version.ordinal();
+    }
+
+    public String bloom() {
+        return this.bloom;
+    }
+
+    public BloomVersion getBloomVersion() {
+        return this.version;
+    }
+
+    public long timestamp() {
+        return this.timestamp;
+    }
+
+    public String toString() {
+        return String.format("TokenData [version=%s, timestamp=%s, bloom=%s]", this.version, Long.valueOf(this.timestamp), this.bloom);
+    }
+
+    public String version() {
+        return this.version.getVersion();
+    }
+
+    public boolean wasModified(TokenData tokenData) {
+        if (!this.version.equals(tokenData.version)) {
+            return isNewerByVersion(tokenData);
+        }
+        if (isNewerByTime(tokenData)) {
+            return differentBloom(tokenData);
+        }
+        return false;
+    }
+}

@@ -1,0 +1,31 @@
+package io.appmetrica.analytics.impl;
+
+import android.content.Intent;
+import io.appmetrica.analytics.coreapi.internal.backport.Consumer;
+import io.appmetrica.analytics.coreapi.internal.servicecomponents.batteryinfo.BatteryInfo;
+import io.appmetrica.analytics.coreapi.internal.servicecomponents.batteryinfo.ChargeType;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public final class R2 implements Consumer {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ S2 f96406a;
+
+    public R2(S2 s10) {
+        this.f96406a = s10;
+    }
+
+    @Override // io.appmetrica.analytics.coreapi.internal.backport.Consumer
+    public final void consume(Object obj) {
+        Intent intent = (Intent) obj;
+        BatteryInfo batteryInfo = this.f96406a.f96435b;
+        ChargeType chargeType = batteryInfo == null ? null : batteryInfo.chargeType;
+        this.f96406a.getClass();
+        BatteryInfo batteryInfoA = S2.a(intent);
+        this.f96406a.f96435b = batteryInfoA;
+        if (chargeType != batteryInfoA.chargeType) {
+            this.f96406a.f96434a.execute(new Q2(this, batteryInfoA));
+        }
+    }
+}

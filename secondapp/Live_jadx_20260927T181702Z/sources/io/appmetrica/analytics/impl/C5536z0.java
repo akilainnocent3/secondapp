@@ -1,0 +1,20 @@
+package io.appmetrica.analytics.impl;
+
+/* JADX INFO: renamed from: io.appmetrica.analytics.impl.z0, reason: case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C5536z0 {
+    public static boolean a() {
+        boolean z10;
+        synchronized (C5511y0.class) {
+            z10 = C5511y0.f98632f;
+        }
+        return z10;
+    }
+
+    public static void b() {
+        synchronized (C5511y0.class) {
+            C5511y0.f98632f = true;
+        }
+    }
+}

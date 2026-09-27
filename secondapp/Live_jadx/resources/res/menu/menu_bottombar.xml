@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/events_icon"
+        android:id="@+id/event"
+        android:orderInCategory="1"
+        android:title="@string/event_txt"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_matches"
+        android:id="@+id/fixturesFragment"
+        android:orderInCategory="2"
+        android:title="Scores"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/categoris_icon"
+        android:id="@+id/categoriesFragment"
+        android:orderInCategory="3"
+        android:title="@string/categories_txt"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/more_icon"
+        android:id="@+id/moreFragment"
+        android:orderInCategory="4"
+        android:title="@string/more"
+        app:showAsAction="always"/>
+</menu>

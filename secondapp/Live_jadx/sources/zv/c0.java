@@ -1,0 +1,20 @@
+package zv;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public class c0 extends IllegalArgumentException {
+    public c0() {
+    }
+
+    public c0(@oy.m String str) {
+        super(str);
+    }
+
+    public c0(@oy.m String str, @oy.m Throwable th2) {
+        super(str, th2);
+    }
+
+    public c0(@oy.m Throwable th2) {
+        super(th2);
+    }
+}

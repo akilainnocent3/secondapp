@@ -1,0 +1,40 @@
+package com.google.android.gms.internal.ads;
+
+import android.media.MediaCodecInfo;
+import android.media.MediaCodecList;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzvr implements zzvq {
+    private zzvr() {
+        throw null;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzvq
+    public final int zza() {
+        return MediaCodecList.getCodecCount();
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzvq
+    public final MediaCodecInfo zzb(int i10) {
+        return MediaCodecList.getCodecInfoAt(i10);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzvq
+    public final boolean zzc() {
+        return false;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzvq
+    public final boolean zzd(String str, String str2, MediaCodecInfo.CodecCapabilities codecCapabilities) {
+        return "secure-playback".equals(str) && "video/avc".equals(str2);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzvq
+    public final boolean zze(String str, String str2, MediaCodecInfo.CodecCapabilities codecCapabilities) {
+        return false;
+    }
+
+    public /* synthetic */ zzvr(byte[] bArr) {
+    }
+}

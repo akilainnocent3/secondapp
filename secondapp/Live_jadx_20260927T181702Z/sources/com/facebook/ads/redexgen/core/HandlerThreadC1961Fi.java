@@ -1,0 +1,148 @@
+package com.facebook.ads.redexgen.core;
+
+import android.os.Handler;
+import android.os.HandlerThread;
+import android.os.Message;
+import com.facebook.ads.androidx.media3.exoplayer.video.DummySurface;
+import com.vungle.ads.internal.signals.SignalKey;
+import f6.q;
+import java.util.Arrays;
+import zi.c;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.Fi, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network/classes2.dex */
+public class HandlerThreadC1961Fi extends HandlerThread implements Handler.Callback {
+    public static byte[] A05;
+    public static String[] A06 = {"6kuie4aYgPB75l0BZDCG97Ci8L2oTJru", "l6cPtwgabkjuGz5CGYDwVz25JELI4cH1", "ZWx6OKWQHSAUUpB5i", "EzrPiu1XHV7NearbxEmg0OLwBftw8IiR", "WDaMG3q3woavC04Kn8C74ndkvxFOsuJP", "mphQp1xRvmcoCppqdKDkA9aBwN9eJkVD", "Bip3dWfDJBluF0z6EYAQ2tUBnuWGs1iH", "Qe"};
+    public Handler A00;
+    public C4G A01;
+    public DummySurface A02;
+    public Error A03;
+    public RuntimeException A04;
+
+    public static String A00(int i10, int i11, int i12) {
+        byte[] bArrCopyOfRange = Arrays.copyOfRange(A05, i10, i10 + i11);
+        for (int i13 = 0; i13 < bArrCopyOfRange.length; i13++) {
+            int i14 = bArrCopyOfRange[i13] ^ i12;
+            String[] strArr = A06;
+            if (strArr[6].charAt(1) == strArr[4].charAt(1)) {
+                throw new RuntimeException();
+            }
+            String[] strArr2 = A06;
+            strArr2[6] = "ZYchz1gCfuPSGZN7lZw97cRKorp74rZl";
+            strArr2[4] = "DndbQji8K3ZDCB5sBvfJw1HHxvL19lCS";
+            bArrCopyOfRange[i13] = (byte) (i14 ^ SignalKey.EVENT_ID);
+        }
+        return new String(bArrCopyOfRange);
+    }
+
+    public static void A02() {
+        A05 = new byte[]{13, 60, 36, 36, 48, c.D, 60, 59, 47, 40, 42, 44, 58, c.G, c.f161647y, c.f161640r, c.C, c.B, 92, 8, 19, 92, c.f161647y, c.f161643u, c.f161647y, 8, c.f161647y, c.G, c.f161640r, c.f161647y, 6, c.C, 92, c.B, 9, 17, 17, 5, 92, c.f161639q, 9, c.f161638p, c.D, c.G, 31, c.C, 94, 121, q.A, 116, 125, 124, 56, 108, 119, 56, 106, 125, 116, 125, 121, 107, 125, 56, 124, 109, 117, 117, 97, 56, 107, 109, 106, 126, 121, 123, 125, 49, 32, 56, 56, 44, 6, 32, 39, 51, 52, 54, 48};
+    }
+
+    static {
+        A02();
+    }
+
+    public HandlerThreadC1961Fi() {
+        super(A00(77, 12, 62));
+    }
+
+    private void A01() {
+        AbstractC16843y.A01(this.A01);
+        this.A01.A08();
+    }
+
+    private void A03(int i10) {
+        AbstractC16843y.A01(this.A01);
+        this.A01.A09(i10);
+        this.A02 = new DummySurface(this, this.A01.A07(), i10 != 0);
+    }
+
+    public final DummySurface A04(int i10) {
+        start();
+        this.A00 = new Handler(getLooper(), this);
+        this.A01 = new C4G(this.A00);
+        boolean z10 = false;
+        synchronized (this) {
+            this.A00.obtainMessage(1, i10, 0).sendToTarget();
+            while (this.A02 == null && this.A04 == null && this.A03 == null) {
+                try {
+                    wait();
+                } catch (InterruptedException unused) {
+                    z10 = true;
+                }
+            }
+        }
+        if (z10) {
+            Thread.currentThread().interrupt();
+        }
+        if (this.A04 == null) {
+            if (this.A03 == null) {
+                return (DummySurface) AbstractC16843y.A01(this.A02);
+            }
+            throw this.A03;
+        }
+        throw this.A04;
+    }
+
+    public final void A05() {
+        AbstractC16843y.A01(this.A00);
+        this.A00.sendEmptyMessage(2);
+    }
+
+    /* JADX WARN: Code duplicated, block: B:47:0x007f A[EXC_TOP_SPLITTER, SYNTHETIC] */
+    @Override // android.os.Handler.Callback
+    public final boolean handleMessage(Message message) {
+        try {
+            switch (message.what) {
+                case 1:
+                    try {
+                        A03(message.arg1);
+                        synchronized (this) {
+                            notify();
+                            break;
+                        }
+                    } catch (Error e10) {
+                        AbstractC16924g.A08(A00(0, 12, 34), A00(12, 34, 23), e10);
+                        this.A03 = e10;
+                        synchronized (this) {
+                            notify();
+                        }
+                    } catch (RuntimeException e11) {
+                        AbstractC16924g.A08(A00(0, 12, 34), A00(12, 34, 23), e11);
+                        this.A04 = e11;
+                        synchronized (this) {
+                            notify();
+                            break;
+                        }
+                    }
+                    return true;
+                case 2:
+                    try {
+                        A01();
+                        break;
+                    } catch (Throwable th2) {
+                        try {
+                            AbstractC16924g.A08(A00(0, 12, 34), A00(46, 31, 115), th2);
+                        } finally {
+                            quit();
+                        }
+                        break;
+                    }
+                    return true;
+                default:
+                    return true;
+            }
+        } catch (Throwable th3) {
+            synchronized (this) {
+                notify();
+                throw th3;
+            }
+        }
+        synchronized (this) {
+            notify();
+            throw th3;
+        }
+    }
+}

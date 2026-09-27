@@ -1,0 +1,24 @@
+package yads;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.util.AttributeSet;
+import android.view.View;
+import com.yandex.mobile.ads.R;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes9.dex */
+public final class v10 {
+    public static u10 a(Context context, View view, AttributeSet attributeSet, int i10) {
+        float dimensionPixelSize;
+        if (attributeSet != null) {
+            TypedArray typedArrayObtainStyledAttributes = context.obtainStyledAttributes(attributeSet, R.styleable.MonetizationAdsInternalRoundImageView, i10, 0);
+            dimensionPixelSize = typedArrayObtainStyledAttributes.getDimensionPixelSize(R.styleable.MonetizationAdsInternalRoundImageView_monetization_internal_corner_radius, 0);
+            typedArrayObtainStyledAttributes.recycle();
+        } else {
+            dimensionPixelSize = 0.0f;
+        }
+        float f10 = dimensionPixelSize;
+        return new u10(view, f10, f10, f10, f10);
+    }
+}

@@ -1,0 +1,18 @@
+package com.unity3d.services.core.configuration;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public enum InitRequestType {
+    PRIVACY("privacy"),
+    TOKEN("token_srr");
+
+    private String _callType;
+
+    InitRequestType(String str) {
+        this._callType = str;
+    }
+
+    public String getCallType() {
+        return this._callType;
+    }
+}

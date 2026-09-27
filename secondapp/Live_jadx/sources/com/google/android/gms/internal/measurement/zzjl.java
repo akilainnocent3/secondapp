@@ -1,0 +1,145 @@
+package com.google.android.gms.internal.measurement;
+
+import android.content.ContentProviderClient;
+import android.content.ContentResolver;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.RemoteException;
+import androidx.annotation.Nullable;
+import java.util.HashMap;
+import java.util.concurrent.atomic.AtomicBoolean;
+import k.a0;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+public final class zzjl implements zzjh {
+    private final AtomicBoolean zza = new AtomicBoolean();
+
+    @Nullable
+    @a0("this")
+    private HashMap zzb = null;
+
+    @a0("this")
+    private final HashMap zzc = new HashMap(16, 1.0f);
+
+    @a0("this")
+    private final HashMap zzd = new HashMap(16, 1.0f);
+
+    @a0("this")
+    private final HashMap zze = new HashMap(16, 1.0f);
+
+    @a0("this")
+    private final HashMap zzf = new HashMap(16, 1.0f);
+
+    @Nullable
+    @a0("this")
+    private Object zzg = null;
+
+    @a0("this")
+    private boolean zzh = false;
+
+    @a0("this")
+    private final String[] zzi = new String[0];
+
+    @Override // com.google.android.gms.internal.measurement.zzjh
+    @Nullable
+    public final String zza(@Nullable ContentResolver contentResolver, String str, @Nullable String str2) {
+        String string;
+        if (contentResolver == null) {
+            throw new IllegalStateException("ContentResolver needed with GservicesDelegateSupplier.init()");
+        }
+        synchronized (this) {
+            try {
+                String str3 = null;
+                if (this.zzb == null) {
+                    this.zza.set(false);
+                    this.zzb = new HashMap(16, 1.0f);
+                    this.zzg = new Object();
+                    contentResolver.registerContentObserver(zzjg.zza, true, new zzjj(this, null));
+                } else if (this.zza.getAndSet(false)) {
+                    this.zzb.clear();
+                    this.zzc.clear();
+                    this.zzd.clear();
+                    this.zze.clear();
+                    this.zzf.clear();
+                    this.zzg = new Object();
+                    this.zzh = false;
+                }
+                Object obj = this.zzg;
+                if (this.zzb.containsKey(str)) {
+                    String str4 = (String) this.zzb.get(str);
+                    if (str4 != null) {
+                        str3 = str4;
+                    }
+                    return str3;
+                }
+                try {
+                    Uri uri = zzjg.zza;
+                    ContentProviderClient contentProviderClientAcquireUnstableContentProviderClient = contentResolver.acquireUnstableContentProviderClient(uri);
+                    try {
+                        if (contentProviderClientAcquireUnstableContentProviderClient == null) {
+                            throw new zzjk("Unable to acquire ContentProviderClient");
+                        }
+                        try {
+                            Cursor cursorQuery = contentProviderClientAcquireUnstableContentProviderClient.query(uri, null, null, new String[]{str}, null);
+                            try {
+                                if (cursorQuery == null) {
+                                    throw new zzjk("ContentProvider query returned null cursor");
+                                }
+                                if (cursorQuery.moveToFirst()) {
+                                    string = cursorQuery.getString(1);
+                                    cursorQuery.close();
+                                    contentProviderClientAcquireUnstableContentProviderClient.release();
+                                } else {
+                                    cursorQuery.close();
+                                    contentProviderClientAcquireUnstableContentProviderClient.release();
+                                    string = null;
+                                }
+                                if (string != null && string.equals(null)) {
+                                    string = null;
+                                }
+                                synchronized (this) {
+                                    try {
+                                        if (obj == this.zzg) {
+                                            this.zzb.put(str, string);
+                                        }
+                                    } catch (Throwable th2) {
+                                        throw th2;
+                                    }
+                                }
+                                if (string != null) {
+                                    return string;
+                                }
+                                return null;
+                            } catch (Throwable th3) {
+                                if (cursorQuery == null) {
+                                    throw th3;
+                                }
+                                try {
+                                    cursorQuery.close();
+                                    throw th3;
+                                } catch (Throwable th4) {
+                                    th3.addSuppressed(th4);
+                                    throw th3;
+                                }
+                            }
+                        } catch (RemoteException e10) {
+                            throw new zzjk("ContentProvider query failed", e10);
+                        }
+                    } catch (Throwable th5) {
+                        contentProviderClientAcquireUnstableContentProviderClient.release();
+                        throw th5;
+                    }
+                } catch (zzjk unused) {
+                    return null;
+                }
+            } catch (Throwable th6) {
+                throw th6;
+            }
+        }
+    }
+
+    public final /* synthetic */ AtomicBoolean zzb() {
+        return this.zza;
+    }
+}

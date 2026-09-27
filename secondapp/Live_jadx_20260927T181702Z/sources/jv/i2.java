@@ -1,0 +1,15 @@
+package jv;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public final class i2 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    @oy.l
+    @cs.g
+    public final h2 f100811a;
+
+    public i2(@oy.l h2 h2Var) {
+        this.f100811a = h2Var;
+    }
+}

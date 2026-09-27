@@ -1,0 +1,12 @@
+package yads;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes9.dex */
+public abstract class lq {
+    public static int a(boolean z10, boolean z11) {
+        if (z10 == z11) {
+            return 0;
+        }
+        return z10 ? 1 : -1;
+    }
+}

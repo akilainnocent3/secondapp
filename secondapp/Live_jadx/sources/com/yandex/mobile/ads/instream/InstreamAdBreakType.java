@@ -1,0 +1,29 @@
+package com.yandex.mobile.ads.instream;
+
+import oy.l;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public final class InstreamAdBreakType {
+
+    @l
+    public static final String INROLL = "inroll";
+
+    @l
+    public static final InstreamAdBreakType INSTANCE = new InstreamAdBreakType();
+
+    @l
+    public static final String MIDROLL = "midroll";
+
+    @l
+    public static final String PAUSEROLL = "pauseroll";
+
+    @l
+    public static final String POSTROLL = "postroll";
+
+    @l
+    public static final String PREROLL = "preroll";
+
+    private InstreamAdBreakType() {
+    }
+}

@@ -1,0 +1,16 @@
+package com.unity3d.services.ads.adunit;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public enum AdUnitEvent {
+    ON_START,
+    ON_CREATE,
+    ON_RESUME,
+    ON_DESTROY,
+    ON_PAUSE,
+    KEY_DOWN,
+    ON_RESTORE,
+    ON_STOP,
+    ON_FOCUS_GAINED,
+    ON_FOCUS_LOST
+}

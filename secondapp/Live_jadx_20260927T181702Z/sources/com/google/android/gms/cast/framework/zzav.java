@@ -1,0 +1,16 @@
+package com.google.android.gms.cast.framework;
+
+import android.os.IBinder;
+import android.os.IInterface;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class zzav extends com.google.android.gms.internal.cast.zzb implements zzaw {
+    public static zzaw zzb(IBinder iBinder) {
+        if (iBinder == null) {
+            return null;
+        }
+        IInterface iInterfaceQueryLocalInterface = iBinder.queryLocalInterface("com.google.android.gms.cast.framework.ISession");
+        return iInterfaceQueryLocalInterface instanceof zzaw ? (zzaw) iInterfaceQueryLocalInterface : new zzau(iBinder);
+    }
+}

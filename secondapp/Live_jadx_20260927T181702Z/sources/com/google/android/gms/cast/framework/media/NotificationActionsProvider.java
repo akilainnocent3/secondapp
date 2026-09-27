@@ -1,0 +1,31 @@
+package com.google.android.gms.cast.framework.media;
+
+import android.content.Context;
+import androidx.annotation.NonNull;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class NotificationActionsProvider {
+    private final Context zza;
+    private final zzg zzb = new zzz(this, null);
+
+    public NotificationActionsProvider(@NonNull Context context) {
+        this.zza = context.getApplicationContext();
+    }
+
+    @NonNull
+    public Context getApplicationContext() {
+        return this.zza;
+    }
+
+    @NonNull
+    public abstract int[] getCompactViewActionIndices();
+
+    @NonNull
+    public abstract List<NotificationAction> getNotificationActions();
+
+    public final zzg zza() {
+        return this.zzb;
+    }
+}

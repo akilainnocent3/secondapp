@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.play_billing;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+abstract class zzge implements zzgg {
+    @Override // java.util.Iterator
+    public final /* synthetic */ Object next() {
+        return Byte.valueOf(zza());
+    }
+
+    @Override // java.util.Iterator
+    public final void remove() {
+        throw new UnsupportedOperationException();
+    }
+}

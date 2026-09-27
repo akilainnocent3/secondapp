@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="510.1"
+    android:viewportHeight="376.1">
+    <path
+        android:fillColor="@drawable/_ic_email__0_res_0x7f080010"
+        android:pathData="M269.7,252.6c-9.3,5.6 -20.9,5.6 -30.2,0L0,106.3v194.5c0,41.6 33.7,75.3 75.3,75.3c0,0 0,0 0,0h359.5c41.6,0 75.3,-33.7 75.3,-75.3c0,0 0,0 0,0V106.3L269.7,252.6z"/>
+    <path
+        android:fillColor="@drawable/_ic_email__1_res_0x7f080011"
+        android:pathData="M434.5,0H75.1C39.6,0 9.5,25.3 2.2,59l252.9,154.2L507.4,59.1C500,24.7 469.7,0.1 434.5,0z"/>
+    <path
+        android:fillColor="@drawable/_ic_email__2_res_0x7f080012"
+        android:pathData="M269.7,252.6c-9.3,5.6 -20.9,5.6 -30.2,0L0,106.3v194.5c0,41.6 33.7,75.3 75.3,75.3c0,0 0,0 0,0h359.5c41.6,0 75.3,-33.7 75.3,-75.3c0,0 0,0 0,0V106.3L269.7,252.6z"/>
+    <path
+        android:fillColor="@drawable/_ic_email__3_res_0x7f080013"
+        android:pathData="M434.5,0H75.1C39.6,0 9.5,25.3 2.2,59l252.9,154.2L507.4,59.1C500,24.7 469.7,0.1 434.5,0z"/>
+</vector>

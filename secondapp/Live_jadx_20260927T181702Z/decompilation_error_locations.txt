@@ -1,0 +1,14 @@
+Generated Java locations containing JADX ERROR markers (not necessarily one marker per reported error):
+sources/l3/a.java:4386: /*  JADX ERROR: UnsupportedOperationException in pass: RegionMakerVisitor
+sources/yads/ib3.java:619: /*  JADX ERROR: Method code generation error
+sources/mi/a.java:872: /*  JADX ERROR: Types fix failed
+sources/com/ironsource/C4490r9.java:163: /*  JADX ERROR: Method code generation error
+sources/com/fyber/inneractive/sdk/player/exoplayer2/audio/r.java:648: /*  JADX ERROR: JadxOverflowException in pass: RegionMakerVisitor
+sources/com/fyber/inneractive/sdk/player/exoplayer2/extractor/hls/playlist/g.java:264: /*  JADX ERROR: JadxRuntimeException in pass: RegionMakerVisitor
+sources/com/google/android/gms/internal/ads/zzama.java:139: /*  JADX ERROR: Types fix failed
+sources/com/google/android/material/carousel/a.java:112: /*  JADX ERROR: Types fix failed
+sources/com/mbridge/msdk/foundation/tools/v0.java:1201: /*  JADX ERROR: JadxRuntimeException in pass: RegionMakerVisitor
+sources/com/cleveradssolutions/internal/main/f.java:131: /*  JADX ERROR: Types fix failed
+sources/com/cleveradssolutions/adapters/exchange/rendering/video/vast/r0.java:87: /*  JADX ERROR: JadxOverflowException in pass: RegionMakerVisitor
+sources/com/ironsource/adqualitysdk/sdk/i/kb.java:494: /*  JADX ERROR: JadxOverflowException in pass: RegionMakerVisitor
+sources/androidx/leanback/widget/w2.java:141: /*  JADX ERROR: JadxOverflowException in pass: RegionMakerVisitor

@@ -1,0 +1,42 @@
+package com.google.android.gms.fido.fido2.api.common;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.gms.common.internal.Objects;
+import com.google.android.gms.common.internal.Preconditions;
+import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes4.dex */
+@SafeParcelable.Class(creator = "GoogleSessionIdExtensionCreator")
+public final class zzab extends AbstractSafeParcelable {
+    public static final Parcelable.Creator<zzab> CREATOR = new zzac();
+
+    @NonNull
+    @SafeParcelable.Field(getter = "getSessionId", id = 1)
+    private final long zza;
+
+    @SafeParcelable.Constructor
+    public zzab(@NonNull @SafeParcelable.Param(id = 1) long j10) {
+        this.zza = ((Long) Preconditions.checkNotNull(Long.valueOf(j10))).longValue();
+    }
+
+    public final boolean equals(@Nullable Object obj) {
+        return (obj instanceof zzab) && this.zza == ((zzab) obj).zza;
+    }
+
+    public final int hashCode() {
+        return Objects.hashCode(Long.valueOf(this.zza));
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i10) {
+        int iBeginObjectHeader = SafeParcelWriter.beginObjectHeader(parcel);
+        SafeParcelWriter.writeLong(parcel, 1, this.zza);
+        SafeParcelWriter.finishObjectHeader(parcel, iBeginObjectHeader);
+    }
+}

@@ -1,0 +1,16 @@
+package com.google.android.gms.internal.ads;
+
+import android.graphics.drawable.Drawable;
+import androidx.annotation.Nullable;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+abstract class zzejm {
+    @Nullable
+    public abstract String zza();
+
+    public abstract String zzb();
+
+    @Nullable
+    public abstract Drawable zzc();
+}

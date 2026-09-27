@@ -1,0 +1,16 @@
+package com.unity3d.services.core.device;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes7.dex */
+public enum DeviceError {
+    APPLICATION_CONTEXT_NULL,
+    APPLICATION_INFO_NOT_AVAILABLE,
+    AUDIOMANAGER_NULL,
+    INVALID_STORAGETYPE,
+    COULDNT_GET_STORAGE_LOCATION,
+    COULDNT_GET_GL_VERSION,
+    JSON_ERROR,
+    COULDNT_GET_DIGEST,
+    COULDNT_GET_FINGERPRINT,
+    COULDNT_GET_ADB_STATUS
+}

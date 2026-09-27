@@ -1,0 +1,38 @@
+package com.pgl.ssdk;
+
+import java.io.Closeable;
+import java.io.File;
+import java.io.IOException;
+import java.util.zip.ZipFile;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+public class as {
+    public static boolean a(String str) {
+        return new File(str).mkdirs();
+    }
+
+    public static void a(String str, int i10) {
+        at.a("android.os.FileUtils", str, Integer.valueOf(i10), -1, -1);
+    }
+
+    public static void a(Closeable closeable) {
+        if (closeable == null) {
+            return;
+        }
+        try {
+            closeable.close();
+        } catch (IOException unused) {
+        }
+    }
+
+    public static void a(ZipFile zipFile) {
+        if (zipFile == null) {
+            return;
+        }
+        try {
+            zipFile.close();
+        } catch (IOException unused) {
+        }
+    }
+}

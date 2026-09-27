@@ -1,0 +1,22 @@
+package ly;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+public enum i0 {
+    FIELD,
+    LOCAL_VARIABLE,
+    RESOURCE_VARIABLE,
+    EXCEPTION_PARAMETER,
+    RECEIVER,
+    PARAMETER,
+    RETURN,
+    CONSTRUCTOR_RESULT,
+    LOWER_BOUND,
+    EXPLICIT_LOWER_BOUND,
+    IMPLICIT_LOWER_BOUND,
+    UPPER_BOUND,
+    EXPLICIT_UPPER_BOUND,
+    IMPLICIT_UPPER_BOUND,
+    OTHERWISE,
+    ALL
+}

@@ -1,0 +1,31 @@
+package com.facebook.ads.redexgen.core;
+
+import cj.m6;
+import com.google.common.collect.ElementTypesAreNonnullByDefault;
+import javax.annotation.CheckForNull;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.oI, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network/classes2.dex */
+@ElementTypesAreNonnullByDefault
+public abstract class AbstractC3337oI {
+    public static int A00(int hashCode) {
+        return (int) (((long) Integer.rotateLeft((int) (((long) hashCode) * m6.f24139a), 15)) * m6.f24140b);
+    }
+
+    public static int A01(int expectedEntries, double loadFactor) {
+        int iMax = Math.max(expectedEntries, 2);
+        int iHighestOneBit = Integer.highestOneBit(iMax);
+        if (iMax > ((int) (((double) iHighestOneBit) * loadFactor))) {
+            int tableSize = iHighestOneBit << 1;
+            if (tableSize > 0) {
+                return tableSize;
+            }
+            return 1073741824;
+        }
+        return iHighestOneBit;
+    }
+
+    public static int A02(@CheckForNull Object o10) {
+        return A00(o10 == null ? 0 : o10.hashCode());
+    }
+}

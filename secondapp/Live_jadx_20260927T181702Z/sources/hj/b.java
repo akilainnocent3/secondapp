@@ -1,0 +1,18 @@
+package hj;
+
+import dj.h;
+import dj.i;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes3.dex */
+@a
+@yi.b
+public final class b {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final h f88397a = i.a().b('\"', "&quot;").b('\'', "&#39;").b('&', "&amp;").b('<', "&lt;").b('>', "&gt;").c();
+
+    public static h a() {
+        return f88397a;
+    }
+}

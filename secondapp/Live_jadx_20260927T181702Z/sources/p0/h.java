@@ -1,0 +1,17 @@
+package p0;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes.dex */
+public interface h {
+    s0.e a();
+
+    void apply();
+
+    void b(s0.e eVar);
+
+    void c(Object obj);
+
+    q0.e d();
+
+    Object getKey();
+}

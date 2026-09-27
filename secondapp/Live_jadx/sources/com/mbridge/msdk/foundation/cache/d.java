@@ -1,0 +1,14 @@
+package com.mbridge.msdk.foundation.cache;
+
+import com.mbridge.msdk.foundation.db.g;
+import org.json.JSONArray;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes6.dex */
+public class d extends a {
+    public d(String str, JSONArray jSONArray) {
+        this.f66636a = com.mbridge.msdk.foundation.db.c.a(g.a(com.mbridge.msdk.foundation.controller.c.n().d()));
+        a(jSONArray);
+        e(str);
+    }
+}

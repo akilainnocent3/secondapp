@@ -1,0 +1,17 @@
+package io.appmetrica.analytics.idsync.impl;
+
+import io.appmetrica.analytics.idsync.internal.model.NetworkType;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes8.dex */
+public abstract /* synthetic */ class w {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final /* synthetic */ int[] f95508a;
+
+    static {
+        int[] iArr = new int[NetworkType.values().length];
+        iArr[NetworkType.CELL.ordinal()] = 1;
+        f95508a = iArr;
+    }
+}

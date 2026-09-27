@@ -1,0 +1,25 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Collections;
+import java.util.Set;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes5.dex */
+public final class zzdnr implements zzimi {
+    private final zzimr zza;
+
+    private zzdnr(zzimr zzimrVar) {
+        this.zza = zzimrVar;
+    }
+
+    public static zzdnr zza(zzimr zzimrVar) {
+        return new zzdnr(zzimrVar);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzimx, com.google.android.gms.internal.ads.zzimw
+    public final /* bridge */ /* synthetic */ Object zzb() {
+        Set setSingleton = ((zzdno) this.zza).zza().zzd() != null ? Collections.singleton("banner") : Collections.EMPTY_SET;
+        zzimq.zzb(setSingleton);
+        return setSingleton;
+    }
+}

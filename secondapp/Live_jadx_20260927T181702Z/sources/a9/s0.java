@@ -1,0 +1,23 @@
+package a9;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/* JADX INFO: compiled from: r8-map-id-fe3a094fefd4170380533b2bee0729f4459fea13fa461ce83871544caf231bbc */
+/* JADX INFO: loaded from: classes2.dex */
+@er.e(er.a.BINARY)
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.CLASS)
+@dr.o(message = "Use @MapColumn instead.")
+@er.f(allowedTargets = {er.b.FUNCTION})
+public @interface s0 {
+    String keyColumn() default "";
+
+    String keyTable() default "";
+
+    String valueColumn() default "";
+
+    String valueTable() default "";
+}
