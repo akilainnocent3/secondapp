@@ -1,0 +1,19 @@
+.env
+*.sqlite3
+__pycache__/
+*.pyc
+.venv/
+flutter/.dart_tool/
+flutter/build/
+flutter/.flutter-plugins-dependencies
+flutter/android/local.properties
+flutter/.android/
+flutter/.ios/
+android_integration/analysis/
+android_integration/work/
+*.jks
+*.keystore
+backend/staticfiles/
+# Unused Flutter template bitmap icons; branded web icon is SVG.
+flutter/web/favicon.png
+flutter/web/icons/*.png

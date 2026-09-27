@@ -1,0 +1,21 @@
+name: soccerarena
+description: SoccerArena shared account experience and web client.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.13.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.9
+  http: 1.6.0
+  flutter_secure_storage: 11.2.0
+  shared_preferences: 2.5.5
+  url_launcher: 6.3.2
+  intl: 0.20.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+flutter:
+  uses-material-design: true

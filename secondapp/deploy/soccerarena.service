@@ -1,0 +1,20 @@
+[Unit]
+Description=SoccerArena Django API
+After=network.target postgresql.service
+
+[Service]
+User=soccerarena
+Group=www-data
+WorkingDirectory=/srv/soccerarena/current/backend
+EnvironmentFile=/etc/soccerarena/backend.env
+ExecStart=/srv/soccerarena/venv/bin/gunicorn config.wsgi:application --bind 127.0.0.1:8000 --workers 2 --timeout 30 --error-logfile -
+Restart=on-failure
+PrivateTmp=true
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/soccerarena
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target
