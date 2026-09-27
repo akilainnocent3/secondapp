@@ -10,7 +10,7 @@ if not SECRET_KEY:
     SECRET_KEY = 'local-development-only-not-for-production-1234567890'
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,testserver').split(',')
 INSTALLED_APPS = ['django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes', 'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles', 'corsheaders', 'rest_framework', 'rest_framework_simplejwt.token_blacklist', 'accounts.apps.AccountsConfig']
-MIDDLEWARE = ['django.middleware.security.SecurityMiddleware', 'corsheaders.middleware.CorsMiddleware', 'django.contrib.sessions.middleware.SessionMiddleware', 'django.middleware.common.CommonMiddleware', 'django.middleware.csrf.CsrfViewMiddleware', 'django.contrib.auth.middleware.AuthenticationMiddleware', 'django.contrib.messages.middleware.MessageMiddleware', 'django.middleware.clickjacking.XFrameOptionsMiddleware']
+MIDDLEWARE = ['corsheaders.middleware.CorsMiddleware', 'django.middleware.security.SecurityMiddleware', 'accounts.middleware.APICookieMiddleware', 'django.contrib.sessions.middleware.SessionMiddleware', 'django.middleware.common.CommonMiddleware', 'django.middleware.csrf.CsrfViewMiddleware', 'django.contrib.auth.middleware.AuthenticationMiddleware', 'django.contrib.messages.middleware.MessageMiddleware', 'django.middleware.clickjacking.XFrameOptionsMiddleware']
 ROOT_URLCONF = 'config.urls'
 TEMPLATES = [{'BACKEND': 'django.template.backends.django.DjangoTemplates', 'DIRS': [], 'APP_DIRS': True, 'OPTIONS': {'context_processors': ['django.template.context_processors.request', 'django.contrib.auth.context_processors.auth', 'django.contrib.messages.context_processors.messages']}}]
 WSGI_APPLICATION = 'config.wsgi.application'
@@ -25,17 +25,22 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = os.environ.get('FRONTEND_ORIGINS', 'https://soccerarena.org').split(',')
+# Public API clients may run on any web origin, including localhost and WebViews.
+CORS_ALLOW_ALL_ORIGINS = os.environ.get('CORS_ALLOW_ALL_ORIGINS', '1') == '1'
+CORS_URLS_REGEX = r'^/(api/|health/)'
 CORS_ALLOW_CREDENTIALS = True
+CORS_EXPOSE_HEADERS = ['Retry-After', 'WWW-Authenticate']
 CSRF_TRUSTED_ORIGINS = CORS_ALLOWED_ORIGINS
 SESSION_COOKIE_SECURE = not DEBUG
 SESSION_COOKIE_HTTPONLY = True
-SESSION_COOKIE_SAMESITE = 'Lax'
+SESSION_COOKIE_SAMESITE = 'None' if CORS_ALLOW_ALL_ORIGINS and not DEBUG else 'Lax'
 CSRF_COOKIE_SECURE = not DEBUG
 CSRF_COOKIE_HTTPONLY = True
-CSRF_COOKIE_SAMESITE = 'Lax'
-SECURE_SSL_REDIRECT = not DEBUG
+CSRF_COOKIE_SAMESITE = SESSION_COOKIE_SAMESITE
+# HTTP bootstrap is needed until DNS points here and a TLS certificate is issued.
+SECURE_SSL_REDIRECT = os.environ.get('SECURE_SSL_REDIRECT', '0' if DEBUG else '1') == '1'
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-SECURE_HSTS_SECONDS = 31536000 if not DEBUG else 0
+SECURE_HSTS_SECONDS = 31536000 if SECURE_SSL_REDIRECT and not DEBUG else 0
 SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'DENY'
 SESSION_COOKIE_AGE = 7 * 86400

@@ -1,4 +1,12 @@
-# Preparation only — nothing deployed
+# Deployment
+
+The backend is now deployed at https://api.soccerarena.org. Use the current
+[backend deployment guide](../backend/deployment/README.md) and configuration
+files under `backend/deployment/`. The templates and preparation notes below
+predate the live deployment and are retained as historical frontend/release
+planning context; they are not the installed backend configuration.
+
+## Original preparation notes
 
 Verified local toolchain: Python 3.14.2, Django 5.2.17, DRF 3.18.1,
 SimpleJWT 5.5.1, PostgreSQL 17 container, Flutter 3.47.5 / Dart 3.13.4.

@@ -1,0 +1,8 @@
+#!/bin/sh
+# Root-only environment file is deliberately kept out of the source tree.
+set -eu
+set -a
+. /etc/soccerarena/backend.env
+set +a
+cd /srv/soccerarena/current
+exec runuser -u soccerarena --preserve-environment -- /srv/soccerarena/venv/bin/python manage.py "$@"

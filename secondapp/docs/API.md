@@ -13,7 +13,7 @@ authenticate. No endpoint accepts another customer's ID for account operations.
 | POST auth/register/ | username, email, full_name, phone, password, password_confirmation | 201 message; no session or started trial |
 | GET auth/csrf/ | credentialed request | csrf_token and host-only CSRF cookie |
 | POST auth/web/login/ | username, password; X-CSRFToken | account, rotated csrf_token; HttpOnly session cookie |
-| POST auth/login/ | username, password | account, access, refresh; native only |
+| POST auth/login/ | username, password | account, access, refresh; native or web bearer authentication |
 | POST auth/refresh/ | refresh | account, new access and refresh; old refresh blacklisted |
 | POST auth/logout/ | empty JSON | 204; all account sessions revoked |
 | GET me/ | authenticated | username, email, full_name, phone, entitlement |
@@ -71,7 +71,7 @@ not an expired subscription. Network errors are local `offline` failures.
 
 ## Session policy
 
-Native access JWT lifetime is five minutes; refresh is seven days, rotated once
+Access JWT lifetime is five minutes; refresh is seven days, rotated once
 under a subscription row lock. Tokens carry an auth version, never trusted paid
 claims. Current activation/version/password hash are checked. Logout increments
 the version and invalidates all native tokens and API cookie sessions across devices.
@@ -80,10 +80,12 @@ Expiry/suspension does not revoke identity: old credentials remain usable only f
 restricted account operations and cannot bypass current content permissions.
 
 Web uses credentialed BrowserClient requests, a CSRF token held in memory and a
-Secure HttpOnly host-only session cookie. Both HTTPS subdomains are same-site;
-SameSite=Lax works with explicit CORS for https://soccerarena.org. CSRF token bootstrap
-is deliberately readable in JSON by the allowed origin because the cookie is host-only
-and HttpOnly. Login rotates it; client replaces the old token. Browser secrets are
+Secure HttpOnly host-only session cookie. The deployed API allows all CORS origins,
+including localhost and unrelated web domains. HTTPS API session and CSRF cookies
+use SameSite=None and Partitioned so supported browsers can accept them despite
+third-party-cookie blocking. Each top-level site gets an independent cookie login.
+CSRF token bootstrap is readable in JSON from any allowed origin; cookie and token
+validation still applies. Login rotates the token; the client replaces the old one. Browser secrets are
 never stored in localStorage or shared_preferences. Public contacts are cached there
 independently. Register has no identity/cookie side effects; browser login is explicitly
 CSRF-protected even before authentication.

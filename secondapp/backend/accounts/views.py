@@ -6,7 +6,6 @@ from django.db.models import F
 from django.http import JsonResponse
 from django.middleware.csrf import get_token
 from django.utils.decorators import method_decorator
-from django.views.decorators.csrf import csrf_protect
 from rest_framework import generics, permissions, serializers, status
 from rest_framework.exceptions import AuthenticationFailed, PermissionDenied
 from rest_framework.response import Response
@@ -18,6 +17,7 @@ from .models import Subscription, SiteSettings
 from .serializers import RegistrationSerializer, PaymentSerializer
 from .services import start_trial, entitlement
 from .authentication import issue_tokens
+from .csrf import api_csrf_protect
 from .errors import ServiceUnavailable
 
 def account(user):
@@ -82,7 +82,7 @@ class Login(NoStoreView):
                 return Response({'account': account(user), 'csrf_token': get_token(request)})
             return Response({'account': account(user), **issue_tokens(user)})
 
-@method_decorator(csrf_protect, name='dispatch')
+@method_decorator(api_csrf_protect, name='dispatch')
 class WebLogin(Login):
     web = True
 

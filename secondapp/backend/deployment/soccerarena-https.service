@@ -1,0 +1,9 @@
+[Unit]
+Description=Enable SoccerArena HTTPS once public DNS points to this server
+After=network-online.target nginx.service soccerarena.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /srv/soccerarena/current/deployment/enable_https.py
+TimeoutStartSec=180

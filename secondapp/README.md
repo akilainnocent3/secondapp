@@ -5,7 +5,7 @@ APK/JADX trees. This is **not a completed protected Android or content-capable w
 release**: Android needs matching splits and a verified device baseline; the web
 catalog/playback adapter remains outstanding.
 
-* [Setup/deployment preparation](deploy/README.md)
+* [Backend deployment and operations](backend/deployment/README.md)
 * [Verification and exact limitations](docs/verification.md)
 * [Inspection](docs/inspection.md) and [architecture](docs/architecture.md)
 * [API contract](docs/API.md) and [admin guide](docs/admin-guide.md)
@@ -13,6 +13,8 @@ catalog/playback adapter remains outstanding.
 * [Android baseline/recovery scripts](android_integration/README.md)
 * [Flutter client](flutter/README.md)
 
-No production deployment, commit, push, archive or production-system change is part
-of this work. Generated SDKs, local DBs and build artifacts remain ignored/outside
-tracked source. The original references have an independently repeatable hash audit.
+The backend is deployed at https://api.soccerarena.org using Nginx, Gunicorn, and
+PostgreSQL under soccerarena.service. See the deployment guide for verified API
+behavior and the remaining content-provider limitation. Generated SDKs, local DBs
+and build artifacts remain ignored/outside tracked source. The original references
+have an independently repeatable hash audit.

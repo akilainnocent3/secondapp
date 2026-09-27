@@ -138,7 +138,7 @@ class AccountsTests(TestCase):
         r = self.client.post('/api/v1/auth/login/', {'username': 'tester', 'password': PASSWORD})
         self.assertEqual(r.status_code, 401)
         self.assertEqual(r.data['error']['code'], 'invalid_credentials')
-    @override_settings(SESSION_COOKIE_SECURE=True, CSRF_COOKIE_SECURE=True)
+    @override_settings(SESSION_COOKIE_SECURE=True, CSRF_COOKIE_SECURE=True, CORS_ALLOW_ALL_ORIGINS=False)
     def test_browser_csrf_origins_and_sessions(self):
         c = APIClient(enforce_csrf_checks=True)
         origin = {'HTTP_ORIGIN': 'https://soccerarena.org', 'secure': True, 'HTTP_HOST': 'api.soccerarena.org'}

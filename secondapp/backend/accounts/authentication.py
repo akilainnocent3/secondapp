@@ -1,8 +1,9 @@
 from django.contrib.auth import get_user_model
 from rest_framework.authentication import SessionAuthentication
-from rest_framework.exceptions import AuthenticationFailed
+from rest_framework.exceptions import AuthenticationFailed, PermissionDenied
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.tokens import RefreshToken
+from .csrf import APICSRFCheck
 
 class CurrentJWTAuthentication(JWTAuthentication):
     def get_user(self, validated_token):
@@ -12,6 +13,13 @@ class CurrentJWTAuthentication(JWTAuthentication):
         return user
 
 class CurrentSessionAuthentication(SessionAuthentication):
+    def enforce_csrf(self, request):
+        check = APICSRFCheck(lambda request: None)
+        check.process_request(request)
+        reason = check.process_view(request, None, (), {})
+        if reason:
+            raise PermissionDenied('CSRF Failed: %s' % reason)
+
     def authenticate(self, request):
         result = super().authenticate(request)
         if result:

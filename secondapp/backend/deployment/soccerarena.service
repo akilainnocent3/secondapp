@@ -1,0 +1,29 @@
+[Unit]
+Description=SoccerArena Gunicorn API
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=soccerarena
+Group=www-data
+WorkingDirectory=/srv/soccerarena/current
+EnvironmentFile=/etc/soccerarena/backend.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=PYTHONUNBUFFERED=1
+RuntimeDirectory=soccerarena
+RuntimeDirectoryMode=0755
+ExecStart=/srv/soccerarena/venv/bin/gunicorn config.wsgi:application --bind unix:/run/soccerarena/gunicorn.sock --control-socket /run/soccerarena/control.sock --umask 7 --workers 2 --timeout 30 --graceful-timeout 30 --worker-tmp-dir /dev/shm --error-logfile - --max-requests 1000 --max-requests-jitter 100
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=40
+UMask=0007
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=multi-user.target

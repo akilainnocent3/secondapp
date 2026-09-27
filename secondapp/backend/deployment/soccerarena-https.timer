@@ -1,0 +1,11 @@
+[Unit]
+Description=Check SoccerArena DNS and provision HTTPS automatically
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+RandomizedDelaySec=30s
+Unit=soccerarena-https.service
+
+[Install]
+WantedBy=timers.target
