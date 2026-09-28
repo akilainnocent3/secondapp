@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportybet.android.bvn.widget.DatePickerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/date_picker_container"
+    android:background="@drawable/bvn_text_success_bg"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="35dp"
+    android:layout_marginBottom="12dp">
+    <TextView
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_type1_tertiary"
+        android:gravity="center"
+        android:id="@+id/date_picker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="17dp"
+        android:text="@string/page_withdraw__dob"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_type1_primary"
+        android:gravity="center"
+        android:id="@+id/date_picker_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/date_picker_title"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/date_picker_arrow"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="12dp"
+        android:tint="@color/text_type1_secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spr_arrow_gift_blue_down"/>
+</com.sportybet.android.bvn.widget.DatePickerLayout>

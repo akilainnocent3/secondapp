@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportybet.plugin.myfavorite.widget.TeamSearchEmptyLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="170dp">
+    <ImageView
+        android:layout_width="0x7f0707b8"
+        android:layout_height="0x7f0707b5"
+        android:layout_marginTop="0x7f0707b7"
+        android:layout_marginBottom="0x7f0707b6"
+        app:srcCompat="@drawable/ic_nodata"/>
+    <TextView
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:textColor="@color/text_type1_primary"
+        android:gravity="center_horizontal"
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0x7f0707b9"
+        android:text="@string/my_favourites_settings__teams_search_no_data"
+        android:lineSpacingExtra="7dp"
+        android:fontFamily="sans-serif"/>
+</com.sportybet.plugin.myfavorite.widget.TeamSearchEmptyLayout>

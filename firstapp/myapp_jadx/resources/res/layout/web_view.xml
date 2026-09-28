@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:background="@color/background_general_primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/web_custom_title_view"/>
+    <FrameLayout
+        android:id="@+id/web_frameview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/webview"
+            android:background="@color/background_general_primary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.sporty.android.common_ui.widgets.LoadingViewNew
+            android:layout_gravity="center"
+            android:id="@+id/loading_view"
+            android:background="@color/background_general_primary"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:id="@+id/progressline"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:max="100"
+            android:progress="0"
+            style="@style/ProgressBar.Horizontal"/>
+    </FrameLayout>
+</LinearLayout>

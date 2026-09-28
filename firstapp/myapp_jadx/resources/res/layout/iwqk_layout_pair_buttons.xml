@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="63dp">
+    <View
+        android:background="@drawable/iwqk_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/left_action_btn"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <FrameLayout
+        android:orientation="horizontal"
+        android:id="@+id/left_action_btn"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/right_action_btn"
+        style="@style/Widget.App.CommonButton.NoRadius.IV">
+        <TextView
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/text_type2_primary"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/left_action_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/component_betslip__sim_ticket_details"/>
+    </FrameLayout>
+    <com.sporty.android.common_ui.widgets.CommonButton
+        android:gravity="center"
+        android:id="@+id/right_action_btn"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="@string/component_betslip__place_bet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/left_action_btn"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Widget.App.CommonButton.NoRadius.Default.TwoLines"/>
+</merge>

@@ -1,0 +1,14 @@
+package defpackage;
+
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\u0002\n\u0000¨\u0006\u0000"}, d2 = {"kotlin-stdlib"}, k = 5, mv = {2, 4, 0}, xi = 49, xs = "kotlin/collections/ArraysKt")
+public class vx0 {
+    public static final void a(int i, int i2) {
+        if (i <= i2) {
+            return;
+        }
+        mae0.a(n36.a("toIndex (", i, i2, ") is greater than size (", ")."));
+    }
+}

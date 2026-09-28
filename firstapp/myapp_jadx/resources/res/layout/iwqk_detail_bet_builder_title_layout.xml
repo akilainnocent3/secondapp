@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/brand_secondary_disable"
+    android:paddingLeft="8dp"
+    android:paddingTop="4dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="34dp"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="4dp">
+    <TextView
+        android:textSize="12dp"
+        android:textColor="@color/absolute_type2"
+        android:id="@+id/bet_builder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_game_container"
+    android:background="@color/sb_black_100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/bonus_vault"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="100dp"/>
+    <ImageView
+        android:id="@+id/spin_image"
+        android:background="@color/sb_black_100"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="101dp"/>
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:layout_gravity="center"
+        android:id="@+id/spin_kit"
+        android:visibility="gone"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:elevation="102dp"
+        app:SpinKit_Color="@android:color/darker_gray"
+        style="@style/SpinKitStyle"/>
+</FrameLayout>

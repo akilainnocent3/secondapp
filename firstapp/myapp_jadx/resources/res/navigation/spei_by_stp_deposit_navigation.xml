@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/spei_by_stp_deposit_navigation"
+    app:startDestination="@+id/speiByStpDepositFragment">
+    <fragment
+        android:label="fragment_spei_by_stp_deposit"
+        android:name="com.sportybet.android.globalpay.stp.spei.SpeiByStpDepositFragment"
+        android:id="@+id/speiByStpDepositFragment">
+        <action
+            android:id="@+id/to_clabe_fragment"
+            app:destination="@+id/clabeFragment"/>
+    </fragment>
+    <fragment
+        android:label="fragment_clabe"
+        android:name="com.sportybet.android.globalpay.stp.clabe.ClabeDepositFragment"
+        android:id="@+id/clabeFragment">
+        <argument
+            android:name="clabe"
+            app:argType="string"/>
+        <argument
+            android:name="amount"
+            app:argType="string"/>
+        <argument
+            android:name="tradeId"
+            app:argType="string"/>
+    </fragment>
+</navigation>

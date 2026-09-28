@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="52dp">
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_check"
+        app:tint="@color/brand_secondary"/>
+    <ImageView
+        android:id="@+id/channel_icon"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="52dp"
+        android:src="@drawable/icon_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_type1_primary"
+        android:gravity="left"
+        android:id="@+id/channel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lineSpacingExtra="-2sp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintLeft_toRightOf="@+id/channel_icon"
+        app:layout_constraintTop_toTopOf="@+id/channel_icon"/>
+    <View
+        android:id="@+id/diver_line"
+        android:background="@color/background_type1_tertiary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/channel_icon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

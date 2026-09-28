@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:alignItems="center"
+        app:flexWrap="wrap"
+        app:justifyContent="space_between">
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/snackbar_text"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snackbar mxdsdfsdfsdfsdfsdfsfdsdfsdfdfsdfsdfasdasddasdasdxczxc"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:lineHeight="20dp"/>
+        <LinearLayout
+            android:gravity="end|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            app:layout_flexGrow="1">
+            <ImageButton
+                android:id="@+id/snackbar_close"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="12dp"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/close"
+                android:contentDescription="closeButton"
+                app:tint="@android:color/white"/>
+        </LinearLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+</merge>

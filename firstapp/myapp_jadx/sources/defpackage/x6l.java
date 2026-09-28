@@ -1,0 +1,6 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface x6l {
+    b8g a();
+}

@@ -1,0 +1,42 @@
+Continue the existing SoccerArena project in /workspaces/codespaces-blank/secondapp. My previous assistant session ended because of usage limits. I now see "content service provider is not available". Diagnose and fix the real cause, then continue the unfinished content/playback integration. Implement and verify the work, not just a plan.
+
+START HERE
+Read applicable AGENTS.md instructions and inspect current files/local changes. Preserve existing work. Keep changes within secondapp; leave firstapp and original APK/JADX references intact. Do not reset the repository. Treat historical documentation as context, not proof of current runtime behavior.
+
+Read README.md, docs/android-release-20260928.md, docs/parity.md, docs/API.md, docs/architecture.md, docs/inspection.md, docs/verification.md, docs/resume-verification-20260928.md, docs/build-preparation-20260928.md, backend/deployment/README.md, android_integration/README.md and flutter/README.md. Resolve outdated statements using current code and newer verification evidence.
+
+CONFIRMED REPOSITORY EVIDENCE AT HANDOFF (28 September 2026)
+- backend/accounts/views.py: Content.GET unconditionally raises ServiceUnavailable after permission checks.
+- backend/accounts/errors.py: that exception returns HTTP 503, code content_unavailable, message "Content provider integration is not yet available."
+- flutter/lib/main.dart: the content button calls content/ (around line 755).
+- backend/deployment/README.md explicitly documents /api/v1/content/ as a placeholder because no content-provider integration exists.
+- The reported message is therefore consistent with an unfinished endpoint. Confirm the actual client and failing request; a similarly worded native error may have another cause. Do not mistake this automatically for a network or subscription failure.
+- Do not fix this by returning fake success, hiding the error, fabricating streams, bypassing access checks, or linking users to the old free app.
+
+CURRENT STATE
+1. Django API/admin implements registration, username login, seven-day trial starting at first successful login, subscriptions, suspension, manual payment records, dynamic support/renewal contacts, history, logout/revocation and deletion. Preserve these features.
+2. Flutter implements account/access UI. Web catalog, channels/categories/events/search, favorites and actual provider-backed playback remain unfinished. Its successful web build does not mean it is a completed player.
+3. Backend deployment is documented at https://api.soccerarena.org (API /api/v1/, health /health/, admin /admin/), using Nginx, Gunicorn, PostgreSQL and soccerarena.service. Local edits do not update production. Verify current deployment if relevant; do not assume server access or expose secrets.
+4. User previously confirmed the rebuilt Android BASELINE opens, loads channels and plays video/audio. This does not verify the newer integrated APK.
+5. Native integration adds account screens, entitlement guards and ad suppression around preserved original content/player code. Integrated phone runtime remained unverified in the release notes. If the error is native, investigate the original provider initialization and account-to-content transition rather than assuming Flutter's placeholder explains it.
+6. Documented integrated artifact: android_integration/work/soccerarena-release-20260928/SoccerArena-arm64.zip, with adjacent build-report.json and logs. Rebuild using android_integration/scripts/build_protected.py --out NEW_DIRECTORY after checking tool availability. Never overwrite prior output.
+7. Private release-signing material is in android_integration/private/. Preserve it and reuse the existing signing identity for compatible updates. Never print or bundle its key/password. Do not uninstall apps or clear user data without explicit consent.
+
+INVESTIGATE AND IMPLEMENT
+1. Trace the failing UI through the client, route, permissions and response. Establish whether it occurs in Flutter web, another Flutter build or native Android. Ask one concise question if necessary while continuing independent repository work. Distinguish account API health from content-provider availability.
+2. Inventory existing adapters, configuration, models and analysis before asking for information already available. Use references to understand behavior, not as proof of a valid browser/provider contract. Do not expose embedded secrets.
+3. Static leads from docs/inspection.md: io.a is a Retrofit interface with POST details, POST get_url, matches/live and matches/by_date; io.k creates clients with dynamic base URLs; vo.b is OneViewModel; vo.b.B transforms responses through to.k.o and a runtime filter before parsing DataModel. Confirm in source. Provider tokens/configuration are separate from SoccerArena account credentials. Native Media3 uses stream-specific Referer, Origin and User-Agent, and some records include clear-key/other media settings. These cannot simply be copied into browser video requests.
+4. Establish the usable authorized upstream catalog/playback contract, response shapes, authentication, expiry and browser constraints. Do not invent credentials/endpoints, treat extracted tokens as authorization, or bypass DRM/access controls. If required provider information truly is absent, identify the exact missing input and ask for it once; finish independent useful implementation meanwhile. Do not claim the integration is complete while upstream access remains unverified.
+5. Implement a maintainable provider adapter and real catalog/detail/playback responses, retaining entitlement enforcement. Use bounded timeouts, controlled caching and sanitized errors. Keep secrets server-side, never forward SoccerArena bearer tokens to upstream media hosts, and do not create an arbitrary URL proxy.
+6. Connect Flutter to real content screens/playback with useful loading, empty, outage and expiry states. Preserve account and renewal flows. Account for actual HTTPS/CORS, HLS/DASH, DRM and header constraints using supported delivery paths. Document any concrete provider-dependent limitation.
+7. For a native regression, inspect application initialization, activity lifecycle, entitlement lease checks, provider configuration and ad patches. Preserve non-ad initialization and playback. Fix reproducible build/patch sources, then generate a fresh signed output; do not modify original reference binaries.
+
+VERIFY AND FINISH
+- Run focused backend/Flutter checks for successful content access, expired/suspended denial and provider failure. Existing backend tests intentionally expect 503 for active content access; revise this when implementing the adapter without weakening permissions. Distinguish mocked contract tests from real provider checks.
+- Historical results: 26 PostgreSQL backend tests, 13 Flutter tests and a successful web release build. Rerun relevant checks for your changes; do not present old results as current. Use a disposable test database, never production.
+- For Android, run relevant build/signature/alignment/host checks. Compilation is not device playback verification. If no device is available, specify remaining runtime checks and minimal reproduction/log instructions.
+- Verify actual playback of a representative permitted channel on the affected platform when access/runtime is available, plus expiry/suspension behavior. Do not claim end-to-end success from builds or mocks alone.
+- Update project documentation with the root cause, changed files, actual commands/results, artifact locations, limitations and deployment state. If production changes are needed, prepare a concrete tested change and rollback instructions, then obtain any required approval before deployment.
+- Continue autonomously on reversible local inspection, implementation and tests. Give concise progress updates. Finish with what was fixed, verification evidence and the exact remaining user input, if any.
+
+Start by confirming the placeholder endpoint and affected client flow, then proceed with the repair. My priority is working content and playback in the existing project while retaining the account/subscription system and completed Android work.

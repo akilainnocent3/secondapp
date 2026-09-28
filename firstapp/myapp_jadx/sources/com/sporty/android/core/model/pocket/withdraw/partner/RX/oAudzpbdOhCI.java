@@ -1,0 +1,51 @@
+package com.sporty.android.core.model.pocket.withdraw.partner.RX;
+
+/* JADX INFO: loaded from: classes.dex */
+public class oAudzpbdOhCI {
+    public static String AiQB;
+    public static String BJVFDMkShmDD;
+    public static String CJgb;
+    public static String EOL;
+    public static String Fnh;
+    public static String HUIiLJnLL;
+    public static String HamhrIuuwSEpnjj;
+    public static String HqshMqNgW;
+    public static String IuMQAJliUpX;
+    public static String KQRgrXXYv;
+    public static String LYbsoc;
+    public static String MvSEExeMO;
+    public static String NrboLY;
+    public static String PwMvYSSsw;
+    public static String PzLqsIfpWrK;
+    public static String QCU;
+    public static String QVPkEsbSbwCuC;
+    public static String SsFHHTkGnI;
+    public static String TLVH;
+    public static String UzXLMaHwpFhv;
+    public static String XhCtPFVcvkkPn;
+    public static String XyZVojrN;
+    public static String YCJaNkmULbtHx;
+    public static String YhUoXKaSCcNoM;
+    public static String aGJbqGDzTZ;
+    public static String ahlQhyut;
+    public static String bTHh;
+    public static String birhYY;
+    public static String cfkC;
+    public static String gEqYgTJbwlcw;
+    public static String hDtSaP;
+    public static String hyHvZcSXEYno;
+    public static String iABjyKVXDCY;
+    public static String kdlXNfkzfVH;
+    public static String lNxlRVSnXoOJjS;
+    public static String ocZXpQsbaI;
+    public static String onX;
+    public static String qvqDXeis;
+    public static String tFLCBvBXmGjU;
+    public static String ufBrwRwgoR;
+    public static String vfYOHXUtufmfw;
+    public static String vsOcuvvagmqwbdf;
+    public static String wTigza;
+    public static String xVsOhz;
+    public static String yWgihVKQsLX;
+    public static String yycWGMtqaiLGtk;
+}

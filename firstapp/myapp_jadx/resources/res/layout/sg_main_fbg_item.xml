@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/_5sdp"
+    app:cardPreventCornerOverlap="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:clipChildren="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clipToOutline="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ic_fbg_chip"
+            android:background="@drawable/navy_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.85"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="1"
+            style="@style/TextPrimaryBold"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/ic_fbg_chip_icon"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:src="@drawable/chip_fbg_icon"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

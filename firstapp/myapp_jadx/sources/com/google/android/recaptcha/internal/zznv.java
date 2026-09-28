@@ -1,0 +1,90 @@
+package com.google.android.recaptcha.internal;
+
+import android.os.Build;
+import dalvik.system.VMStack;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class zznv extends zznr {
+    private static final boolean zza = zza.zza();
+    private static final boolean zzb;
+    private static final zznq zzc;
+
+    final class zza {
+        public static boolean zza() {
+            return zznv.zzt();
+        }
+    }
+
+    static {
+        String str = Build.FINGERPRINT;
+        boolean z = true;
+        if (str != null && !"robolectric".equals(str)) {
+            z = false;
+        }
+        zzb = z;
+        zzc = new zznq() { // from class: com.google.android.recaptcha.internal.zznv.1
+            @Override // com.google.android.recaptcha.internal.zznq
+            public zzmw zza(Class<?> cls, int i) {
+                return zzmw.zza;
+            }
+
+            @Override // com.google.android.recaptcha.internal.zznq
+            public String zzb(Class cls) {
+                StackTraceElement stackTraceElementZza;
+                if (zznv.zza) {
+                    try {
+                        if (cls.equals(zznv.zzp())) {
+                            return VMStack.getStackClass2().getName();
+                        }
+                    } catch (Throwable unused) {
+                    }
+                }
+                if (!zznv.zzb || (stackTraceElementZza = zzos.zza(cls, 1)) == null) {
+                    return null;
+                }
+                return stackTraceElementZza.getClassName();
+            }
+        };
+    }
+
+    public static Class<?> zzp() {
+        return VMStack.getStackClass2();
+    }
+
+    public static String zzq() {
+        try {
+            return VMStack.getStackClass2().getName();
+        } catch (Throwable unused) {
+            return null;
+        }
+    }
+
+    public static boolean zzt() {
+        try {
+            Class.forName("dalvik.system.VMStack").getMethod("getStackClass2", null);
+            return zza.class.getName().equals(zzq());
+        } catch (Throwable unused) {
+            return false;
+        }
+    }
+
+    @Override // com.google.android.recaptcha.internal.zznr
+    public zznb zze(String str) {
+        return zznz.zzb(str);
+    }
+
+    @Override // com.google.android.recaptcha.internal.zznr
+    public zznq zzh() {
+        return zzc;
+    }
+
+    @Override // com.google.android.recaptcha.internal.zznr
+    public zzof zzj() {
+        return zzoa.zzb();
+    }
+
+    @Override // com.google.android.recaptcha.internal.zznr
+    public String zzm() {
+        return "platform: Android";
+    }
+}

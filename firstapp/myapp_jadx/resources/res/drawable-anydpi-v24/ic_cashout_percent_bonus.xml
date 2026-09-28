@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="60dp"
+    android:width="63dp"
+    android:viewportWidth="63"
+    android:viewportHeight="60">
+    <path
+        android:fillColor="@drawable/_ic_cashout_percent_bonus__0_res_0x7f080043"
+        android:pathData="M-0,38.288L30.619,37.964L13.843,80.329L62.99,22.39L32.371,22.715L47.273,-21.68L-0,38.288Z"
+        android:fillAlpha="0.2"/>
+</vector>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportygames.lobby.views.LobbyNotificationItemLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/_11ssp"
+        android:textColor="@color/notification_text_color"
+        android:id="@+id/notication_number"
+        android:tag="@string/notification_message_cms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/TextPrimaryRegular"/>
+    <TextView
+        android:textSize="@dimen/_7ssp"
+        android:textColor="@color/lobby_notification_play_text"
+        android:gravity="center_vertical"
+        android:id="@+id/notification_play"
+        android:tag="@string/lobby_notification_play_cms"
+        android:background="@drawable/notification_play_button_bg"
+        android:paddingLeft="@dimen/_3sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingRight="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:text="@string/lobby_notification_play_text"
+        android:drawablePadding="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_4sdp"
+        android:paddingHorizontal="@dimen/_3sdp"
+        android:paddingVertical="@dimen/_2sdp"
+        app:drawableEndCompat="0x7f080737"
+        style="@style/TextPrimaryBold"/>
+</com.sportygames.lobby.views.LobbyNotificationItemLayout>

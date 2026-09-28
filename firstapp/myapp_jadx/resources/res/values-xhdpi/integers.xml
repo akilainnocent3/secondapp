@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gift_rv_gone">0.5</integer>
+    <integer name="gift_rv_visible">0.5</integer>
+</resources>

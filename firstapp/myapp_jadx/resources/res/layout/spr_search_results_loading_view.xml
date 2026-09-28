@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:indeterminate="true"/>
+    <com.sportybet.plugin.realsports.search.SearchResultsErrorView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/error"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#9ca0ab"
+        android:gravity="center_horizontal"
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/wap_search__search_no_result"
+        android:drawablePadding="13dp"
+        android:fontFamily="sans-serif"
+        app:layout_gravity="center"/>
+</merge>

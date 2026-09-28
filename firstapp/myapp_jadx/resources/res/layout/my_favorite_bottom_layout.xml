@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportybet.plugin.myfavorite.widget.BottomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:layout_alignParentBottom="true">
+    <TextView
+        android:textAppearance="@style/B1_R"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:id="@+id/favorite_clear"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="6dp"
+        android:text="@string/common_functions__clear"
+        android:layout_weight="1"
+        style="@style/Widget.App.CommonButton.Outline"/>
+    <TextView
+        android:textAppearance="@style/B1_R"
+        android:gravity="center"
+        android:id="@+id/favorite_apply"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:text="@string/common_functions__apply"
+        android:layout_weight="2"
+        style="@style/Widget.App.CommonButton.Contained"/>
+</com.sportybet.plugin.myfavorite.widget.BottomLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:textSize="14dp"
+        android:textColor="@color/text_type1_primary"
+        android:ellipsize="end"
+        android:id="@+id/search"
+        android:background="@drawable/outright_edit_text_bg"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:inputType="textVisiblePassword"
+        android:imeOptions="actionDone"
+        android:paddingStart="16dp"
+        android:paddingEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/search_btn"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:checked="false"
+        android:paddingHorizontal="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="@+id/search"
+        app:layout_constraintTop_toTopOf="@+id/search"/>
+    <TextView
+        android:textColor="@color/text_type1_primary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/market_title"
+        android:background="@color/background_type1_secondary"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:visibility="visible"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:lines="2"
+        android:paddingHorizontal="12dp"
+        app:drawableEndCompat="@drawable/icon_outright_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event_divider_line"
+        style="@style/CaptionBold"/>
+</merge>

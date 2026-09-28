@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_type2_primary"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp">
+    <CheckedTextView
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:textColor="@color/text_type2_primary"
+        android:gravity="center_vertical"
+        android:id="@+id/edit_bet_history"
+        android:background="@color/background_type2_tertiary"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:checked="false"
+        android:text="@string/bet_history__editbet_history"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/edit_bet_history_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider_dark"
+        android:showDividers="middle"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:textColor="@color/text_type2_primary"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/results_tournament_title"
+        android:background="@drawable/bg_filled_custom_background_type2_secondary_type1_2_radius"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:drawableTint="@color/brand_quaternary"/>
+</LinearLayout>

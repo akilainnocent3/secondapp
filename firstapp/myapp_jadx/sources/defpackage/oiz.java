@@ -1,0 +1,13 @@
+package defpackage;
+
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final /* synthetic */ class oiz implements Function1 {
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        eiz eizVar = (eiz) obj;
+        eizVar.getClass();
+        return eizVar.d;
+    }
+}

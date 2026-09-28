@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportygames.sportysoccer.widget.TitleLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/sg_title_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="32sp"
+        android:layout_centerVertical="true"
+        app:srcCompat="0x7f0808f0"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/back"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/roboto"/>
+</com.sportygames.sportysoccer.widget.TitleLayout>

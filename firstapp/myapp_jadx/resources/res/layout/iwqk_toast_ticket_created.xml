@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/toast_layout_root"
+    android:background="#3c424f"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginRight="64dp"
+    android:shadowColor="@color/background_type2_primary"
+    android:shadowDy="2"
+    android:shadowRadius="4">
+    <TextView
+        android:textColor="@color/text_type2_primary"
+        android:id="@+id/ticket_create_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="1"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/create_success_img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/spr_event_win"
+        app:tint="@color/brand_secondary"/>
+</LinearLayout>

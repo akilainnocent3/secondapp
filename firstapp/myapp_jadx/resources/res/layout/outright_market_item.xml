@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="12dp"
+    android:textColor="@color/absolute_type2"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:id="@+id/market_title"
+    android:background="@color/background_type1_primary"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:maxLines="2"
+    android:paddingHorizontal="16dp"/>

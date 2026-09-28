@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/sb_black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:backgroundTint="@color/sb_black"
+    app:cardBackgroundColor="@color/sb_black"
+    app:cardCornerRadius="@dimen/_10sdp">
+    <TextView
+        android:textSize="@dimen/_10ssp"
+        android:gravity="center"
+        android:id="@+id/viewmore"
+        android:tag="@string/more_cms"
+        android:background="@color/button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_28sdp"
+        android:text="@string/more"
+        android:alpha="0.5"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/TextPrimaryBold"/>
+</androidx.cardview.widget.CardView>

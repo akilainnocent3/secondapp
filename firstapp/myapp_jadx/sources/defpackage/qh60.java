@@ -1,0 +1,212 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final class qh60 {
+    public final long A;
+    public final long B;
+    public final long C;
+    public final long D;
+    public final long E;
+    public final long F;
+    public final long G;
+    public final long H;
+    public final long I;
+    public final long J;
+    public final long K;
+    public final long L;
+    public final long M;
+    public final long N;
+    public final long O;
+    public final long P;
+    public final long Q;
+    public final long R;
+    public final long S;
+    public final long T;
+    public final long U;
+    public final long V;
+    public final long W;
+    public final long X;
+    public final long Y;
+    public final long Z;
+    public final long a;
+    public final long b;
+    public final long c;
+    public final long d;
+    public final long e;
+    public final long f;
+    public final long g;
+    public final long h;
+    public final long i;
+    public final long j;
+    public final long k;
+    public final long l;
+    public final long m;
+    public final long n;
+    public final long o;
+    public final long p;
+    public final long q;
+    public final long r;
+    public final long s;
+    public final long t;
+    public final long u;
+    public final long v;
+    public final long w;
+    public final long x;
+    public final long y;
+    public final long z;
+
+    public qh60(long j, long j2, long j3, long j4, long j5, long j6, long j7, long j8, long j9, long j10, long j11, long j12, long j13, long j14, long j15, long j16, long j17, long j18, long j19, long j20, long j21, long j22, long j23, long j24, long j25, long j26, long j27, long j28, long j29, long j30, long j31, long j32, long j33, long j34, long j35, long j36, long j37, long j38, long j39, long j40, long j41, long j42, long j43, long j44, long j45, long j46, long j47, long j48, long j49, long j50, long j51, long j52) {
+        this.a = j;
+        this.b = j2;
+        this.c = j3;
+        this.d = j4;
+        this.e = j5;
+        this.f = j6;
+        this.g = j7;
+        this.h = j8;
+        this.i = j9;
+        this.j = j10;
+        this.k = j11;
+        this.l = j12;
+        this.m = j13;
+        this.n = j14;
+        this.o = j15;
+        this.p = j16;
+        this.q = j17;
+        this.r = j18;
+        this.s = j19;
+        this.t = j20;
+        this.u = j21;
+        this.v = j22;
+        this.w = j23;
+        this.x = j24;
+        this.y = j25;
+        this.z = j26;
+        this.A = j27;
+        this.B = j28;
+        this.C = j29;
+        this.D = j30;
+        this.E = j31;
+        this.F = j32;
+        this.G = j33;
+        this.H = j34;
+        this.I = j35;
+        this.J = j36;
+        this.K = j37;
+        this.L = j38;
+        this.M = j39;
+        this.N = j40;
+        this.O = j41;
+        this.P = j42;
+        this.Q = j43;
+        this.R = j44;
+        this.S = j45;
+        this.T = j46;
+        this.U = j47;
+        this.V = j48;
+        this.W = j49;
+        this.X = j50;
+        this.Y = j51;
+        this.Z = j52;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof qh60)) {
+            return false;
+        }
+        qh60 qh60Var = (qh60) obj;
+        long j = qh60Var.a;
+        int i = j58.n;
+        return nbh0.a(this.a, j) && nbh0.a(this.b, qh60Var.b) && nbh0.a(this.c, qh60Var.c) && nbh0.a(this.d, qh60Var.d) && nbh0.a(this.e, qh60Var.e) && nbh0.a(this.f, qh60Var.f) && nbh0.a(this.g, qh60Var.g) && nbh0.a(this.h, qh60Var.h) && nbh0.a(this.i, qh60Var.i) && nbh0.a(this.j, qh60Var.j) && nbh0.a(this.k, qh60Var.k) && nbh0.a(this.l, qh60Var.l) && nbh0.a(this.m, qh60Var.m) && nbh0.a(this.n, qh60Var.n) && nbh0.a(this.o, qh60Var.o) && nbh0.a(this.p, qh60Var.p) && nbh0.a(this.q, qh60Var.q) && nbh0.a(this.r, qh60Var.r) && nbh0.a(this.s, qh60Var.s) && nbh0.a(this.t, qh60Var.t) && nbh0.a(this.u, qh60Var.u) && nbh0.a(this.v, qh60Var.v) && nbh0.a(this.w, qh60Var.w) && nbh0.a(this.x, qh60Var.x) && nbh0.a(this.y, qh60Var.y) && nbh0.a(this.z, qh60Var.z) && nbh0.a(this.A, qh60Var.A) && nbh0.a(this.B, qh60Var.B) && nbh0.a(this.C, qh60Var.C) && nbh0.a(this.D, qh60Var.D) && nbh0.a(this.E, qh60Var.E) && nbh0.a(this.F, qh60Var.F) && nbh0.a(this.G, qh60Var.G) && nbh0.a(this.H, qh60Var.H) && nbh0.a(this.I, qh60Var.I) && nbh0.a(this.J, qh60Var.J) && nbh0.a(this.K, qh60Var.K) && nbh0.a(this.L, qh60Var.L) && nbh0.a(this.M, qh60Var.M) && nbh0.a(this.N, qh60Var.N) && nbh0.a(this.O, qh60Var.O) && nbh0.a(this.P, qh60Var.P) && nbh0.a(this.Q, qh60Var.Q) && nbh0.a(this.R, qh60Var.R) && nbh0.a(this.S, qh60Var.S) && nbh0.a(this.T, qh60Var.T) && nbh0.a(this.U, qh60Var.U) && nbh0.a(this.V, qh60Var.V) && nbh0.a(this.W, qh60Var.W) && nbh0.a(this.X, qh60Var.X) && nbh0.a(this.Y, qh60Var.Y) && nbh0.a(this.Z, qh60Var.Z);
+    }
+
+    public final int hashCode() {
+        int i = j58.n;
+        nbh0.a aVar = nbh0.b;
+        return Long.hashCode(this.Z) + f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(f87.a(Long.hashCode(this.a) * 31, this.b, 31), this.c, 31), this.d, 31), this.e, 31), this.f, 31), this.g, 31), this.h, 31), this.i, 31), this.j, 31), this.k, 31), this.l, 31), this.m, 31), this.n, 31), this.o, 31), this.p, 31), this.q, 31), this.r, 31), this.s, 31), this.t, 31), this.u, 31), this.v, 31), this.w, 31), this.x, 31), this.y, 31), this.z, 31), this.A, 31), this.B, 31), this.C, 31), this.D, 31), this.E, 31), this.F, 31), this.G, 31), this.H, 31), this.I, 31), this.J, 31), this.K, 31), this.L, 31), this.M, 31), this.N, 31), this.O, 31), this.P, 31), this.Q, 31), this.R, 31), this.S, 31), this.T, 31), this.U, 31), this.V, 31), this.W, 31), this.X, 31), this.Y, 31);
+    }
+
+    public final String toString() {
+        String strI = j58.i(this.a);
+        String strI2 = j58.i(this.b);
+        String strI3 = j58.i(this.c);
+        String strI4 = j58.i(this.d);
+        String strI5 = j58.i(this.e);
+        String strI6 = j58.i(this.f);
+        String strI7 = j58.i(this.g);
+        String strI8 = j58.i(this.h);
+        String strI9 = j58.i(this.i);
+        String strI10 = j58.i(this.j);
+        String strI11 = j58.i(this.k);
+        String strI12 = j58.i(this.l);
+        String strI13 = j58.i(this.m);
+        String strI14 = j58.i(this.n);
+        String strI15 = j58.i(this.o);
+        String strI16 = j58.i(this.p);
+        String strI17 = j58.i(this.q);
+        String strI18 = j58.i(this.r);
+        String strI19 = j58.i(this.s);
+        String strI20 = j58.i(this.t);
+        String strI21 = j58.i(this.u);
+        String strI22 = j58.i(this.v);
+        String strI23 = j58.i(this.w);
+        String strI24 = j58.i(this.x);
+        String strI25 = j58.i(this.y);
+        String strI26 = j58.i(this.z);
+        String strI27 = j58.i(this.A);
+        String strI28 = j58.i(this.B);
+        String strI29 = j58.i(this.C);
+        String strI30 = j58.i(this.D);
+        String strI31 = j58.i(this.E);
+        String strI32 = j58.i(this.F);
+        String strI33 = j58.i(this.G);
+        String strI34 = j58.i(this.H);
+        String strI35 = j58.i(this.I);
+        String strI36 = j58.i(this.J);
+        String strI37 = j58.i(this.K);
+        String strI38 = j58.i(this.L);
+        String strI39 = j58.i(this.M);
+        String strI40 = j58.i(this.N);
+        String strI41 = j58.i(this.O);
+        String strI42 = j58.i(this.P);
+        String strI43 = j58.i(this.Q);
+        String strI44 = j58.i(this.R);
+        String strI45 = j58.i(this.S);
+        String strI46 = j58.i(this.T);
+        String strI47 = j58.i(this.U);
+        String strI48 = j58.i(this.V);
+        String strI49 = j58.i(this.W);
+        String strI50 = j58.i(this.X);
+        String strI51 = j58.i(this.Y);
+        String strI52 = j58.i(this.Z);
+        StringBuilder sbA = ux5.a("SGCampaignColorPalette(campaignButtonProgressGradientStart=", strI, ", campaignButtonProgressGradientEnd=", strI2, ", campaignButtonProgressGradientStartPaused=");
+        hxa.c(sbA, strI3, ", campaignButtonProgressGradientEndPaused=", strI4, ", campaignBadgeTextBronze=");
+        hxa.c(sbA, strI5, ", campaignBadgeTextSilver=", strI6, ", campaignBadgeTextGold=");
+        hxa.c(sbA, strI7, ", campaignBadgeTextDiamond=", strI8, ", campaignBadgeTextAmethyst=");
+        hxa.c(sbA, strI9, ", campaignBadgeTextDefault=", strI10, ", campaignProgressColor=");
+        hxa.c(sbA, strI11, ", campaignProgressBackgroundColor=", strI12, ", campaignTierCardUpperGradient=");
+        hxa.c(sbA, strI13, ", campaignTierCardUpperGradientDisabled=", strI14, ", campaignTierCardLowerGradient=");
+        hxa.c(sbA, strI15, ", campaignTierCardLowerGradientDisabled=", strI16, ", campaignTierCardDisabledBorder=");
+        hxa.c(sbA, strI17, ", campaignDialogHeaderSmall=", strI18, ", campaignDialogHeaderSmallText=");
+        hxa.c(sbA, strI19, ", campaignDialogHeaderBig=", strI20, ", campaignTitleGradientLeft=");
+        hxa.c(sbA, strI21, ", campaignTitleGradientRight=", strI22, ", campaignBackground=");
+        hxa.c(sbA, strI23, ", criteriaTextColor=", strI24, ", criteriaDisabledTextColor=");
+        hxa.c(sbA, strI25, ", criteriaMoreTextColor=", strI26, ", campaignStageTextEnabled=");
+        hxa.c(sbA, strI27, ", campaignStageTextDisabled=", strI28, ", campaignCardDisabledOverlay=");
+        hxa.c(sbA, strI29, ", campaignCardTitleColor=", strI30, ", campaignCardTitleLightColor=");
+        hxa.c(sbA, strI31, ", campaignCollectButtonGradientStart=", strI32, ", campaignCollectButtonGradientEnd=");
+        hxa.c(sbA, strI33, ", campaignCollectText=", strI34, ", campaignCollectLoadingColor=");
+        hxa.c(sbA, strI35, ", campaignCollectTextTop=", strI36, ", campaignCollectTextBottom=");
+        hxa.c(sbA, strI37, ", campaignCardMissionTagBackground=", strI38, ", campaignButtonBackground=");
+        hxa.c(sbA, strI39, ", buttonTooltipColor=", strI40, ", buttonTooltipText=");
+        hxa.c(sbA, strI41, ", campaignButtonLobbyBackground=", strI42, ", campaignButtonLobbyBar=");
+        hxa.c(sbA, strI43, ", campaignButtonLobbyBarProgress=", strI44, ", campaignButtonLobbyBarProgressPaused=");
+        hxa.c(sbA, strI45, ", placeholderShimmerLeftTop=", strI46, ", placeholderShimmerLeftBottom=");
+        hxa.c(sbA, strI47, ", placeholderShimmerRightTop=", strI48, ", placeholderShimmerRightBottom=");
+        hxa.c(sbA, strI49, ", infoDescriptionText=", strI50, ", retryButtonBgTop=");
+        return kwi.a(sbA, strI51, ", retryButtonBgBottom=", strI52, ")");
+    }
+}

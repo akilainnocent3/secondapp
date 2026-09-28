@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="19dp"
+    android:viewportWidth="19"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@drawable/_ic_bonus_cashout_toast__0_res_0x7f080041"
+        android:pathData="M5,12.86L9.013,12.817L6.814,18.37L13.256,10.776L9.243,10.819L11.196,5L5,12.86Z"/>
+    <path
+        android:fillColor="@drawable/_ic_bonus_cashout_toast__1_res_0x7f080042"
+        android:pathData="M5,12.86L9.013,12.817L6.814,18.369L13.256,10.776L9.243,10.818L11.196,5L5,12.86Z"
+        android:fillAlpha="0.4"/>
+</vector>

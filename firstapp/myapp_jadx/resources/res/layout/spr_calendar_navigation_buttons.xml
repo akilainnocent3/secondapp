@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:animateLayoutChanges="true">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/iv_previous_month"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/spr_ic_keyboard_arrow_left_black_24dp"
+        app:tint="@color/calendar_default_icon_tint"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/iv_next_month"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/spr_ic_keyboard_arrow_right_black_24dp"
+        app:tint="@color/calendar_default_icon_tint"/>
+</FrameLayout>

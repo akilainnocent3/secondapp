@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sg_rut_purple_gd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/error_view"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        layout="@layout/sg_rut_history_head"/>
+    <TextView
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/empty"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/sg_common_feedback__no_bets_available"
+        app:drawableTopCompat="@drawable/sg_rut_no_bet_48"
+        style="@style/TextPrimaryBold"/>
+    <TextView
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/failed"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sg_game_roulette__load_failed"
+        style="@style/TextRegularPrimary"/>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+</FrameLayout>

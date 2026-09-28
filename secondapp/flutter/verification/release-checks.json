@@ -1,0 +1,102 @@
+{
+  "testedAt": "2026-09-27T21:27:13.748Z",
+  "scope": "Local web release served at simulated production origin; real production API. No Android runtime test.",
+  "checks": [
+    {
+      "name": "Anonymous me/",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "name": "Anonymous content/",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "name": "Native API login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "Native refresh",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "Refresh replay rejected",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "name": "Native authenticated account",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "Native content available",
+      "passed": false,
+      "detail": "HTTP 503"
+    },
+    {
+      "name": "Web signed-out login screen",
+      "passed": true,
+      "detail": "Rendered Flutter release in Chromium"
+    },
+    {
+      "name": "Web UI login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "Web secure HttpOnly session",
+      "passed": true,
+      "detail": "Cookie attributes inspected; values omitted"
+    },
+    {
+      "name": "No browser token persistence",
+      "passed": true,
+      "detail": "Checked localStorage key names"
+    },
+    {
+      "name": "Web session survives reload",
+      "passed": true,
+      "detail": "Account screen restored through live API"
+    },
+    {
+      "name": "Web content available",
+      "passed": false,
+      "detail": "HTTP 503"
+    },
+    {
+      "name": "Content error visible",
+      "passed": true,
+      "detail": "UI displays the actual API failure"
+    },
+    {
+      "name": "Web UI logout",
+      "passed": true,
+      "detail": "Returned to login screen"
+    },
+    {
+      "name": "Logout revokes mobile token",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "name": "Logout survives reload",
+      "passed": true,
+      "detail": "Protected account stays inaccessible"
+    },
+    {
+      "name": "No detected ad requests in account flow",
+      "passed": true,
+      "detail": "Known ad hosts only; does not certify Android or playback"
+    },
+    {
+      "name": "No browser JavaScript exceptions",
+      "passed": true,
+      "detail": "0 exceptions"
+    }
+  ],
+  "ready": false
+}

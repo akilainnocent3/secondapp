@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/expand_tab_popview1_listView"
+        android:background="@color/background_type1_quaternary"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:overScrollMode="never"
+        android:layout_alignParentStart="true"/>
+</merge>

@@ -1,0 +1,159 @@
+{
+  "package": "com.sports.live.football.tv",
+  "version_code": 338,
+  "version_name": "3.3.8",
+  "input_apks_sha256": "76e1a4e492c9abf0d4b6fecb74af6037ef142020a358da0881429c2cf745f565",
+  "build_tools": "36.0.0",
+  "apktool_sha256": "66cf4524a4a45a7f56567d08b2c9b6ec237bcdd78cee69fd4a59c8a0243aeafa",
+  "kind": "unchanged payload, test-signed container rebuild; NOT an upgrade",
+  "runtime": "NOT RUN",
+  "apks": [
+    {
+      "name": "base.apk",
+      "original_sha256": "c619b30bd6c98bdf675963ef746bd34d751cc6cf088b89e9328f1ea5bee5277e",
+      "rebuilt_sha256": "b74a074b6a194ec29fce7b4c2663562820489fee1f1db8937cc6ca32425951f4",
+      "original_signer_sha256": "6121a31f1f6d08a9f16fcf11a003a6d2b658bfd22318b2187433cf9db578ad1c",
+      "test_signer_sha256": "114f2e41dc628765a1ce7c7d6ce624d2ed32e312e8e0c8158ea31f801af72812",
+      "preserved_payload_entries": 2534,
+      "manifest_identity": "package: name='com.sports.live.football.tv' versionCode='338' versionName='3.3.8' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "signature_verified": true,
+      "zip_alignment": "PASS (16 KiB)"
+    },
+    {
+      "name": "split_config.arm64_v8a.apk",
+      "original_sha256": "b2f52d943636021cf0cf6bd61e83764f95a06b6c2ee88afab88d44520b11bffe",
+      "rebuilt_sha256": "dbf565ad61dff24903cc1737a09b2a5d8bdbd54be67e0be99494a9afca75b507",
+      "original_signer_sha256": "6121a31f1f6d08a9f16fcf11a003a6d2b658bfd22318b2187433cf9db578ad1c",
+      "test_signer_sha256": "114f2e41dc628765a1ce7c7d6ce624d2ed32e312e8e0c8158ea31f801af72812",
+      "preserved_payload_entries": 11,
+      "manifest_identity": "package: name='com.sports.live.football.tv' versionCode='338' versionName='' split='config.arm64_v8a'",
+      "signature_verified": true,
+      "zip_alignment": "PASS (16 KiB)"
+    },
+    {
+      "name": "split_config.en.apk",
+      "original_sha256": "4e8243f6fb003aa8bb390b84e5bd5f11561d3139c5bdfb5108a18bc2e5531ad6",
+      "rebuilt_sha256": "fa5111f2912c828f3b5ea24a55d1facea5d92f4ececbd247cdd46ba4b9711e3f",
+      "original_signer_sha256": "6121a31f1f6d08a9f16fcf11a003a6d2b658bfd22318b2187433cf9db578ad1c",
+      "test_signer_sha256": "114f2e41dc628765a1ce7c7d6ce624d2ed32e312e8e0c8158ea31f801af72812",
+      "preserved_payload_entries": 5,
+      "manifest_identity": "package: name='com.sports.live.football.tv' versionCode='338' versionName='' split='config.en'",
+      "signature_verified": true,
+      "zip_alignment": "PASS (16 KiB)"
+    },
+    {
+      "name": "split_config.xhdpi.apk",
+      "original_sha256": "69759eb835a7bb71afaf7e5109f437005159ad2db110595a6ef773be7ac67965",
+      "rebuilt_sha256": "640d9ead060d55143bf4aec0dda55068107d9534a829b9bb714abbeec450bd58",
+      "original_signer_sha256": "6121a31f1f6d08a9f16fcf11a003a6d2b658bfd22318b2187433cf9db578ad1c",
+      "test_signer_sha256": "114f2e41dc628765a1ce7c7d6ce624d2ed32e312e8e0c8158ea31f801af72812",
+      "preserved_payload_entries": 350,
+      "manifest_identity": "package: name='com.sports.live.football.tv' versionCode='338' versionName='' split='config.xhdpi'",
+      "signature_verified": true,
+      "zip_alignment": "PASS (16 KiB)"
+    }
+  ],
+  "native_libraries": [
+    {
+      "name": "lib/arm64-v8a/libapminsighta.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libapminsightb.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libapplovin-native-crash-reporter.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libbuffer_pgl.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libcppproject.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libfile_lock_pgl.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libnms.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libpglarmor.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "name": "lib/arm64-v8a/libtt_ugen_layout.so",
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    }
+  ],
+  "reproducibility": "PASS: identical signed APK hashes across resume and resume-repeat with same new disposable key",
+  "artifacts": [
+    {
+      "path": "android_integration/work/baseline-20260928-resume/rebuilt-baseline-arm64.zip",
+      "sha256": "3c94697fb42e8bfdb591e1f4a62820e7bc500b95febcdc7b6b2403392b50bfc3",
+      "bytes": 46575480
+    },
+    {
+      "path": "android_integration/work/baseline-20260928-resume/original-baseline-arm64.zip",
+      "sha256": "3717733b7b389ef9f113ed1b6ead8938020eb99c4c441ff17f3e644591e2896f",
+      "bytes": 46569060
+    }
+  ]
+}

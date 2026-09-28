@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/absolute_type2"
+        android:gravity="center"
+        android:id="@+id/specifier"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="36dp"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/odds_boost_icon"
+        android:visibility="gone"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_odds_boost"
+        android:layout_marginStart="8dp"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="challenge_title_order_reversed">true</bool>
+</resources>

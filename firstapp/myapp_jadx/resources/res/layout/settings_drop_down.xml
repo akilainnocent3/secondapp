@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/text_type1_primary"
+        android:background="@color/line_type1_primary"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/common_functions__language_preference"
+        android:paddingStart="20dp"
+        android:paddingVertical="10dp"
+        style="@style/B2_R"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/language_recycler_view"
+        android:background="@color/background_general_primary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/text_type1_primary"
+        android:id="@+id/odds_format_label"
+        android:background="@color/line_type1_primary"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/odds_format__odds_format"
+        android:paddingStart="20dp"
+        android:paddingVertical="10dp"
+        style="@style/B2_R"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/odds_format_recycler_view"
+        android:background="@color/background_general_primary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

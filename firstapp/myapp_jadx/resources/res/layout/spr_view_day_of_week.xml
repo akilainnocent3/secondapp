@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/spr_day_text_size"
+    android:textStyle="bold"
+    android:textColor="@color/calendar_default_week_day_title_text_color"
+    android:gravity="center"
+    android:id="@+id/tv_day_name"
+    android:padding="@dimen/spr_day_text_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>

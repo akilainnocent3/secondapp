@@ -1,0 +1,53 @@
+{
+  "archive": "Live Football Tv_3.3.8.apks",
+  "sha256": "76e1a4e492c9abf0d4b6fecb74af6037ef142020a358da0881429c2cf745f565",
+  "apks": [
+    {
+      "name": "base.apk",
+      "bytes": 89397197,
+      "sha256": "c619b30bd6c98bdf675963ef746bd34d751cc6cf088b89e9328f1ea5bee5277e",
+      "native_libraries": []
+    },
+    {
+      "name": "split_config.arm64_v8a.apk",
+      "bytes": 2442359,
+      "sha256": "b2f52d943636021cf0cf6bd61e83764f95a06b6c2ee88afab88d44520b11bffe",
+      "native_libraries": [
+        "lib/arm64-v8a/libapminsighta.so",
+        "lib/arm64-v8a/libapminsightb.so",
+        "lib/arm64-v8a/libapplovin-native-crash-reporter.so",
+        "lib/arm64-v8a/libbuffer_pgl.so",
+        "lib/arm64-v8a/libcppproject.so",
+        "lib/arm64-v8a/libdatastore_shared_counter.so",
+        "lib/arm64-v8a/libfile_lock_pgl.so",
+        "lib/arm64-v8a/libnms.so",
+        "lib/arm64-v8a/libpglarmor.so",
+        "lib/arm64-v8a/libtt_ugen_layout.so"
+      ]
+    },
+    {
+      "name": "split_config.en.apk",
+      "bytes": 140014,
+      "sha256": "4e8243f6fb003aa8bb390b84e5bd5f11561d3139c5bdfb5108a18bc2e5531ad6",
+      "native_libraries": []
+    },
+    {
+      "name": "split_config.xhdpi.apk",
+      "bytes": 362901,
+      "sha256": "69759eb835a7bb71afaf7e5109f437005159ad2db110595a6ef773be7ac67965",
+      "native_libraries": []
+    }
+  ],
+  "metadata": {
+    "info_version": 1,
+    "package_name": "com.sports.live.football.tv",
+    "display_name": "Live Football Tv",
+    "version_name": "3.3.8",
+    "version_code": 338,
+    "min_sdk": 23,
+    "target_sdk": 36
+  },
+  "base_matches_original": true,
+  "signature_verification": "PASS: all four APKs verified by apksigner 36.0.0, matching signer SHA-256 6121a31f1f6d08a9f16fcf11a003a6d2b658bfd22318b2187433cf9db578ad1c",
+  "installation_and_launch": "NOT RUN: SDK installed, adb devices -l returned no attached devices"
+}

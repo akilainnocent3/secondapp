@@ -1,0 +1,44 @@
+package defpackage;
+
+import java.util.HashMap;
+import kotlin.Pair;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class zox implements pdd0 {
+    public final nkf a;
+    public final pkf b;
+
+    public zox(nkf nkfVar, pkf pkfVar) {
+        this.a = nkfVar;
+        this.b = pkfVar;
+    }
+
+    @Override // defpackage.pdd0
+    public final HashMap<String, Object> createCustomMetrics() {
+        return kpu.d(new Pair("from", yjf.c(this.a)), new Pair("value", yjf.d(this.b)));
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof zox)) {
+            return false;
+        }
+        zox zoxVar = (zox) obj;
+        return this.a == zoxVar.a && this.b == zoxVar.b;
+    }
+
+    @Override // defpackage.pdd0
+    public final String getName() {
+        return "betslip__neverbehind_checkbox__view";
+    }
+
+    public final int hashCode() {
+        return this.b.hashCode() + (this.a.hashCode() * 31);
+    }
+
+    public final String toString() {
+        return "NeverDownCheckBoxSelectionView(from=" + this.a + ", value=" + this.b + ")";
+    }
+}

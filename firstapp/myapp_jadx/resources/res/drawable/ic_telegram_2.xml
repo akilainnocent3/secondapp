@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="25dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="25">
+    <group>
+        <clip-path android:pathData="M0,0.5h24v24h-24z"/>
+        <path
+            android:fillColor="@drawable/_ic_telegram_2__0_res_0x7f080057"
+            android:pathData="M12,24.5C18.628,24.5 24,19.128 24,12.5C24,5.873 18.628,0.5 12,0.5C5.373,0.5 0,5.873 0,12.5C0,19.128 5.373,24.5 12,24.5Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M4.994,12.396L13.075,9.066C13.873,8.719 16.578,7.61 16.578,7.61C16.578,7.61 17.827,7.124 17.723,8.303C17.688,8.789 17.41,10.488 17.133,12.326L16.266,17.771C16.266,17.771 16.197,18.569 15.607,18.708C15.018,18.846 14.047,18.222 13.873,18.083C13.734,17.979 11.272,16.419 10.37,15.656C10.127,15.448 9.85,15.031 10.405,14.546C11.653,13.402 13.145,11.98 14.046,11.078C14.462,10.661 14.879,9.69 13.144,10.87L8.254,14.165C8.254,14.165 7.699,14.512 6.659,14.199C5.618,13.887 4.404,13.471 4.404,13.471C4.404,13.471 3.572,12.951 4.994,12.396L4.994,12.396Z"/>
+    </group>
+</vector>

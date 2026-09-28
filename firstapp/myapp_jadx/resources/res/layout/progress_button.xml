@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/bg_filled_brand_secondary_2_radius_with_brand_secondary_disable">
+    <ProgressBar
+        android:id="@+id/progress"
+        android:visibility="gone"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginRight="8dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/brand_tertiary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/text"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/login_page_text_size"
+        android:textColor="@color/text_color_brand_tertiary"
+        android:id="@+id/text"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/progress"
+        app:layout_constraintRight_toLeftOf="@+id/right_progress"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ProgressBar
+        android:id="@+id/right_progress"
+        android:visibility="gone"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="8dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/brand_tertiary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/text"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</merge>

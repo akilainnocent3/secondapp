@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="14dp"
+    android:textStyle="normal"
+    android:textColor="@color/text_type1_primary"
+    android:gravity="center"
+    android:id="@+id/period_text"
+    android:paddingLeft="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:fontFamily="sans-serif"/>

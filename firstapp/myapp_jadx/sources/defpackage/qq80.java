@@ -1,0 +1,138 @@
+package defpackage;
+
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.sportygames.sportyherov2.components.SHBetToggle;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final class qq80 implements g6i0 {
+    public final View A;
+    public final View B;
+    public final View C;
+    public final View D;
+    public final View E;
+    public final ConstraintLayout F;
+    public final TextView G;
+    public final ConstraintLayout H;
+    public final TextView I;
+    public final RelativeLayout J;
+    public final TextView K;
+    public final ConstraintLayout L;
+    public final ImageView M;
+    public final View N;
+    public final ImageView O;
+    public final AppCompatImageView P;
+    public final ImageView Q;
+    public final TextView R;
+    public final TextView S;
+    public final TextView T;
+    public final TextView U;
+    public final TextView V;
+    public final TextView W;
+    public final TextView X;
+    public final TextView Y;
+    public final TextView Z;
+    public final ConstraintLayout a;
+    public final View a0;
+    public final TextView b;
+    public final TextView b0;
+    public final TextView c;
+    public final TextView c0;
+    public final SHBetToggle d;
+    public final TextView d0;
+    public final TextView e;
+    public final TextView e0;
+    public final SHBetToggle f;
+    public final ImageView f0;
+    public final ConstraintLayout g0;
+    public final ConstraintLayout h0;
+    public final ConstraintLayout i;
+    public final TextView i0;
+    public final ConstraintLayout j0;
+    public final ImageView k0;
+    public final ConstraintLayout l0;
+    public final View m0;
+    public final View n0;
+    public final View o0;
+    public final View p0;
+    public final View q0;
+    public final View r0;
+    public final AppCompatTextView s0;
+    public final ConstraintLayout t0;
+    public final ImageView u0;
+    public final ConstraintLayout v;
+    public final ImageView w;
+    public final ConstraintLayout y;
+    public final TextView z;
+
+    public qq80(ConstraintLayout constraintLayout, TextView textView, TextView textView2, SHBetToggle sHBetToggle, TextView textView3, SHBetToggle sHBetToggle2, ConstraintLayout constraintLayout2, ConstraintLayout constraintLayout3, ImageView imageView, ConstraintLayout constraintLayout4, TextView textView4, View view, View view2, View view3, View view4, View view5, ConstraintLayout constraintLayout5, TextView textView5, ConstraintLayout constraintLayout6, TextView textView6, RelativeLayout relativeLayout, TextView textView7, ConstraintLayout constraintLayout7, ImageView imageView2, View view6, ImageView imageView3, AppCompatImageView appCompatImageView, ImageView imageView4, TextView textView8, TextView textView9, TextView textView10, TextView textView11, TextView textView12, TextView textView13, TextView textView14, TextView textView15, TextView textView16, View view7, TextView textView17, TextView textView18, TextView textView19, TextView textView20, ImageView imageView5, ConstraintLayout constraintLayout8, ConstraintLayout constraintLayout9, TextView textView21, ConstraintLayout constraintLayout10, ImageView imageView6, ConstraintLayout constraintLayout11, View view8, View view9, View view10, View view11, View view12, View view13, AppCompatTextView appCompatTextView, ConstraintLayout constraintLayout12, ImageView imageView7) {
+        this.a = constraintLayout;
+        this.b = textView;
+        this.c = textView2;
+        this.d = sHBetToggle;
+        this.e = textView3;
+        this.f = sHBetToggle2;
+        this.i = constraintLayout2;
+        this.v = constraintLayout3;
+        this.w = imageView;
+        this.y = constraintLayout4;
+        this.z = textView4;
+        this.A = view;
+        this.B = view2;
+        this.C = view3;
+        this.D = view4;
+        this.E = view5;
+        this.F = constraintLayout5;
+        this.G = textView5;
+        this.H = constraintLayout6;
+        this.I = textView6;
+        this.J = relativeLayout;
+        this.K = textView7;
+        this.L = constraintLayout7;
+        this.M = imageView2;
+        this.N = view6;
+        this.O = imageView3;
+        this.P = appCompatImageView;
+        this.Q = imageView4;
+        this.R = textView8;
+        this.S = textView9;
+        this.T = textView10;
+        this.U = textView11;
+        this.V = textView12;
+        this.W = textView13;
+        this.X = textView14;
+        this.Y = textView15;
+        this.Z = textView16;
+        this.a0 = view7;
+        this.b0 = textView17;
+        this.c0 = textView18;
+        this.d0 = textView19;
+        this.e0 = textView20;
+        this.f0 = imageView5;
+        this.g0 = constraintLayout8;
+        this.h0 = constraintLayout9;
+        this.i0 = textView21;
+        this.j0 = constraintLayout10;
+        this.k0 = imageView6;
+        this.l0 = constraintLayout11;
+        this.m0 = view8;
+        this.n0 = view9;
+        this.o0 = view10;
+        this.p0 = view11;
+        this.q0 = view12;
+        this.r0 = view13;
+        this.s0 = appCompatTextView;
+        this.t0 = constraintLayout12;
+        this.u0 = imageView7;
+    }
+
+    @Override // defpackage.g6i0
+    public final View getRoot() {
+        return this.a;
+    }
+}

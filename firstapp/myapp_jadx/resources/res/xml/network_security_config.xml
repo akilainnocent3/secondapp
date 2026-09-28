@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">sportybet.com
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">test.easebet.com
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">br.easebet.com
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">sporty.bet.br
+        </domain>
+        <certificateTransparency enabled="true"/>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">mx.easebet.com
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">www.sportybet.mx
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">cm.easebet.com
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">www.sportybet.co.cm
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">www-za.easebet.com
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">www.sportybet.co.za
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">mz.easebet.com
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">www.sportybet.co.mz
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">sportydog.net
+        </domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

@@ -1,0 +1,131 @@
+package defpackage;
+
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.google.android.material.card.MaterialCardView;
+import com.sportygames.pingpong.components.SHBetToggle;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class v720 implements g6i0 {
+    public final ConstraintLayout A;
+    public final TextView B;
+    public final RelativeLayout C;
+    public final ConstraintLayout D;
+    public final ImageView E;
+    public final View F;
+    public final ImageView G;
+    public final ImageView H;
+    public final TextView I;
+    public final TextView J;
+    public final TextView K;
+    public final TextView L;
+    public final TextView M;
+    public final TextView N;
+    public final TextView O;
+    public final TextView P;
+    public final TextView Q;
+    public final View R;
+    public final View S;
+    public final TextView T;
+    public final TextView U;
+    public final TextView V;
+    public final TextView W;
+    public final ImageView X;
+    public final ConstraintLayout Y;
+    public final TextView Z;
+    public final MaterialCardView a;
+    public final CardView a0;
+    public final TextView b;
+    public final ImageView b0;
+    public final TextView c;
+    public final RelativeLayout c0;
+    public final SHBetToggle d;
+    public final View d0;
+    public final TextView e;
+    public final View e0;
+    public final SHBetToggle f;
+    public final View f0;
+    public final View g0;
+    public final View h0;
+    public final ConstraintLayout i;
+    public final View i0;
+    public final View j0;
+    public final View k0;
+    public final View l0;
+    public final View m0;
+    public final View n0;
+    public final View o0;
+    public final AppCompatTextView p0;
+    public final ConstraintLayout q0;
+    public final ConstraintLayout v;
+    public final TextView w;
+    public final ConstraintLayout y;
+    public final TextView z;
+
+    public v720(MaterialCardView materialCardView, TextView textView, TextView textView2, SHBetToggle sHBetToggle, TextView textView3, SHBetToggle sHBetToggle2, ConstraintLayout constraintLayout, ConstraintLayout constraintLayout2, TextView textView4, ConstraintLayout constraintLayout3, TextView textView5, ConstraintLayout constraintLayout4, TextView textView6, RelativeLayout relativeLayout, ConstraintLayout constraintLayout5, ImageView imageView, View view, ImageView imageView2, ImageView imageView3, TextView textView7, TextView textView8, TextView textView9, TextView textView10, TextView textView11, TextView textView12, TextView textView13, TextView textView14, TextView textView15, View view2, View view3, TextView textView16, TextView textView17, TextView textView18, TextView textView19, ImageView imageView4, ConstraintLayout constraintLayout6, TextView textView20, CardView cardView, ImageView imageView5, RelativeLayout relativeLayout2, View view4, View view5, View view6, View view7, View view8, View view9, View view10, View view11, View view12, View view13, View view14, View view15, AppCompatTextView appCompatTextView, ConstraintLayout constraintLayout7) {
+        this.a = materialCardView;
+        this.b = textView;
+        this.c = textView2;
+        this.d = sHBetToggle;
+        this.e = textView3;
+        this.f = sHBetToggle2;
+        this.i = constraintLayout;
+        this.v = constraintLayout2;
+        this.w = textView4;
+        this.y = constraintLayout3;
+        this.z = textView5;
+        this.A = constraintLayout4;
+        this.B = textView6;
+        this.C = relativeLayout;
+        this.D = constraintLayout5;
+        this.E = imageView;
+        this.F = view;
+        this.G = imageView2;
+        this.H = imageView3;
+        this.I = textView7;
+        this.J = textView8;
+        this.K = textView9;
+        this.L = textView10;
+        this.M = textView11;
+        this.N = textView12;
+        this.O = textView13;
+        this.P = textView14;
+        this.Q = textView15;
+        this.R = view2;
+        this.S = view3;
+        this.T = textView16;
+        this.U = textView17;
+        this.V = textView18;
+        this.W = textView19;
+        this.X = imageView4;
+        this.Y = constraintLayout6;
+        this.Z = textView20;
+        this.a0 = cardView;
+        this.b0 = imageView5;
+        this.c0 = relativeLayout2;
+        this.d0 = view4;
+        this.e0 = view5;
+        this.f0 = view6;
+        this.g0 = view7;
+        this.h0 = view8;
+        this.i0 = view9;
+        this.j0 = view10;
+        this.k0 = view11;
+        this.l0 = view12;
+        this.m0 = view13;
+        this.n0 = view14;
+        this.o0 = view15;
+        this.p0 = appCompatTextView;
+        this.q0 = constraintLayout7;
+    }
+
+    @Override // defpackage.g6i0
+    public final View getRoot() {
+        return this.a;
+    }
+}

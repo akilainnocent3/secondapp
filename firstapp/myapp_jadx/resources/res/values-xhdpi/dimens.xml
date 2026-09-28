@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lw_sector_border_width">2.5dp</dimen>
+    <dimen name="lw_wheel_draw_text_width">1.5dp</dimen>
+</resources>

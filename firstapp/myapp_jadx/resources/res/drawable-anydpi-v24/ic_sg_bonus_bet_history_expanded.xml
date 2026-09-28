@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="173dp"
+    android:width="129dp"
+    android:viewportWidth="129"
+    android:viewportHeight="173">
+    <path
+        android:fillColor="@drawable/_ic_sg_bonus_bet_history_expanded__0_res_0x7f08004d"
+        android:pathData="M0,86.09L73.08,85.32L33.04,186.44L150.35,48.15L77.27,48.92L112.83,-57.04L0,86.09Z"
+        android:fillAlpha="0.2"/>
+</vector>

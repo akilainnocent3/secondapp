@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/indicator_item"
+        android:layout_width="@dimen/_10ssp"
+        android:layout_height="@dimen/_10ssp"
+        android:layout_marginLeft="0x7f0701ed"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:src="@drawable/redblack_done_turn"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportygames.roulette.widget.WinningView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/trans_black_70"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/win_bg"
+        android:layout_width="274dp"
+        android:layout_height="187dp"
+        android:scaleType="centerInside"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/win"
+        android:paddingTop="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        android:layout_alignLeft="@+id/win_bg"
+        android:layout_alignTop="@+id/win_bg"
+        android:layout_alignRight="@+id/win_bg"
+        style="@style/TextRegularPrimary"/>
+</com.sportygames.roulette.widget.WinningView>

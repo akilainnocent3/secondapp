@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_one_up_promo_tag"
+    android:padding="4dp"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="28dp">
+    <TextView
+        android:textColor="@color/text_primary"
+        android:id="@+id/promo_tag_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        style="@style/B2_R"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/action_group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp">
+        <ImageView
+            android:id="@+id/one_up_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ic_1up_status"/>
+        <ImageView
+            android:id="@+id/chevron"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:contentDescription="@null"
+            android:layout_marginStart="2dp"
+            app:srcCompat="@drawable/ic__arrow_chevron_right"
+            app:tint="@color/icon_primary"/>
+    </LinearLayout>
+</LinearLayout>

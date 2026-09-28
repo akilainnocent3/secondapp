@@ -1,0 +1,12 @@
+package com.google.android.gms.common.images;
+
+import android.os.Bundle;
+import android.os.ResultReceiver;
+
+/* JADX INFO: loaded from: classes4.dex */
+final class ImageManager$ImageReceiver extends ResultReceiver {
+    @Override // android.os.ResultReceiver
+    public final void onReceiveResult(int i, Bundle bundle) {
+        throw null;
+    }
+}

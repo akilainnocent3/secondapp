@@ -1,0 +1,56 @@
+package com.sportybet.feature.dedicatedteampage.team.data.model.Vc;
+
+/* JADX INFO: loaded from: classes.dex */
+public class ACKxwYRsuWyGz {
+    public static String AgosfngpDIYRGe;
+    public static String BPJVnW;
+    public static String BQz;
+    public static String BcsuTbp;
+    public static String EVNugRgsZfKu;
+    public static String EwuwWghwGyyUA;
+    public static String FbDgFKJt;
+    public static String HrdP;
+    public static String IhIvjhLdnwH;
+    public static String JRQAviqAZyHfy;
+    public static String JzD;
+    public static String KWvKmiPAa;
+    public static String KjqHGNuZLgdovl;
+    public static String LdpWJ;
+    public static String MBEK;
+    public static String NEOvdeytY;
+    public static String NGPuMjRolT;
+    public static String PYxBIMJ;
+    public static String QAzactq;
+    public static String RIGMrCjhqM;
+    public static String SGrD;
+    public static String THyjKE;
+    public static String TahJ;
+    public static String TuYegl;
+    public static String VrBWcxzjhMMpGq;
+    public static String WGuBVXVrFV;
+    public static String WMRra;
+    public static String XZLfE;
+    public static String YhFKK;
+    public static String ZCXzqhFyx;
+    public static String ZzdzQR;
+    public static String eMMY;
+    public static String eVVpbQZsFBCe;
+    public static String ergzLEgtXh;
+    public static String ggPjTOQzzfgMD;
+    public static String hfZJfS;
+    public static String kaXbGXWEQvz;
+    public static String lgrT;
+    public static String mDeGidTWvUrDJ;
+    public static String nkGgoX;
+    public static String pDYodZteqE;
+    public static String qsUfGxj;
+    public static String qxvXuG;
+    public static String rmzaNQz;
+    public static String sPzHrODdKNyPYB;
+    public static String tMDLH;
+    public static String vcCYQpjgZ;
+    public static String xBftr;
+    public static String xIZAOjsO;
+    public static String xMecilfIfI;
+    public static String ySo;
+}

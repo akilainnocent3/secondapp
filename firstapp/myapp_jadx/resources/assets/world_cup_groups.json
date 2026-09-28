@@ -1,0 +1,130 @@
+{
+  "tournamentId": "sr:tournament:16",
+  "lastUpdated": 1746362400000,
+  "groups": [
+    {
+      "groupId": "sr:league:81531",
+      "name": "BE Group A",
+      "displayOrder": 1,
+      "standings": [
+        {
+          "position": 1,
+          "team": { "id": "sr:competitor:4781", "name": "BE Mexico", "countryCode": "MEX", "abbreviation": "MEX" },
+          "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 7, "ga": 2, "gd": 5, "pts": 7,
+          "stillInTournament": true
+        },
+        {
+          "position": 2,
+          "team": { "id": "sr:competitor:4736", "name": "BE South Africa", "countryCode": "ZAF", "abbreviation": "RSA" },
+          "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 4, "ga": 4, "gd": 0, "pts": 4,
+          "stillInTournament": true
+        },
+        {
+          "position": 3,
+          "team": { "id": "sr:competitor:4735", "name": "BE Korea Republic", "countryCode": "KOR", "abbreviation": "KOR" },
+          "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 3, "ga": 5, "gd": -2, "pts": 3,
+          "stillInTournament": false
+        },
+        {
+          "position": 4,
+          "team": { "id": "sr:competitor:4714", "name": "BE Czechia", "countryCode": "CZE", "abbreviation": "CZE" },
+          "mp": 3, "w": 0, "d": 2, "l": 1, "gf": 2, "ga": 5, "gd": -3, "pts": 2,
+          "stillInTournament": false
+        }
+      ]
+    },
+    {
+      "groupId": "sr:league:81533",
+      "name": "BE Group B",
+      "displayOrder": 2,
+      "standings": [
+        {
+          "position": 1,
+          "team": { "id": "sr:competitor:4819", "name": "BE Argentina", "countryCode": "ARG", "abbreviation": "ARG" },
+          "mp": 3, "w": 3, "d": 0, "l": 0, "gf": 8, "ga": 1, "gd": 7, "pts": 9,
+          "stillInTournament": true
+        },
+        {
+          "position": 2,
+          "team": { "id": "sr:competitor:4698", "name": "BE Spain", "countryCode": "ESP", "abbreviation": "ESP" },
+          "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 6, "ga": 3, "gd": 3, "pts": 6,
+          "stillInTournament": true
+        },
+        {
+          "position": 3,
+          "team": { "id": "sr:competitor:4741", "name": "... Australia", "countryCode": "AUS", "abbreviation": "AUS" },
+          "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 5, "gd": -3, "pts": 3,
+          "stillInTournament": false
+        },
+        {
+          "position": 4,
+          "team": { "id": "sr:competitor:4792", "name": "Qatar", "countryCode": "QAT", "abbreviation": "QAT" },
+          "mp": 3, "w": 0, "d": 0, "l": 3, "gf": 1, "ga": 8, "gd": -7, "pts": 0,
+          "stillInTournament": false
+        }
+      ]
+    },
+    {
+      "groupId": "sr:league:81535",
+      "name": "BE Group C",
+      "displayOrder": 3,
+      "standings": [
+        {
+          "position": 1,
+          "team": { "id": "sr:competitor:4481", "name": "France", "countryCode": "FRA", "abbreviation": "FRA" },
+          "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 6, "ga": 2, "gd": 4, "pts": 7,
+          "stillInTournament": true
+        },
+        {
+          "position": 2,
+          "team": { "id": "sr:competitor:4705", "name": "Netherlands", "countryCode": "NED", "abbreviation": "NED" },
+          "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 3, "gd": 2, "pts": 6,
+          "stillInTournament": true
+        },
+        {
+          "position": 3,
+          "team": { "id": "sr:competitor:4739", "name": "Senegal", "countryCode": "SEN", "abbreviation": "SEN" },
+          "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 3, "ga": 4, "gd": -1, "pts": 3,
+          "stillInTournament": false
+        },
+        {
+          "position": 4,
+          "team": { "id": "sr:competitor:4911", "name": "Poland", "countryCode": "POL", "abbreviation": "POL" },
+          "mp": 3, "w": 0, "d": 1, "l": 2, "gf": 2, "ga": 7, "gd": -5, "pts": 1,
+          "stillInTournament": false
+        }
+      ]
+    },
+    {
+      "groupId": "sr:league:81537",
+      "name": "BE Group D",
+      "displayOrder": 4,
+      "standings": [
+        {
+          "position": 1,
+          "team": { "id": "sr:competitor:4748", "name": "Brazil", "countryCode": "BRA", "abbreviation": "BRA" },
+          "mp": 3, "w": 3, "d": 0, "l": 0, "gf": 9, "ga": 2, "gd": 7, "pts": 9,
+          "stillInTournament": true
+        },
+        {
+          "position": 2,
+          "team": { "id": "sr:competitor:4715", "name": "Croatia", "countryCode": "CRO", "abbreviation": "CRO" },
+          "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 3, "gd": 2, "pts": 6,
+          "stillInTournament": true
+        },
+        {
+          "position": 3,
+          "team": { "id": "sr:competitor:4770", "name": "Japan", "countryCode": "JPN", "abbreviation": "JPN" },
+          "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 3, "ga": 4, "gd": -1, "pts": 3,
+          "stillInTournament": false
+        },
+        {
+          "position": 4,
+          "team": { "id": "sr:competitor:4699", "name": "Switzerland", "countryCode": "SUI", "abbreviation": "SUI" },
+          "mp": 3, "w": 0, "d": 0, "l": 3, "gf": 1, "ga": 9, "gd": -8, "pts": 0,
+          "stillInTournament": false
+        }
+      ]
+    }
+  ]
+}

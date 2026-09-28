@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"/>
+    </LinearLayout>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/composeview_sim_gift_edit_dialog"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/composeview_sim_gift_selector"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</androidx.fragment.app.FragmentTabHost>

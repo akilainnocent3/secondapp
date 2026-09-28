@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/sg_cash_gift_secondary"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/sg_cash_gift_secondary"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/sg_text_type1_secondary"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/sg_play_color_normal"/>
+        </shape>
+    </item>
+</selector>

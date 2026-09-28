@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background_type1_secondary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/my_team_search_layout"/>
+    <include
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/my_favorite_bottom_layout"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_favorite_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/search_layout"
+        android:overScrollMode="never"/>
+    <com.sporty.android.common_ui.widgets.LoadingViewNew
+        android:id="@+id/loading"
+        android:background="@color/background_type1_secondary"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="68dp"/>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportybet.plugin.realsports.widget.CommentSelectionItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@+id/guideline_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="30dp"/>
+    <TextView
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_type1_primary"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/live__most_popular"
+        app:layout_constraintStart_toStartOf="@+id/guideline_begin"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="12dp"
+        android:textColor="@color/text_type1_secondary"
+        android:ellipsize="end"
+        android:id="@+id/sub_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/live__most_popular_desc_tip"
+        app:layout_constraintEnd_toStartOf="@+id/item_check_img"
+        app:layout_constraintStart_toStartOf="@+id/guideline_begin"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+    <ImageView
+        android:id="@+id/item_check_img"
+        android:paddingRight="17dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_check"/>
+</com.sportybet.plugin.realsports.widget.CommentSelectionItem>

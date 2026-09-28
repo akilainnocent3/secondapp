@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/spr_betslip_type_selector"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:paddingHorizontal="8dp">
+    <ImageView
+        android:id="@+id/tab_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"/>
+    <TextView
+        android:textAppearance="@style/B2_B"
+        android:textColor="@color/text_type2_primary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"/>
+</LinearLayout>

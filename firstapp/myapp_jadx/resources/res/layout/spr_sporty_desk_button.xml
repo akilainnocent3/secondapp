@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/sporty_desk_btn_layout_id"
+    android:layout_width="44dp"
+    android:layout_height="44dp">
+    <ImageView
+        android:id="@+id/sporty_desk_btn"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/sd_floating_icon"
+        android:layout_centerInParent="true"/>
+    <View
+        android:id="@+id/sporty_desk_new_message_dot"
+        android:background="@drawable/sd_new_message_dot"
+        android:visibility="invisible"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

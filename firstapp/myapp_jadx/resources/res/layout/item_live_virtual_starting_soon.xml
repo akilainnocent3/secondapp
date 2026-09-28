@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_type2_primary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/view_delimiter"
+        android:background="@color/absolute_type2"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="18dp"
+        android:textColor="@color/absolute_type1"
+        android:id="@+id/txt_starting_soon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/live_virtual__starting_soon"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_delimiter"/>
+    <View
+        android:background="@color/sporty_black_lighter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/iwqk_bh_line_height_1_dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt_starting_soon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

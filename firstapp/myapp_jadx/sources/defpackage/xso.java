@@ -1,0 +1,11 @@
+package defpackage;
+
+import java.util.function.Predicate;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final /* synthetic */ class xso implements Predicate {
+    @Override // java.util.function.Predicate
+    public final boolean test(Object obj) {
+        return mn70.class.isInstance((o21) obj);
+    }
+}

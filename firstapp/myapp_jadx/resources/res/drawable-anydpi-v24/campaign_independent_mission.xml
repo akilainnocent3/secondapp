@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="60dp"
+    android:width="59dp"
+    android:viewportWidth="59"
+    android:viewportHeight="60">
+    <path
+        android:fillColor="#004414"
+        android:pathData="M23.982,31.978m-19.982,0a19.982,19.982 0,1 1,39.964 0a19.982,19.982 0,1 1,-39.964 0"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M23.982,31.978m-17.982,0a17.982,17.982 0,1 1,35.964 0a17.982,17.982 0,1 1,-35.964 0"
+        android:strokeColor="@drawable/_campaign_independent_mission__0_res_0x7f080010"
+        android:strokeWidth="4"/>
+    <path
+        android:fillColor="@drawable/_campaign_independent_mission__1_res_0x7f080011"
+        android:pathData="M17.321,31.978a6.661,6.661 0,1 0,13.321 0a6.661,6.661 0,1 0,-13.321 0z"/>
+    <path
+        android:fillColor="@drawable/_campaign_independent_mission__2_res_0x7f080012"
+        android:pathData="M37.241,10.547C37.172,9.927 37.389,9.309 37.83,8.868L44.134,2.564C45.352,1.346 47.437,2.078 47.627,3.79L48.098,8.028L52.338,8.499C54.049,8.69 54.78,10.775 53.563,11.993L47.259,18.297C46.818,18.738 46.2,18.955 45.58,18.886L40.414,18.312C40.27,18.296 40.132,18.266 40.002,18.225L25.037,33.043C24.449,33.625 23.5,33.62 22.917,33.032C22.335,32.444 22.34,31.495 22.928,30.913L37.893,16.095C37.856,15.974 37.83,15.846 37.815,15.713L37.241,10.547ZM40.27,10.667L40.577,13.43L45.172,8.835L44.865,6.072L40.27,10.667ZM42.697,15.55L45.46,15.857L50.055,11.262L47.292,10.955L42.697,15.55Z"
+        android:fillType="evenOdd"/>
+</vector>

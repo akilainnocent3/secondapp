@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_cashout_card"
+    android:padding="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/brand_secondary"
+        android:gravity="center_vertical"
+        android:id="@+id/toggle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debug info"
+        android:drawablePadding="4dp"
+        app:drawableStartCompat="@drawable/ic_arrow_down_1"
+        app:drawableTint="@color/brand_secondary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/brand_secondary"
+        android:id="@+id/lite_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toggle_btn"
+        app:layout_constraintStart_toEndOf="@+id/toggle_btn"
+        app:layout_constraintTop_toTopOf="@+id/toggle_btn"/>
+    <TextView
+        android:textSize="14dp"
+        android:textColor="@color/text_type1_primary"
+        android:id="@+id/debug_info"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggle_btn"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

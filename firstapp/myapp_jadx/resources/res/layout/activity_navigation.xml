@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:fitsSystemWindows="false"
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.navigation.NavigationView
+            android:layout_gravity="right"
+            android:id="@+id/navigationView"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="match_parent">
+            <com.sportygames.commons.components.SGHamburgerMenu
+                android:id="@+id/hamburger_menu"
+                android:background="@color/trans_black_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineSpotShadowColor="@color/trans_black_color"
+                android:outlineAmbientShadowColor="@color/trans_black_color"
+                app:header_color="@color/evenodd_ham_menu_header_color"
+                app:nav_color="@color/evenodd_ham_menu_bg_color"/>
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

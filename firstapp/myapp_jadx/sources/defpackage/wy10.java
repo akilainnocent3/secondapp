@@ -1,0 +1,31 @@
+package defpackage;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final /* synthetic */ class wy10 implements Function0 {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ Object b;
+
+    public /* synthetic */ wy10(Object obj, int i) {
+        this.a = i;
+        this.b = obj;
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        int i = this.a;
+        Object obj = this.b;
+        switch (i) {
+            case 0:
+                ((zy10) obj).o1();
+                break;
+            default:
+                ((Function1) obj).invoke(bri0.f.a);
+                break;
+        }
+        return Unit.a;
+    }
+}

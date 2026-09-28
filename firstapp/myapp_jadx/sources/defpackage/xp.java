@@ -1,0 +1,31 @@
+package defpackage;
+
+import com.sportybet.android.globalpay.pixBtg.deposit.PixBtgDepositFragment;
+import com.sportybet.android.globalpay.pixBtg.deposit.f;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final /* synthetic */ class xp implements Function1 {
+    public final /* synthetic */ int a;
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        switch (this.a) {
+            case 0:
+                sq sqVar = (sq) obj;
+                sqVar.getClass();
+                return sqVar.c;
+            case 1:
+                f.c cVar = (f.c) obj;
+                ohp<Object>[] ohpVarArr = PixBtgDepositFragment.m0;
+                cVar.getClass();
+                return Double.valueOf(cVar.b);
+            default:
+                pb80 pb80Var = (pb80) obj;
+                pb80Var.getClass();
+                mb80.a(pb80Var);
+                return Unit.a;
+        }
+    }
+}

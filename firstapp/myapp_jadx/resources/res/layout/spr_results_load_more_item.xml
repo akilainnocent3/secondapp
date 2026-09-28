@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:textColor="@color/text_type2_tertiary"
+        android:gravity="center"
+        android:id="@+id/results_load_more"
+        android:background="@color/background_general_primary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/common_feedback__no_more_records"
+        android:lineSpacingExtra="20sp"
+        android:fontFamily="sans-serif"/>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/results_loading_progress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+</FrameLayout>

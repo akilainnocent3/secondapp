@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/_10ssp"
+    android:gravity="center"
+    android:id="@+id/viewmore"
+    android:background="@color/sg_color_3656a3"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_29sdp"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:text="@string/more"
+    android:alpha="0.5"
+    android:textAlignment="center"
+    style="@style/TextPrimaryBold"/>

@@ -1,0 +1,9 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class bvj0 extends upv {
+    @Override // defpackage.upv
+    public final void a(vfe0 vfe0Var) {
+        vfe0Var.z("ALTER TABLE `WorkSpec` ADD COLUMN `required_network_request` BLOB NOT NULL DEFAULT x''");
+    }
+}

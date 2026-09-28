@@ -1,0 +1,11 @@
+package defpackage;
+
+import java.util.ArrayList;
+import java.util.Map;
+import kotlin.Pair;
+import kotlin.collections.b;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final class vlr {
+    public static final Map<String, ArrayList<String>> a = kpu.f(new Pair("sporty-hero", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("lobby", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("fruit-hunt", new ArrayList(b.k("sw", "pt-br", "fr-fr", "es-es", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("red-black", new ArrayList(b.k("sw", "pt-br", "fr-fr", "es-es", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("spin-to-win", new ArrayList(b.k("sw", "pt-br", "fr-fr", "es-es", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("even-odd", new ArrayList(b.k("sw", "pt-br", "fr-fr", "es-es", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("spin-match", new ArrayList(b.k("sw", "pt-br", "fr-fr", "es-es", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("spin-da-bottle", new ArrayList(b.k("sw", "pt-br", "fr-fr", "es-es", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("rush", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("pocket-rocket", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("ping-pong", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("sporty-jet", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("galaxy-go", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("sporty-kick", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("sporty-cars", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("one-punch", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("sporty-skills", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))), new Pair("crazy-rider", new ArrayList(b.k("sw", "pt-br", "es-es", "fr-fr", "es-mx", "fr-cm", "pt-mz", "fr-cd"))));
+}

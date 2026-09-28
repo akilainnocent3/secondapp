@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dummy_lobby_placeholder_bg">#f4f4f4</color>
+    <color name="lobby_notification_placeholder_color">#d8d8d8</color>
+    <color name="lobby_notification_play_text">@color/white</color>
+    <color name="notification_color">#daeadd</color>
+    <color name="notification_money_color">#316a32</color>
+    <color name="notification_text_color">#316a32</color>
+</resources>

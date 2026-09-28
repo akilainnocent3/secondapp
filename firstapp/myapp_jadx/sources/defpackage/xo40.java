@@ -1,0 +1,130 @@
+package defpackage;
+
+import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.compose.ui.platform.ComposeView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.RecyclerView;
+import com.google.android.material.navigation.NavigationView;
+import com.sportygames.commons.components.BetBoxContainer;
+import com.sportygames.commons.components.BetChipContainer;
+import com.sportygames.commons.components.ChipSlider;
+import com.sportygames.commons.components.DeckCard;
+import com.sportygames.commons.components.GameHeader;
+import com.sportygames.commons.components.GiftToast;
+import com.sportygames.commons.components.ProgressMeterComponent;
+import com.sportygames.commons.components.SGHamburgerMenu;
+import com.sportygames.commons.components.WalletText;
+import com.sportygames.redblack.components.LevelIndicator;
+import com.sportygames.redblack.components.RoundResult;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class xo40 implements g6i0 {
+    public final FrameLayout A;
+    public final DrawerLayout B;
+    public final AppCompatTextView C;
+    public final GameHeader D;
+    public final ComposeView E;
+    public final GiftToast F;
+    public final SGHamburgerMenu G;
+    public final AppCompatImageView H;
+    public final AppCompatImageView I;
+    public final View J;
+    public final NavigationView K;
+    public final RelativeLayout L;
+    public final TextView M;
+    public final ConstraintLayout N;
+    public final TextView O;
+    public final FrameLayout P;
+    public final AppCompatTextView Q;
+    public final View R;
+    public final View S;
+    public final View T;
+    public final View U;
+    public final ProgressMeterComponent V;
+    public final TextView W;
+    public final ChipSlider X;
+    public final DeckCard Y;
+    public final DeckCard Z;
+    public final CoordinatorLayout a;
+    public final LevelIndicator a0;
+    public final TextView b;
+    public final RoundResult b0;
+    public final ConstraintLayout c;
+    public final ConstraintLayout c0;
+    public final TextView d;
+    public final ConstraintLayout d0;
+    public final BetBoxContainer e;
+    public final RecyclerView e0;
+    public final BetChipContainer f;
+    public final View f0;
+    public final View g0;
+    public final View h0;
+    public final TextView i;
+    public final WalletText i0;
+    public final FrameLayout v;
+    public final FrameLayout w;
+    public final ConstraintLayout y;
+    public final LinearLayoutCompat z;
+
+    public xo40(CoordinatorLayout coordinatorLayout, TextView textView, ConstraintLayout constraintLayout, TextView textView2, BetBoxContainer betBoxContainer, BetChipContainer betChipContainer, TextView textView3, FrameLayout frameLayout, FrameLayout frameLayout2, ConstraintLayout constraintLayout2, LinearLayoutCompat linearLayoutCompat, FrameLayout frameLayout3, DrawerLayout drawerLayout, AppCompatTextView appCompatTextView, GameHeader gameHeader, ComposeView composeView, GiftToast giftToast, SGHamburgerMenu sGHamburgerMenu, AppCompatImageView appCompatImageView, AppCompatImageView appCompatImageView2, View view, NavigationView navigationView, RelativeLayout relativeLayout, TextView textView4, ConstraintLayout constraintLayout3, TextView textView5, FrameLayout frameLayout4, AppCompatTextView appCompatTextView2, View view2, View view3, View view4, View view5, ProgressMeterComponent progressMeterComponent, TextView textView6, ChipSlider chipSlider, DeckCard deckCard, DeckCard deckCard2, LevelIndicator levelIndicator, RoundResult roundResult, ConstraintLayout constraintLayout4, ConstraintLayout constraintLayout5, RecyclerView recyclerView, View view6, View view7, View view8, WalletText walletText) {
+        this.a = coordinatorLayout;
+        this.b = textView;
+        this.c = constraintLayout;
+        this.d = textView2;
+        this.e = betBoxContainer;
+        this.f = betChipContainer;
+        this.i = textView3;
+        this.v = frameLayout;
+        this.w = frameLayout2;
+        this.y = constraintLayout2;
+        this.z = linearLayoutCompat;
+        this.A = frameLayout3;
+        this.B = drawerLayout;
+        this.C = appCompatTextView;
+        this.D = gameHeader;
+        this.E = composeView;
+        this.F = giftToast;
+        this.G = sGHamburgerMenu;
+        this.H = appCompatImageView;
+        this.I = appCompatImageView2;
+        this.J = view;
+        this.K = navigationView;
+        this.L = relativeLayout;
+        this.M = textView4;
+        this.N = constraintLayout3;
+        this.O = textView5;
+        this.P = frameLayout4;
+        this.Q = appCompatTextView2;
+        this.R = view2;
+        this.S = view3;
+        this.T = view4;
+        this.U = view5;
+        this.V = progressMeterComponent;
+        this.W = textView6;
+        this.X = chipSlider;
+        this.Y = deckCard;
+        this.Z = deckCard2;
+        this.a0 = levelIndicator;
+        this.b0 = roundResult;
+        this.c0 = constraintLayout4;
+        this.d0 = constraintLayout5;
+        this.e0 = recyclerView;
+        this.f0 = view6;
+        this.g0 = view7;
+        this.h0 = view8;
+        this.i0 = walletText;
+    }
+
+    @Override // defpackage.g6i0
+    public final View getRoot() {
+        return this.a;
+    }
+}

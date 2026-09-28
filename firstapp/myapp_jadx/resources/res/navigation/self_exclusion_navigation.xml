@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/self_exclusion"
+    app:startDestination="@+id/selfExclusionIntroFragment">
+    <fragment
+        android:label="fragment_self_exclusion_intro"
+        android:name="com.sportybet.android.user.selfexclusion.SelfExclusionIntroFragment"
+        android:id="@+id/selfExclusionIntroFragment">
+        <action
+            android:id="@+id/action_intro_to_setup"
+            app:destination="@+id/selfExclusionSetupFragment"/>
+    </fragment>
+    <fragment
+        android:label="fragment_self_exclusion_setup"
+        android:name="com.sportybet.android.user.selfexclusion.SelfExclusionSetupFragment"
+        android:id="@+id/selfExclusionSetupFragment">
+        <action
+            android:id="@+id/action_setup_to_confirm"
+            app:destination="@+id/selfExclusionConfirmFragment"/>
+    </fragment>
+    <fragment
+        android:label="fragment_self_exclusion_confirm"
+        android:name="com.sportybet.android.user.selfexclusion.SelfExclusionConfirmFragment"
+        android:id="@+id/selfExclusionConfirmFragment">
+        <argument
+            android:name="periodEndDate"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="periodDay"
+            android:defaultValue="0"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/action_confirm_to_intro"
+            app:destination="@+id/selfExclusionIntroFragment"
+            app:popUpTo="@+id/selfExclusionIntroFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

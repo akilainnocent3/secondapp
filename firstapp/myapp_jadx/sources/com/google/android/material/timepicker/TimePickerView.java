@@ -1,0 +1,57 @@
+package com.google.android.material.timepicker;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.GestureDetector;
+import android.view.LayoutInflater;
+import android.view.View;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.google.android.material.button.MaterialButtonToggleGroup;
+import com.google.android.material.chip.Chip;
+import com.sportybet.android.gp.tz.R;
+import defpackage.rwf0;
+
+/* JADX INFO: loaded from: classes4.dex */
+class TimePickerView extends ConstraintLayout {
+    public static final /* synthetic */ int G = 0;
+    public final Chip F;
+
+    public class a implements View.OnClickListener {
+        @Override // android.view.View.OnClickListener
+        public final void onClick(View view) {
+            int i = TimePickerView.G;
+        }
+    }
+
+    public TimePickerView(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        a aVar = new a();
+        LayoutInflater.from(context).inflate(R.layout.material_timepicker, this);
+        MaterialButtonToggleGroup materialButtonToggleGroup = (MaterialButtonToggleGroup) findViewById(R.id.material_clock_period_toggle);
+        materialButtonToggleGroup.A.add(new c());
+        Chip chip = (Chip) findViewById(R.id.material_minute_tv);
+        Chip chip2 = (Chip) findViewById(R.id.material_hour_tv);
+        this.F = chip2;
+        rwf0 rwf0Var = new rwf0(new GestureDetector(getContext(), new d()));
+        chip.setOnTouchListener(rwf0Var);
+        chip2.setOnTouchListener(rwf0Var);
+        chip.setTag(R.id.selection_type, 12);
+        chip2.setTag(R.id.selection_type, 10);
+        chip.setOnClickListener(aVar);
+        chip2.setOnClickListener(aVar);
+        chip.setAccessibilityClassName("android.view.View");
+        chip2.setAccessibilityClassName("android.view.View");
+    }
+
+    @Override // android.view.View
+    public final void onVisibilityChanged(View view, int i) {
+        super.onVisibilityChanged(view, i);
+        if (view == this && i == 0) {
+            this.F.sendAccessibilityEvent(8);
+        }
+    }
+
+    public TimePickerView(Context context, AttributeSet attributeSet) {
+        this(context, attributeSet, 0);
+    }
+}

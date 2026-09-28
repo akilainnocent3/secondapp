@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:background="@color/background_general_primary"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/text_type1_primary"
+            android:id="@+id/one_two_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/common_bet_ways__2up"
+            android:drawablePadding="3dp"
+            app:drawableLeftCompat="@drawable/icon_2up"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:textAppearance="@style/B2_R"
+            android:textColor="@color/text_type1_primary"
+            android:id="@+id/one_two_up_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/component_betslip__1up_and_2up_intro"
+            app:layout_constraintEnd_toEndOf="@+id/one_two_up"
+            app:layout_constraintStart_toStartOf="@+id/one_two_up"
+            app:layout_constraintTop_toBottomOf="@+id/one_two_up"
+            app:layout_goneMarginTop="0dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

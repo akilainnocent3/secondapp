@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="48dp"
+    android:width="125dp"
+    android:viewportWidth="125"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@drawable/_ic_football_light__0_res_0x7f080045"
+        android:pathData="M0,0h125v48h-125z"
+        android:strokeAlpha="0.7"
+        android:fillAlpha="0.7"/>
+    <path
+        android:fillColor="@drawable/_ic_football_light__1_res_0x7f080046"
+        android:pathData="M0,12h125v24h-125z"
+        android:strokeAlpha="0.7"
+        android:fillAlpha="0.7"/>
+</vector>

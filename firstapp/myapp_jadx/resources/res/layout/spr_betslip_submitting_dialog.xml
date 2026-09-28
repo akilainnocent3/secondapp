@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.sportybet.android.widget.ProgressButton
+        android:id="@+id/submitting"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:loadingText="@string/common_functions__submitting"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

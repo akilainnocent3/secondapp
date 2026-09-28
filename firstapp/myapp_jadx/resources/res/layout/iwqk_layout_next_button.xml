@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/main_layout"
+        android:background="@drawable/bg_filled_brand_secondary"
+        android:duplicateParentState="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:textAppearance="@style/H4_B"
+            android:textColor="@color/text_color_text_type2_primary"
+            android:gravity="center_horizontal"
+            android:id="@+id/next_button_title"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/component_betslip__place_bet"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:textAppearance="@style/B2_M"
+            android:textColor="@color/text_color_text_type2_primary"
+            android:gravity="center_horizontal"
+            android:id="@+id/content"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"/>
+    </LinearLayout>
+</merge>

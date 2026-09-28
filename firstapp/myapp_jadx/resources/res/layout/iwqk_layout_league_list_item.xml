@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_type1_primary"
+    android:layout_width="match_parent"
+    android:layout_height="20dp">
+    <ImageView
+        android:id="@+id/imageview_league_icon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/B2_M"
+        android:textColor="@color/text_type1_tertiary"
+        android:gravity="center_vertical"
+        android:id="@+id/textview_league_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/market_guide"
+        app:layout_constraintStart_toEndOf="@+id/imageview_league_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/market_guide"
+        android:visibility="invisible"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic__tips__fill"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/icon_secondary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

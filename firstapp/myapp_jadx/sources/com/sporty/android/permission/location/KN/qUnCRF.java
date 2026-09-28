@@ -1,0 +1,58 @@
+package com.sporty.android.permission.location.KN;
+
+/* JADX INFO: loaded from: classes.dex */
+public class qUnCRF {
+    public static String AtAeeQQvKuev;
+    public static String BJjvZooIr;
+    public static String CnpiWcdzmG;
+    public static String CqRHhMsXLkBXR;
+    public static String DHyGTqRrDzFQHWA;
+    public static String DPZg;
+    public static String DpxiPWFIT;
+    public static String GyPjHm;
+    public static String HAUylXffWLTht;
+    public static String HZVLrS;
+    public static String HjjyuZwOwrcmZgk;
+    public static String IiF;
+    public static String LvwedeiC;
+    public static String MOlVmlXZtlXIYe;
+    public static String Nzky;
+    public static String PRlIgUWRIC;
+    public static String PZSAFJYEQ;
+    public static String Qxe;
+    public static String SXvPfaGFWDbncu;
+    public static String SoHGnzrgl;
+    public static String SpiyhBSLcEKOCz;
+    public static String Svy;
+    public static String UzlASOMKYkLbQS;
+    public static String VCzTejunsKELM;
+    public static String WdTpMRAZliT;
+    public static String WoOGHRuQ;
+    public static String YJAKe;
+    public static String ZBMUWJxd;
+    public static String ZmmldlXTB;
+    public static String bBt;
+    public static String dUeDz;
+    public static String eLMPhDypXTdYTon;
+    public static String hUW;
+    public static String iFRtcuphPcwob;
+    public static String iONraBqAlwsvHH;
+    public static String iajtPtk;
+    public static String jSeajHdGYqBQ;
+    public static String kIEZujdpr;
+    public static String lRtMMYrcuEqVA;
+    public static String lSTluf;
+    public static String nltkiJkSYfIPPRj;
+    public static String oqoKquvPIVC;
+    public static String qintH;
+    public static String rTWAaPtbXsFP;
+    public static String srlWLji;
+    public static String ufl;
+    public static String uuFhKVT;
+    public static String vee;
+    public static String xFBttcsW;
+    public static String yacDJgxCDjU;
+    public static String yoMAtYunguiWBI;
+    public static String zZPXQpsHeBzQUZ;
+    public static String zdHlaGeZRebP;
+}

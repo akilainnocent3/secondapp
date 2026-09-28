@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/header_part"
+            android:visibility="gone"
+            layout="@layout/spr_loading_prematch_event_part0"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+        <include layout="@layout/spr_loading_prematch_event_part3"/>
+        <include layout="@layout/spr_loading_prematch_event_part1"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+        <include layout="@layout/spr_loading_prematch_event_part1"/>
+        <include layout="@layout/spr_loading_prematch_event_part3"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+        <include layout="@layout/spr_loading_prematch_event_part2"/>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

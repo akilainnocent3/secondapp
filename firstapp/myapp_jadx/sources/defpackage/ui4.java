@@ -1,0 +1,172 @@
+package defpackage;
+
+import com.sporty.android.core.model.tracking.AnalyticsParam;
+import com.sportybet.android.account.Qr.QQWMbKFOuTf;
+import com.sportybet.plugin.webcontainer.caipiao.jsplugin.JsPluginCommon;
+import com.sportygames.newcms.CMSRes;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class ui4 extends jp5 {
+    public final CMSRes A;
+    public final CMSRes B;
+    public final CMSRes C;
+    public final CMSRes D;
+    public final CMSRes E;
+    public final CMSRes F;
+    public final CMSRes G;
+    public final CMSRes H;
+    public final CMSRes I;
+    public final CMSRes J;
+    public final CMSRes K;
+    public final CMSRes L;
+    public final CMSRes M;
+    public final CMSRes N;
+    public final CMSRes O;
+    public final CMSRes P;
+    public final CMSRes Q;
+    public final CMSRes R;
+    public final CMSRes S;
+    public final CMSRes T;
+    public final CMSRes U;
+    public final CMSRes V;
+    public final CMSRes W;
+    public final CMSRes X;
+    public final CMSRes Y;
+    public final CMSRes Z;
+    public final CMSRes a0;
+    public final int b;
+    public final CMSRes b0;
+    public final CMSRes c;
+    public final CMSRes c0;
+    public final CMSRes d;
+    public final CMSRes d0;
+    public final CMSRes e;
+    public final CMSRes e0;
+    public final CMSRes f;
+    public final CMSRes f0;
+    public final CMSRes g;
+    public final CMSRes g0;
+    public final CMSRes h;
+    public final CMSRes h0;
+    public final CMSRes i;
+    public final CMSRes i0;
+    public final CMSRes j;
+    public final CMSRes j0;
+    public final CMSRes k;
+    public final CMSRes k0;
+    public final CMSRes l;
+    public final CMSRes l0;
+    public final CMSRes m;
+    public final CMSRes m0;
+    public final CMSRes n;
+    public final CMSRes n0;
+    public final CMSRes o;
+    public final CMSRes o0;
+    public final CMSRes p;
+    public final CMSRes p0;
+    public final CMSRes q;
+    public final CMSRes q0;
+    public final CMSRes r;
+    public final CMSRes r0;
+    public final CMSRes s;
+    public final CMSRes s0;
+    public final CMSRes t;
+    public final CMSRes t0;
+    public final CMSRes u;
+    public final CMSRes u0;
+    public final CMSRes v;
+    public final CMSRes v0;
+    public final CMSRes w;
+    public final CMSRes x;
+    public final CMSRes y;
+    public final CMSRes z;
+
+    /* JADX INFO: loaded from: classes7.dex */
+    public static final class a {
+    }
+
+    @Override // defpackage.jp5
+    public final int t() {
+        return this.b;
+    }
+
+    public ui4(on5 on5Var) {
+        super(on5Var);
+        this.b = a.class.hashCode();
+        this.c = on5.h(this, this, "sg_bonus_cup_game", "spine_bonus_cup_world_cup", nn5.SpineAnimation, null, 8);
+        nn5 nn5Var = nn5.Image;
+        this.d = on5.h(this, this, "sg_bonus_cup_game", "full_screen_background", nn5Var, null, 8);
+        this.e = on5.h(this, this, "sg_bonus_cup_game", "sound_off_image", nn5Var, null, 8);
+        nn5 nn5Var2 = nn5.String;
+        this.f = on5.h(this, this, "sg_bonus_cup_game", AnalyticsParam.GAMES_RECOMMENDATION_GAME_NAME, nn5Var2, null, 8);
+        this.g = on5.h(this, this, "sg_bonus_cup_game", "image_ball", nn5Var, null, 8);
+        this.h = on5.h(this, this, "sg_bonus_cup_game", "image_ball_trail", nn5Var, null, 8);
+        this.i = on5.h(this, this, "sg_bonus_cup_game", "image_button_left", nn5Var, null, 8);
+        this.j = on5.h(this, this, "sg_bonus_cup_game", "image_button_left_disabled", nn5Var, null, 8);
+        this.k = on5.h(this, this, "sg_bonus_cup_game", "image_button_left_clicking", nn5Var, null, 8);
+        this.l = on5.h(this, this, "sg_bonus_cup_game", "image_cup", nn5Var, null, 8);
+        this.m = on5.h(this, this, "sg_bonus_cup_game", "image_glow_cup", nn5Var, null, 8);
+        this.n = on5.h(this, this, "sg_bonus_cup_game", "image_golden_ball_glow", nn5Var, null, 8);
+        this.o = on5.h(this, this, "sg_bonus_cup_game", "image_golden_ball", nn5Var, null, 8);
+        this.p = on5.h(this, this, "sg_bonus_cup_game", "generic_network_error_message", null, null, 12);
+        this.q = on5.h(this, this, "sg_bonus_cup_game", "try_again_later", null, null, 12);
+        this.r = on5.h(this, this, "sg_bonus_cup_game", "session_expired_image", nn5Var, null, 8);
+        this.s = on5.h(this, this, "sg_bonus_cup_game", "session_expired", nn5Var2, null, 8);
+        this.t = on5.h(this, this, "sg_bonus_cup_game", "back_to_lobby", nn5Var2, null, 8);
+        this.u = on5.h(this, this, "sg_bonus_cup_game", "return_to_game", nn5Var2, null, 8);
+        this.v = on5.h(this, this, "sg_bonus_cup_game", "to_unlock_game", nn5Var2, null, 8);
+        this.w = on5.h(this, this, "sg_bonus_cup_game", "chance_to_win", nn5Var2, null, 8);
+        this.x = on5.h(this, this, "sg_bonus_cup_game", "place_n_more_bets", nn5Var2, null, 8);
+        this.y = on5.h(this, this, "sg_bonus_cup_game", "mission_conditions_both", nn5Var2, null, 8);
+        this.z = on5.h(this, this, "sg_bonus_cup_game", "mission_conditions_games_only", nn5Var2, null, 8);
+        this.A = on5.h(this, this, "sg_bonus_cup_game", "stake_count_mission_title", nn5Var2, null, 8);
+        this.B = on5.h(this, this, "sg_bonus_cup_game", "rewards_claimed_image", nn5Var, null, 8);
+        this.C = on5.h(this, this, "sg_bonus_cup_game", "all_rewards_claimed", nn5Var2, null, 8);
+        this.D = on5.h(this, this, "sg_bonus_cup_game", "more_rewards_coming_soon", nn5Var2, null, 8);
+        this.E = on5.h(this, this, "sg_bonus_cup_game", "reward_won_text", nn5Var2, null, 8);
+        this.F = on5.h(this, this, "sg_bonus_cup_game", "stars_image", nn5Var, null, 8);
+        this.G = on5.h(this, this, "sg_bonus_cup_game", "game_over", nn5Var2, null, 8);
+        this.H = on5.h(this, this, "sg_bonus_cup_game", "better_luck_next_time", nn5Var2, null, 8);
+        this.I = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_title", nn5Var2, null, 8);
+        this.J = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_subtitle", nn5Var2, null, 8);
+        this.K = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_step_1_text", nn5Var2, null, 8);
+        this.L = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_step1_image", nn5Var, null, 8);
+        this.M = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_step_2_text", nn5Var2, null, 8);
+        this.N = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_step2_image", nn5Var, null, 8);
+        this.O = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_step_3_text", nn5Var2, null, 8);
+        this.P = on5.h(this, this, "sg_bonus_cup_game", "how_to_play_step3_image", nn5Var, null, 8);
+        this.Q = on5.h(this, this, "sg_bonus_cup_game", AnalyticsParam.EVENT_PARAM_STEP, nn5Var2, null, 8);
+        this.R = on5.h(this, this, "sg_bonus_cup_game", "free_game_popup_title", null, null, 12);
+        this.S = on5.h(this, this, "sg_bonus_cup_game", "free_game_popup_subtitle", null, null, 12);
+        this.T = on5.h(this, this, "sg_bonus_cup_game", "free_game_popup_content", null, null, 12);
+        this.U = on5.h(this, this, "sg_bonus_cup_game", "play_now_text", null, null, 12);
+        this.V = on5.h(this, this, "sg_bonus_cup_game", "how_it_works", null, null, 12);
+        this.W = on5.h(this, this, "sg_bonus_cup_game", "free_game_spark_image", nn5Var, null, 8);
+        this.X = on5.h(this, this, "sg_bonus_cup_game", "leave_game_title", null, null, 12);
+        this.Y = on5.h(this, this, "sg_bonus_cup_game", "leave_game_content", null, null, 12);
+        this.Z = on5.h(this, this, "sg_bonus_cup_game", "leave", null, null, 12);
+        this.a0 = on5.h(this, this, "sg_bonus_cup_game", "stay", null, null, 12);
+        this.b0 = on5.h(this, this, "sg_bonus_cup_game", "resume_game_title", null, null, 12);
+        this.c0 = on5.h(this, this, "sg_bonus_cup_game", "resume_game_content", null, null, 12);
+        this.d0 = on5.h(this, this, "sg_bonus_cup_game", JsPluginCommon.GAMES_EXIT, null, null, 12);
+        this.e0 = on5.h(this, this, "sg_bonus_cup_game", "resume", null, null, 12);
+        this.f0 = on5.h(this, this, "sg_bonus_cup_game", "background_music", nn5.LongMusic, null, 8);
+        nn5 nn5Var3 = nn5.ShortSound;
+        this.g0 = on5.h(this, this, "sg_bonus_cup_game", "game_over_sound", nn5Var3, null, 8);
+        this.h0 = on5.h(this, this, "sg_bonus_cup_game", "start_whistle_sound", nn5Var3, null, 8);
+        this.i0 = on5.h(this, this, "sg_bonus_cup_game", "ball_missed_sound", nn5Var3, null, 8);
+        this.j0 = on5.h(this, this, "sg_bonus_cup_game", "cup_rebound_sound", nn5Var3, null, 8);
+        this.k0 = on5.h(this, this, "sg_bonus_cup_game", "wall_rebound_sound", nn5Var3, null, 8);
+        this.l0 = on5.h(this, this, "sg_bonus_cup_game", QQWMbKFOuTf.IOKn, nn5Var3, null, 8);
+        this.m0 = on5.h(this, this, "sg_bonus_cup_game", "golden_ball_caught_sound", nn5Var3, null, 8);
+        this.n0 = on5.h(this, this, "sg_bonus_cup_game", "yellow_card_caught_sound", nn5Var3, null, 8);
+        this.o0 = on5.h(this, this, "sg_bonus_cup_game", "red_card_caught_sound", nn5Var3, null, 8);
+        this.p0 = on5.h(this, this, "sg_bonus_cup_game", "ball_becomes_golden_sound", nn5Var3, null, 8);
+        this.q0 = on5.h(this, this, "sg_bonus_cup_game", "countdown_three_sound", nn5Var3, null, 8);
+        this.r0 = on5.h(this, this, "sg_bonus_cup_game", "countdown_two_sound", nn5Var3, null, 8);
+        this.s0 = on5.h(this, this, "sg_bonus_cup_game", "countdown_one_sound", nn5Var3, null, 8);
+        this.t0 = on5.h(this, this, "sg_bonus_cup_game", "catch_balls_instruction", null, null, 12);
+        this.u0 = on5.h(this, this, "sg_bonus_cup_game", "avoid_cards_instruction", null, null, 12);
+        this.v0 = on5.h(this, this, "sg_bonus_cup_game", "bonus_cup_font", nn5.Font, null, 8);
+    }
+}

@@ -1,0 +1,77 @@
+package com.google.android.recaptcha.internal;
+
+import android.os.Build;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicReference;
+
+/* JADX INFO: loaded from: classes4.dex */
+final class zznz extends zzns {
+    static final boolean zza;
+    static final boolean zzb;
+    static final boolean zzc;
+    private static final AtomicReference zzd;
+    private static final AtomicLong zze;
+    private static final ConcurrentLinkedQueue zzf;
+    private volatile zznb zzg;
+
+    static {
+        String str = Build.FINGERPRINT;
+        zza = str == null || "robolectric".equals(str);
+        String str2 = Build.HARDWARE;
+        zzb = "goldfish".equals(str2) || "ranchu".equals(str2);
+        String str3 = Build.TYPE;
+        zzc = "eng".equals(str3) || "userdebug".equals(str3);
+        zzd = new AtomicReference();
+        zze = new AtomicLong();
+        zzf = new ConcurrentLinkedQueue();
+    }
+
+    private zznz(String str) {
+        super(str);
+        if (zza || zzb) {
+            this.zzg = new zznt().zza(zza());
+        } else if (zzc) {
+            this.zzg = zzoe.zzc().zzb(false).zza(zza());
+        } else {
+            this.zzg = null;
+        }
+    }
+
+    public static zznb zzb(String str) {
+        char cCharAt;
+        AtomicReference atomicReference = zzd;
+        if (atomicReference.get() != null) {
+            return ((zznu) atomicReference.get()).zza(str);
+        }
+        int length = str.length();
+        do {
+            length--;
+            if (length < 0) {
+                break;
+            }
+            cCharAt = str.charAt(length);
+            if (cCharAt == '$') {
+                str = str.replace('$', '.');
+                break;
+            }
+        } while (cCharAt != '.');
+        zznz zznzVar = new zznz(str);
+        ConcurrentLinkedQueue concurrentLinkedQueue = zznx.zza;
+        concurrentLinkedQueue.offer(zznzVar);
+        if (atomicReference.get() != null) {
+            while (true) {
+                zznz zznzVar2 = (zznz) concurrentLinkedQueue.poll();
+                if (zznzVar2 == null) {
+                    break;
+                }
+                zznzVar2.zzg = ((zznu) atomicReference.get()).zza(zznzVar2.zza());
+            }
+            if (((zzny) zzf.poll()) != null) {
+                zze.getAndDecrement();
+                throw null;
+            }
+        }
+        return zznzVar;
+    }
+}

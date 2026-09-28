@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/background_type1_quaternary"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:paddingVertical="30dp"
+    app:layout_gravity="center">
+    <TextView
+        android:textSize="@dimen/she_share_text_size"
+        android:textColor="@color/absolute_type2"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_twitter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/common_functions__x"
+        android:drawablePadding="8dp"
+        android:layout_weight="1"
+        app:drawableTopCompat="@drawable/ic_x"/>
+    <TextView
+        android:textSize="@dimen/she_share_text_size"
+        android:textColor="@color/absolute_type2"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_whatsapp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/common_functions__whatsapp"
+        android:drawablePadding="8dp"
+        android:layout_weight="1"
+        app:drawableTopCompat="@drawable/ic_whatsapp"/>
+    <TextView
+        android:textSize="@dimen/she_share_text_size"
+        android:textColor="@color/absolute_type2"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_copylink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/common_functions__copy_link"
+        android:drawablePadding="8dp"
+        android:layout_weight="1"
+        app:drawableTopCompat="@drawable/ic_share_copylink"/>
+</LinearLayout>

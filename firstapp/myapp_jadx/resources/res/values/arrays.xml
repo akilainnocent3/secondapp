@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="booking_code_countries_football">
+        <item>@string/common_functions__ghana</item>
+    </array>
+    <array name="cms_array">
+        <item>sg_common_dialog_message</item>
+        <item>sg_chat</item>
+        <item>sg_fbg_dialog</item>
+        <item>sg_ham_menu</item>
+        <item>sg_input_dialog</item>
+        <item>sg_bethistory</item>
+        <item>sg_common</item>
+        <item>sg_exit_dialog</item>
+        <item>sg_game_common</item>
+        <item>currency_symbols</item>
+        <item>sg_onboarding</item>
+        <item>common_functions</item>
+        <item>sg_rain</item>
+        <item>sg_crash_games</item>
+        <item>sg_tournament</item>
+        <item>sg_vip</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_common_ui">
+        <item>@array/com_google_android_gms_fonts_certs_dev_common_ui</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod_common_ui</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev_common_ui">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod_common_ui">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="crazy_rider_array">
+        <item>main_bg_png</item>
+        <item>stars_png</item>
+        <item>ham_menu_png</item>
+    </array>
+    <array name="crypto_fingerprint_fallback_prefixes">
+    </array>
+    <array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </array>
+    <array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="even_odd_images_array">
+        <item>@string/key_ham_bg_image</item>
+        <item>@string/key_table_text_img_android</item>
+        <item>@string/key_even_odd_table_android_png</item>
+        <item>@string/key_table_glow_png</item>
+        <item>@string/key_even_win_png</item>
+        <item>@string/key_even_lose_png</item>
+        <item>@string/key_odd_win_png</item>
+        <item>@string/key_odd_lose_png</item>
+        <item>@string/key_tripple_png</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="fb_read_permissions">
+        <item>public_profile</item>
+        <item>email</item>
+    </array>
+    <array name="fruit_hunt_array_bg">
+        <item>fruit_apple_cut_left_webp</item>
+        <item>fruit_avocado_cut_left_webp</item>
+        <item>fruit_banana_cut_left_webp</item>
+        <item>fruit_coconut_cut_left_webp</item>
+        <item>fruit_dragon_fruit_cut_left_webp</item>
+        <item>fruit_guava_cut_left_webp</item>
+        <item>fruit_kiwi_cut_left_webp</item>
+        <item>fruit_mango_cut_left_webp</item>
+        <item>fruit_orange_cut_left_webp</item>
+        <item>fruit_papaya_cut_left_webp</item>
+        <item>fruit_pear_cut_left_webp</item>
+        <item>fruit_pineapple_cut_left_webp</item>
+        <item>fruit_pomegranate_cut_left_webp</item>
+        <item>fruit_strawberry_cut_left_webp</item>
+        <item>fruit_watermelon_cut_left_webp</item>
+        <item>fruit_apple_cut_left_rotten_webp</item>
+        <item>fruit_avocado_cut_left_rotten_webp</item>
+        <item>fruit_banana_cut_left_rotten_webp</item>
+        <item>fruit_coconut_cut_left_rotten_webp</item>
+        <item>fruit_dragon_fruit_cut_left_rotten_webp</item>
+        <item>fruit_guava_cut_left_rotten_webp</item>
+        <item>fruit_kiwi_cut_left_rotten_webp</item>
+        <item>fruit_mango_cut_left_rotten_webp</item>
+        <item>fruit_orange_cut_left_rotten_webp</item>
+        <item>fruit_papaya_cut_left_rotten_webp</item>
+        <item>fruit_pear_cut_left_rotten_webp</item>
+        <item>fruit_pineapple_cut_left_rotten_webp</item>
+        <item>fruit_pomegranate_cut_left_rotten_webp</item>
+        <item>fruit_strawberry_cut_left_rotten_webp</item>
+        <item>fruit_watermelon_cut_left_rotten_webp</item>
+        <item>fruit_apple_cut_right_webp</item>
+        <item>fruit_avocado_cut_right_webp</item>
+        <item>fruit_banana_cut_right_webp</item>
+        <item>fruit_coconut_cut_right_webp</item>
+        <item>fruit_dragon_fruit_cut_right_webp</item>
+        <item>fruit_guava_cut_right_webp</item>
+        <item>fruit_kiwi_cut_right_webp</item>
+        <item>fruit_mango_cut_right_webp</item>
+        <item>fruit_orange_cut_right_webp</item>
+        <item>fruit_papaya_cut_right_webp</item>
+        <item>fruit_pear_cut_right_webp</item>
+        <item>fruit_pineapple_cut_right_webp</item>
+        <item>fruit_pomegranate_cut_right_webp</item>
+        <item>fruit_strawberry_cut_right_webp</item>
+        <item>fruit_watermelon_cut_right_webp</item>
+        <item>fruit_apple_cut_right_rotten_webp</item>
+        <item>fruit_avocado_cut_right_rotten_webp</item>
+        <item>fruit_banana_cut_right_rotten_webp</item>
+        <item>fruit_coconut_cut_right_rotten_webp</item>
+        <item>fruit_dragon_fruit_cut_right_rotten_webp</item>
+        <item>fruit_guava_cut_right_rotten_webp</item>
+        <item>fruit_kiwi_cut_right_rotten_webp</item>
+        <item>fruit_mango_cut_right_rotten_webp</item>
+        <item>fruit_orange_cut_right_rotten_webp</item>
+        <item>fruit_papaya_cut_right_rotten_webp</item>
+        <item>fruit_pear_cut_right_rotten_webp</item>
+        <item>fruit_pineapple_cut_right_rotten_webp</item>
+        <item>fruit_pomegranate_cut_right_rotten_webp</item>
+        <item>fruit_strawberry_cut_right_rotten_webp</item>
+        <item>fruit_watermelon_cut_right_rotten_webp</item>
+        <item>fruit_apple_bet_history_webp</item>
+        <item>fruit_avocado_bet_history_webp</item>
+        <item>fruit_banana_bet_history_webp</item>
+        <item>fruit_coconut_bet_history_webp</item>
+        <item>fruit_dragon_fruit_bet_history_webp</item>
+        <item>fruit_guava_bet_history_webp</item>
+        <item>fruit_kiwi_bet_history_webp</item>
+        <item>fruit_mango_bet_history_webp</item>
+        <item>fruit_orange_bet_history_webp</item>
+        <item>fruit_papaya_bet_history_webp</item>
+        <item>fruit_pear_bet_history_webp</item>
+        <item>fruit_pineapple_bet_history_webp</item>
+        <item>fruit_pomegranate_bet_history_webp</item>
+        <item>fruit_strawberry_bet_history_webp</item>
+        <item>fruit_watermelon_bet_history_webp</item>
+        <item>fruit_apple_bet_history_rotten_webp</item>
+        <item>fruit_avocado_bet_history_rotten_webp</item>
+        <item>fruit_banana_bet_history_rotten_webp</item>
+        <item>fruit_coconut_bet_history_rotten_webp</item>
+        <item>fruit_dragon_fruit_bet_history_rotten_webp</item>
+        <item>fruit_guava_bet_history_rotten_webp</item>
+        <item>fruit_kiwi_bet_history_rotten_webp</item>
+        <item>fruit_mango_bet_history_rotten_webp</item>
+        <item>fruit_orange_bet_history_rotten_webp</item>
+        <item>fruit_papaya_bet_history_rotten_webp</item>
+        <item>fruit_pear_bet_history_rotten_webp</item>
+        <item>fruit_pineapple_bet_history_rotten_webp</item>
+        <item>fruit_pomegranate_bet_history_rotten_webp</item>
+        <item>fruit_strawberry_bet_history_rotten_webp</item>
+        <item>fruit_watermelon_bet_history_rotten_webp</item>
+    </array>
+    <array name="galaxy_go_array">
+        <item>main_bg_png</item>
+        <item>stars_png</item>
+        <item>ham_menu_png</item>
+    </array>
+    <array name="getting_started">
+        <item>@string/sg_sporty_soccer_getting_started_msg1</item>
+        <item>@string/sg_sporty_soccer_getting_started_msg2</item>
+        <item>@string/sg_sporty_soccer_getting_started_msg3</item>
+    </array>
+    <array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </array>
+    <array name="images_array">
+        <item>win_wheel_webp</item>
+        <item>fruit_apple_webp</item>
+        <item>fruit_avocado_webp</item>
+        <item>fruit_banana_webp</item>
+        <item>fruit_coconut_webp</item>
+        <item>fruit_dragon_fruit_webp</item>
+        <item>fruit_guava_webp</item>
+        <item>fruit_kiwi_webp</item>
+        <item>fruit_mango_webp</item>
+        <item>fruit_orange_webp</item>
+        <item>fruit_papaya_webp</item>
+        <item>fruit_pear_webp</item>
+        <item>fruit_pineapple_webp</item>
+        <item>fruit_pomegranate_webp</item>
+        <item>fruit_strawberry_webp</item>
+        <item>fruit_watermelon_webp</item>
+        <item>bet_fixed_coeff_webp</item>
+    </array>
+    <array name="important_notes">
+        <item>@string/sg_sporty_soccer_important_notes_msg1</item>
+        <item>@string/sg_sporty_soccer_important_notes_msg2</item>
+    </array>
+    <array name="interactive_market_mock_step">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3+</item>
+    </array>
+    <array name="introduction">
+        <item>@string/sg_sporty_soccer_introduction</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition</item>
+        <item>@string/sg_sporty_soccer_getting_started</item>
+        <item>@string/sg_sporty_soccer_practice_mode</item>
+        <item>@string/sg_sporty_soccer_real_money_mode</item>
+        <item>@string/sg_sporty_soccer_important_notes</item>
+        <item>@string/sg_common_helps_title_t_and_c</item>
+    </array>
+    <array name="keyguard_biometric_and_credential_exclude_vendors">
+    </array>
+    <array name="language_code_list">
+        <item>en</item>
+        <item>sw</item>
+        <item>pt-BR</item>
+        <item>pt-mz</item>
+        <item>es-mx</item>
+        <item>fr-cm</item>
+    </array>
+    <array name="language_list">
+        <item>@string/english</item>
+        <item>@string/swahili</item>
+        <item>@string/portuguese</item>
+        <item>@string/portuguese</item>
+        <item>@string/spanish</item>
+        <item>@string/french</item>
+    </array>
+    <array name="lucky_wheel_dialog_msg_gradient">
+        <item>@color/dialog_msg_gradient_1</item>
+        <item>@color/dialog_msg_gradient_2</item>
+        <item>@color/dialog_msg_gradient_3</item>
+    </array>
+    <array name="lucky_wheel_gradient">
+        <item>@color/lucky_wheel_gradient_1</item>
+        <item>@color/lucky_wheel_gradient_2</item>
+        <item>@color/lucky_wheel_gradient_3</item>
+        <item>@color/lucky_wheel_gradient_4</item>
+        <item>@color/lucky_wheel_gradient_5</item>
+        <item>@color/lucky_wheel_gradient_6</item>
+        <item>@color/lucky_wheel_gradient_7</item>
+        <item>@color/lucky_wheel_gradient_8</item>
+    </array>
+    <array name="my_leauges_tab">
+        <item>@string/my_favourites_settings__top_leagues</item>
+        <item>@string/my_favourites_settings__a_z_leagues</item>
+    </array>
+    <array name="opt_list">
+        <item>@string/common_otp_verify__sms_otp</item>
+        <item>@string/common_otp_verify__voice_otp</item>
+    </array>
+    <array name="pocket_rocket_array">
+        <item>blue_rocket_no_fire_png</item>
+        <item>purple_rocket_no_fire_png</item>
+        <item>red_rocket_no_fire_png</item>
+        <item>background_space_png</item>
+        <item>recent_round_history_png</item>
+        <item>blue_trail_png</item>
+        <item>purple_trail_png</item>
+        <item>red_trail_png</item>
+        <item>rocket_blast_png</item>
+        <item>purple_rocket_with_fire_png</item>
+        <item>blue_rocket_with_fire_png</item>
+        <item>red_rocket_with_fire_png</item>
+        <item>earth_png</item>
+        <item>saturn_png</item>
+        <item>neptune_png</item>
+        <item>mercury_png</item>
+        <item>mars_png</item>
+        <item>venus_png</item>
+        <item>satellite_png</item>
+        <item>space_station_png</item>
+        <item>spaceship_png</item>
+        <item>shooting_meteor_png</item>
+    </array>
+    <array name="practice_mode">
+        <item>@string/sg_sporty_soccer_practice_mode_msg</item>
+    </array>
+    <array name="preloaded_fonts">
+        <item>@font/roboto</item>
+        <item>@font/roboto_black</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_italic</item>
+        <item>@font/roboto_medium</item>
+    </array>
+    <array name="real_money_mode">
+        <item>@string/sg_sporty_soccer_real_money_mode_msg1</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg2</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg3</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg31</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg311</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg312</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg32</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg4</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_msg5</item>
+    </array>
+    <array name="real_money_mode_definition">
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg1</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg2</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg3</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg4</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg5</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg6</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg7</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg8</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg9</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg10</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg11</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg12</item>
+        <item>@string/sg_sporty_soccer_real_money_mode_definition_msg13</item>
+    </array>
+    <array name="real_money_mode_index">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3.1</item>
+        <item>3.1.1</item>
+        <item>3.1.2</item>
+        <item>3.2</item>
+    </array>
+    <array name="red_black_images_array">
+        <item>@string/key_joker_png</item>
+        <item>@string/key_ham_bg_image</item>
+        <item>@string/key_table_android_png</item>
+        <item>@string/key_cards_group_png</item>
+        <item>@string/key_card_clubs_png</item>
+        <item>@string/key_card_diamonds_png</item>
+        <item>@string/key_card_spades_png</item>
+        <item>@string/key_card_hearts_png</item>
+        <item>@string/key_win_black_png</item>
+        <item>@string/key_lose_green_png</item>
+        <item>@string/key_lose_red_png</item>
+        <item>@string/key_win_red_png</item>
+        <item>@string/key_lose_black_png</item>
+    </array>
+    <array name="rush_images_array">
+        <item>@string/key_ham_bg_image</item>
+        <item>@string/key_background_android_webp</item>
+        <item>@string/key_bet_board_png</item>
+        <item>@string/key_exhaust_fire_png</item>
+        <item>@string/key_car_png</item>
+        <item>@string/key_auto_bet_png</item>
+        <item>@string/key_place_bet_png</item>
+        <item>@string/key_stop_auto_bet_png</item>
+    </array>
+    <array name="self_exclusion_period">
+        <item>@string/self_exclusion__hours_24</item>
+        <item>@string/self_exclusion__hours_48</item>
+        <item>@string/self_exclusion__days_7</item>
+        <item>@string/self_exclusion__days_30</item>
+        <item>@string/self_exclusion__days_90</item>
+    </array>
+    <array name="sg_search_most_played_games">
+        <item>Most Played Games</item>
+        <item>Most Played Games</item>
+    </array>
+    <array name="sg_search_top_games">
+        <item>Top Games</item>
+        <item>Top Games</item>
+    </array>
+    <array name="sg_search_trending_game">
+        <item>Trending games</item>
+        <item>Trending games</item>
+    </array>
+    <array name="spin2win_array">
+        <item>table_webp</item>
+        <item>howtoplay_webp</item>
+        <item>glow_webp</item>
+        <item>red_bar_png</item>
+        <item>wheel_webp</item>
+    </array>
+    <array name="spin_da_bottle_array">
+        <item>@string/key_bet_history_down_img</item>
+        <item>@string/key_bet_history_middle_img</item>
+        <item>@string/key_bet_history_up_img</item>
+        <item>@string/key_bg_board_android</item>
+        <item>@string/key_ham_bg_image</item>
+        <item>@string/key_background_png</item>
+        <item>@string/key_background_htp_png</item>
+        <item>@string/key_win_down_png</item>
+        <item>@string/key_middle_png</item>
+        <item>@string/key_lose_down_png</item>
+        <item>@string/key_lose_up_png</item>
+        <item>@string/key_win_up_png</item>
+        <item>@string/key_bottle_png</item>
+    </array>
+    <array name="spin_match_array">
+        <item>crown_webp</item>
+        <item>delete_all_png</item>
+        <item>undo_png</item>
+        <item>hollow_background_webp</item>
+        <item>background_webp</item>
+        <item>right_pin_webp</item>
+        <item>multiplier_glow_webp</item>
+        <item>left_pin_webp</item>
+        <item>multiplier_background_png</item>
+    </array>
+    <array name="sporty_car_array">
+        <item>main_bg_png</item>
+        <item>stars_png</item>
+        <item>ham_menu_png</item>
+    </array>
+    <array name="sporty_hero_array">
+        <item>militao_hero_idle_webp</item>
+        <item>militao_idle_valentine_png</item>
+        <item>ham_bg_png</item>
+        <item>ham_bg_theme_png</item>
+        <item>earth_christmas_png</item>
+        <item>background_png</item>
+        <item>militao_idle_shadow_png</item>
+        <item>militao_christmas_idle_shadow_png</item>
+        <item>militao_christmas_idle_png</item>
+        <item>militao_hero_fugu_webp</item>
+    </array>
+    <array name="sporty_jet_array">
+        <item>main_bg_png</item>
+        <item>stars_png</item>
+        <item>ham_menu_png</item>
+    </array>
+    <array name="sporty_kick_array">
+        <item>main_bg_png</item>
+        <item>stars_png</item>
+        <item>ham_menu_png</item>
+    </array>
+    <array name="sporty_skills_array">
+        <item>main_bg_png</item>
+        <item>stars_png</item>
+        <item>ham_menu_png</item>
+    </array>
+    <array name="spr_popular_item_color_list">
+        <item>#e41827</item>
+        <item>#5d0868</item>
+        <item>#009f4d</item>
+        <item>#1b1e25</item>
+    </array>
+    <array name="terms_and_condition">
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg1</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg11</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg12</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg13</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg14</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg2</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg3</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg4</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg5</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg6</item>
+        <item>@string/sg_sporty_soccer_terms_and_condition_msg7</item>
+    </array>
+    <array name="terms_and_condition_index">
+        <item>1</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item> </item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </array>
+</resources>

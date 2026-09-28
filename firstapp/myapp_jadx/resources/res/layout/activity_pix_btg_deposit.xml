@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.sportybet.android.globalpay.pixBtg.deposit.PixBtgDepositFragment"
+    android:id="@+id/fragment_container"
+    android:background="@color/background_general_primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

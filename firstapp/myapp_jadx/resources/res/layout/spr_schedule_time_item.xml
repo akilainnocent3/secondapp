@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/time_item"
+    android:background="@drawable/spr_schedule_time_bg"
+    android:layout_width="match_parent"
+    android:layout_height="36dp">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/spr_schedule_time_txt"
+        android:id="@+id/day"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/text_type1_secondary"
+        android:id="@+id/date"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

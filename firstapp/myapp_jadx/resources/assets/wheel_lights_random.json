@@ -1,0 +1,4340 @@
+{
+  "v": "4.8.0",
+  "meta": {
+    "g": "LottieFiles AE 3.1.1",
+    "a": "",
+    "k": "",
+    "d": "",
+    "tc": ""
+  },
+  "fr": 29.9700012207031,
+  "ip": 0,
+  "op": 50.0000020365418,
+  "w": 340,
+  "h": 340,
+  "nm": "Random_speedup",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 348,
+      "h": 347,
+      "u": "",
+      "p": "data:image/png;base64,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",
+      "e": 1
+    },
+    {
+      "id": "comp_0",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 4,
+          "nm": "Shape Layer 3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                22.905,
+                22.511,
+                0
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                0,
+                0,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                40.671,
+                40.671,
+                100
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "shapes": [
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "d": 1,
+                  "ty": "el",
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      23.48,
+                      23.48
+                    ],
+                    "ix": 2
+                  },
+                  "p": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 3
+                  },
+                  "nm": "Ellipse Path 1",
+                  "mn": "ADBE Vector Shape - Ellipse",
+                  "hd": false
+                },
+                {
+                  "ty": "st",
+                  "c": {
+                    "a": 0,
+                    "k": [
+                      0.95225016276,
+                      0.515956384995,
+                      0.015595940048,
+                      1
+                    ],
+                    "ix": 3
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 4
+                  },
+                  "w": {
+                    "a": 0,
+                    "k": 2,
+                    "ix": 5
+                  },
+                  "lc": 1,
+                  "lj": 1,
+                  "ml": 4,
+                  "bm": 0,
+                  "nm": "Stroke 1",
+                  "mn": "ADBE Vector Graphic - Stroke",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": {
+                    "a": 0,
+                    "k": [
+                      0.24,
+                      1.24
+                    ],
+                    "ix": 2
+                  },
+                  "a": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 1
+                  },
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      100,
+                      100
+                    ],
+                    "ix": 3
+                  },
+                  "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 6
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 7
+                  },
+                  "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 4
+                  },
+                  "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 5
+                  },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Ellipse 1",
+              "np": 3,
+              "cix": 2,
+              "bm": 0,
+              "ix": 1,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            }
+          ],
+          "ip": 0,
+          "op": 150.000006109625,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 4,
+          "nm": "Shape Layer 2",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                22.882,
+                22.388,
+                0
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                0,
+                0,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                49.393,
+                49.393,
+                100
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Glow",
+              "np": 16,
+              "mn": "ADBE Glo2",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 7,
+                  "nm": "Glow Based On",
+                  "mn": "ADBE Glo2-0001",
+                  "ix": 1,
+                  "v": {
+                    "a": 0,
+                    "k": 2,
+                    "ix": 1
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Glow Threshold",
+                  "mn": "ADBE Glo2-0002",
+                  "ix": 2,
+                  "v": {
+                    "a": 0,
+                    "k": 153,
+                    "ix": 2
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Glow Radius",
+                  "mn": "ADBE Glo2-0003",
+                  "ix": 3,
+                  "v": {
+                    "a": 0,
+                    "k": 10,
+                    "ix": 3
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Glow Intensity",
+                  "mn": "ADBE Glo2-0004",
+                  "ix": 4,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 4
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Composite Original",
+                  "mn": "ADBE Glo2-0005",
+                  "ix": 5,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 5
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Glow Operation",
+                  "mn": "ADBE Glo2-0006",
+                  "ix": 6,
+                  "v": {
+                    "a": 0,
+                    "k": 3,
+                    "ix": 6
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Glow Colors",
+                  "mn": "ADBE Glo2-0007",
+                  "ix": 7,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 7
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Color Looping",
+                  "mn": "ADBE Glo2-0008",
+                  "ix": 8,
+                  "v": {
+                    "a": 0,
+                    "k": 3,
+                    "ix": 8
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Color Loops",
+                  "mn": "ADBE Glo2-0009",
+                  "ix": 9,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 9
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Color Phase",
+                  "mn": "ADBE Glo2-0010",
+                  "ix": 10,
+                  "v": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 10
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "A & B Midpoint",
+                  "mn": "ADBE Glo2-0011",
+                  "ix": 11,
+                  "v": {
+                    "a": 0,
+                    "k": 0.5,
+                    "ix": 11
+                  }
+                },
+                {
+                  "ty": 2,
+                  "nm": "Color A",
+                  "mn": "ADBE Glo2-0012",
+                  "ix": 12,
+                  "v": {
+                    "a": 0,
+                    "k": [
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    "ix": 12
+                  }
+                },
+                {
+                  "ty": 2,
+                  "nm": "Color B",
+                  "mn": "ADBE Glo2-0013",
+                  "ix": 13,
+                  "v": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "ix": 13
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Glow Dimensions",
+                  "mn": "ADBE Glo2-0014",
+                  "ix": 14,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 14
+                  }
+                }
+              ]
+            }
+          ],
+          "shapes": [
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "d": 1,
+                  "ty": "el",
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      23.48,
+                      23.48
+                    ],
+                    "ix": 2
+                  },
+                  "p": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 3
+                  },
+                  "nm": "Ellipse Path 1",
+                  "mn": "ADBE Vector Shape - Ellipse",
+                  "hd": false
+                },
+                {
+                  "ty": "fl",
+                  "c": {
+                    "a": 0,
+                    "k": [
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "ix": 4
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 5
+                  },
+                  "r": 1,
+                  "bm": 0,
+                  "nm": "Fill 1",
+                  "mn": "ADBE Vector Graphic - Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": {
+                    "a": 0,
+                    "k": [
+                      0.24,
+                      1.24
+                    ],
+                    "ix": 2
+                  },
+                  "a": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 1
+                  },
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      100,
+                      100
+                    ],
+                    "ix": 3
+                  },
+                  "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 6
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 7
+                  },
+                  "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 4
+                  },
+                  "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 5
+                  },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Ellipse 1",
+              "np": 3,
+              "cix": 2,
+              "bm": 0,
+              "ix": 1,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            }
+          ],
+          "ip": 0,
+          "op": 150.000006109625,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 4,
+          "nm": "Shape Layer 1",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                22.845,
+                22.2,
+                0
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                0,
+                0,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                64.523,
+                64.523,
+                100
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Glow",
+              "np": 16,
+              "mn": "ADBE Glo2",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 7,
+                  "nm": "Glow Based On",
+                  "mn": "ADBE Glo2-0001",
+                  "ix": 1,
+                  "v": {
+                    "a": 0,
+                    "k": 2,
+                    "ix": 1
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Glow Threshold",
+                  "mn": "ADBE Glo2-0002",
+                  "ix": 2,
+                  "v": {
+                    "a": 0,
+                    "k": 255,
+                    "ix": 2
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Glow Radius",
+                  "mn": "ADBE Glo2-0003",
+                  "ix": 3,
+                  "v": {
+                    "a": 0,
+                    "k": 12,
+                    "ix": 3
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Glow Intensity",
+                  "mn": "ADBE Glo2-0004",
+                  "ix": 4,
+                  "v": {
+                    "a": 0,
+                    "k": 1.39,
+                    "ix": 4
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Composite Original",
+                  "mn": "ADBE Glo2-0005",
+                  "ix": 5,
+                  "v": {
+                    "a": 0,
+                    "k": 2,
+                    "ix": 5
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Glow Operation",
+                  "mn": "ADBE Glo2-0006",
+                  "ix": 6,
+                  "v": {
+                    "a": 0,
+                    "k": 3,
+                    "ix": 6
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Glow Colors",
+                  "mn": "ADBE Glo2-0007",
+                  "ix": 7,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 7
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Color Looping",
+                  "mn": "ADBE Glo2-0008",
+                  "ix": 8,
+                  "v": {
+                    "a": 0,
+                    "k": 3,
+                    "ix": 8
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Color Loops",
+                  "mn": "ADBE Glo2-0009",
+                  "ix": 9,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 9
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Color Phase",
+                  "mn": "ADBE Glo2-0010",
+                  "ix": 10,
+                  "v": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 10
+                  }
+                },
+                {
+                  "ty": 0,
+                  "nm": "A & B Midpoint",
+                  "mn": "ADBE Glo2-0011",
+                  "ix": 11,
+                  "v": {
+                    "a": 0,
+                    "k": 0.5,
+                    "ix": 11
+                  }
+                },
+                {
+                  "ty": 2,
+                  "nm": "Color A",
+                  "mn": "ADBE Glo2-0012",
+                  "ix": 12,
+                  "v": {
+                    "a": 0,
+                    "k": [
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    "ix": 12
+                  }
+                },
+                {
+                  "ty": 2,
+                  "nm": "Color B",
+                  "mn": "ADBE Glo2-0013",
+                  "ix": 13,
+                  "v": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "ix": 13
+                  }
+                },
+                {
+                  "ty": 7,
+                  "nm": "Glow Dimensions",
+                  "mn": "ADBE Glo2-0014",
+                  "ix": 14,
+                  "v": {
+                    "a": 0,
+                    "k": 1,
+                    "ix": 14
+                  }
+                }
+              ]
+            }
+          ],
+          "shapes": [
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "d": 1,
+                  "ty": "el",
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      23.48,
+                      23.48
+                    ],
+                    "ix": 2
+                  },
+                  "p": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 3
+                  },
+                  "nm": "Ellipse Path 1",
+                  "mn": "ADBE Vector Shape - Ellipse",
+                  "hd": false
+                },
+                {
+                  "ty": "st",
+                  "c": {
+                    "a": 0,
+                    "k": [
+                      0.95225016276,
+                      0.800045237822,
+                      0.015595940048,
+                      1
+                    ],
+                    "ix": 3
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 4
+                  },
+                  "w": {
+                    "a": 0,
+                    "k": 2,
+                    "ix": 5
+                  },
+                  "lc": 1,
+                  "lj": 1,
+                  "ml": 4,
+                  "bm": 0,
+                  "nm": "Stroke 1",
+                  "mn": "ADBE Vector Graphic - Stroke",
+                  "hd": false
+                },
+                {
+                  "ty": "gf",
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 10
+                  },
+                  "r": 1,
+                  "bm": 0,
+                  "g": {
+                    "p": 3,
+                    "k": {
+                      "a": 0,
+                      "k": [
+                        0,
+                        1,
+                        1,
+                        1,
+                        0.5,
+                        1,
+                        0.994,
+                        0.5,
+                        1,
+                        1,
+                        0.988,
+                        0
+                      ],
+                      "ix": 9
+                    }
+                  },
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 5
+                  },
+                  "e": {
+                    "a": 0,
+                    "k": [
+                      25.196,
+                      0
+                    ],
+                    "ix": 6
+                  },
+                  "t": 2,
+                  "h": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 7
+                  },
+                  "a": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 8
+                  },
+                  "nm": "Gradient Fill 1",
+                  "mn": "ADBE Vector Graphic - G-Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": {
+                    "a": 0,
+                    "k": [
+                      0.24,
+                      1.24
+                    ],
+                    "ix": 2
+                  },
+                  "a": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 1
+                  },
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      100,
+                      100
+                    ],
+                    "ix": 3
+                  },
+                  "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 6
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 7
+                  },
+                  "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 4
+                  },
+                  "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 5
+                  },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Ellipse 1",
+              "np": 3,
+              "cix": 2,
+              "bm": 0,
+              "ix": 1,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            }
+          ],
+          "ip": 0,
+          "op": 150.000006109625,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 0,
+      "nm": "neon_light62",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            42.5,
+            256.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 45.0000018328876,
+      "op": 50.0000020365418,
+      "st": 45.0000018328876,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 0,
+      "nm": "neon_light61",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            203.5,
+            317.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 45.0000018328876,
+      "op": 50.0000020365418,
+      "st": 45.0000018328876,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 0,
+      "nm": "neon_light60",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            198.5,
+            19.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 45.0000018328876,
+      "op": 50.0000020365418,
+      "st": 45.0000018328876,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 0,
+      "nm": "neon_light59",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            87,
+            39.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 45.0000018328876,
+      "op": 50.0000020365418,
+      "st": 45.0000018328876,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 0,
+      "nm": "neon_light58",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 45.0000018328876,
+      "op": 50.0000020365418,
+      "st": 45.0000018328876,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 6,
+      "ty": 0,
+      "nm": "neon_light57",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            254,
+            42,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 45.0000018328876,
+      "op": 50.0000020365418,
+      "st": 45.0000018328876,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 7,
+      "ty": 0,
+      "nm": "neon_light56",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 40.0000016292334,
+      "op": 45.0000018328876,
+      "st": 40.0000016292334,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 8,
+      "ty": 0,
+      "nm": "neon_light55",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            46.5,
+            79,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 40.0000016292334,
+      "op": 45.0000018328876,
+      "st": 40.0000016292334,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 9,
+      "ty": 0,
+      "nm": "neon_light54",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            256.5,
+            294.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 40.0000016292334,
+      "op": 45.0000018328876,
+      "st": 40.0000016292334,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 10,
+      "ty": 0,
+      "nm": "neon_light53",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            296,
+            84,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 40.0000016292334,
+      "op": 45.0000018328876,
+      "st": 40.0000016292334,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 11,
+      "ty": 0,
+      "nm": "neon_light52",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            87,
+            39.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 40.0000016292334,
+      "op": 45.0000018328876,
+      "st": 40.0000016292334,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 12,
+      "ty": 0,
+      "nm": "neon_light51",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            318.5,
+            198,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 40.0000016292334,
+      "op": 45.0000018328876,
+      "st": 40.0000016292334,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 13,
+      "ty": 0,
+      "nm": "neon_light50",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            256.5,
+            294.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 35.0000014255792,
+      "op": 40.0000016292334,
+      "st": 35.0000014255792,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 14,
+      "ty": 0,
+      "nm": "neon_light49",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 35.0000014255792,
+      "op": 40.0000016292334,
+      "st": 35.0000014255792,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 15,
+      "ty": 0,
+      "nm": "neon_light48",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            198.5,
+            19.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 35.0000014255792,
+      "op": 40.0000016292334,
+      "st": 35.0000014255792,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 16,
+      "ty": 0,
+      "nm": "neon_light47",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            87,
+            39.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 35.0000014255792,
+      "op": 40.0000016292334,
+      "st": 35.0000014255792,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 17,
+      "ty": 0,
+      "nm": "neon_light46",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            20,
+            135.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 35.0000014255792,
+      "op": 40.0000016292334,
+      "st": 35.0000014255792,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 18,
+      "ty": 0,
+      "nm": "neon_light45",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            139,
+            319,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 35.0000014255792,
+      "op": 40.0000016292334,
+      "st": 35.0000014255792,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 19,
+      "ty": 0,
+      "nm": "neon_light44",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            318.5,
+            198,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 35.0000014255792,
+      "op": 40.0000016292334,
+      "st": 35.0000014255792,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 20,
+      "ty": 0,
+      "nm": "neon_light43",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            254,
+            42,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 30.0000012219251,
+      "op": 35.0000014255792,
+      "st": 30.0000012219251,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 21,
+      "ty": 0,
+      "nm": "neon_light42",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            137,
+            20,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 30.0000012219251,
+      "op": 35.0000014255792,
+      "st": 30.0000012219251,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 22,
+      "ty": 0,
+      "nm": "neon_light41",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            85,
+            296.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 30.0000012219251,
+      "op": 35.0000014255792,
+      "st": 30.0000012219251,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 23,
+      "ty": 0,
+      "nm": "neon_light40",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 30.0000012219251,
+      "op": 35.0000014255792,
+      "st": 30.0000012219251,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 24,
+      "ty": 0,
+      "nm": "neon_light39",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            46.5,
+            79,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 30.0000012219251,
+      "op": 35.0000014255792,
+      "st": 30.0000012219251,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 25,
+      "ty": 0,
+      "nm": "neon_light38",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            19,
+            198.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 30.0000012219251,
+      "op": 35.0000014255792,
+      "st": 30.0000012219251,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 26,
+      "ty": 0,
+      "nm": "neon_light37",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            318,
+            139.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 25.0000010182709,
+      "op": 30.000001221925,
+      "st": 25.0000010182709,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 27,
+      "ty": 0,
+      "nm": "neon_light36",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            198.5,
+            19.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 25.0000010182709,
+      "op": 30.000001221925,
+      "st": 25.0000010182709,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 28,
+      "ty": 0,
+      "nm": "neon_light35",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            42.5,
+            256.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 25.0000010182709,
+      "op": 30.000001221925,
+      "st": 25.0000010182709,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 29,
+      "ty": 0,
+      "nm": "neon_light34",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            203.5,
+            317.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 25.0000010182709,
+      "op": 30.000001221925,
+      "st": 25.0000010182709,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 30,
+      "ty": 0,
+      "nm": "neon_light33",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            256.5,
+            294.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 25.0000010182709,
+      "op": 30.000001221925,
+      "st": 25.0000010182709,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 31,
+      "ty": 0,
+      "nm": "neon_light32",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            296,
+            84,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 25.0000010182709,
+      "op": 30.000001221925,
+      "st": 25.0000010182709,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 32,
+      "ty": 0,
+      "nm": "neon_light31",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            318.5,
+            198,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 20.0000008146167,
+      "op": 25.0000010182709,
+      "st": 20.0000008146167,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 33,
+      "ty": 0,
+      "nm": "neon_light30",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            87,
+            39.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 20.0000008146167,
+      "op": 25.0000010182709,
+      "st": 20.0000008146167,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 34,
+      "ty": 0,
+      "nm": "neon_light29",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            296,
+            84,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 20.0000008146167,
+      "op": 25.0000010182709,
+      "st": 20.0000008146167,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 35,
+      "ty": 0,
+      "nm": "neon_light28",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            256.5,
+            294.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 20.0000008146167,
+      "op": 25.0000010182709,
+      "st": 20.0000008146167,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 36,
+      "ty": 0,
+      "nm": "neon_light27",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            46.5,
+            79,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 20.0000008146167,
+      "op": 25.0000010182709,
+      "st": 20.0000008146167,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 37,
+      "ty": 0,
+      "nm": "neon_light26",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 20.0000008146167,
+      "op": 25.0000010182709,
+      "st": 20.0000008146167,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 38,
+      "ty": 0,
+      "nm": "neon_light25",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            254,
+            42,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 15.0000006109625,
+      "op": 20.0000008146167,
+      "st": 15.0000006109625,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 39,
+      "ty": 0,
+      "nm": "neon_light24",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 15.0000006109625,
+      "op": 20.0000008146167,
+      "st": 15.0000006109625,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 40,
+      "ty": 0,
+      "nm": "neon_light23",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            87,
+            39.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 15.0000006109625,
+      "op": 20.0000008146167,
+      "st": 15.0000006109625,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 41,
+      "ty": 0,
+      "nm": "neon_light22",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            198.5,
+            19.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 15.0000006109625,
+      "op": 20.0000008146167,
+      "st": 15.0000006109625,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 42,
+      "ty": 0,
+      "nm": "neon_light21",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            203.5,
+            317.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 15.0000006109625,
+      "op": 20.0000008146167,
+      "st": 15.0000006109625,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 43,
+      "ty": 0,
+      "nm": "neon_light20",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            42.5,
+            256.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 15.0000006109625,
+      "op": 20.0000008146167,
+      "st": 15.0000006109625,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 44,
+      "ty": 0,
+      "nm": "neon_light19",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            256.5,
+            294.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 10.0000004073083,
+      "op": 15.0000006109625,
+      "st": 10.0000004073083,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 45,
+      "ty": 0,
+      "nm": "neon_light18",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 10.0000004073083,
+      "op": 15.0000006109625,
+      "st": 10.0000004073083,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 46,
+      "ty": 0,
+      "nm": "neon_light17",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            198.5,
+            19.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 10.0000004073083,
+      "op": 15.0000006109625,
+      "st": 10.0000004073083,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 47,
+      "ty": 0,
+      "nm": "neon_light15",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            87,
+            39.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 10.0000004073083,
+      "op": 15.0000006109625,
+      "st": 10.0000004073083,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 48,
+      "ty": 0,
+      "nm": "neon_light13",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            20,
+            135.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 10.0000004073083,
+      "op": 15.0000006109625,
+      "st": 10.0000004073083,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 49,
+      "ty": 0,
+      "nm": "neon_light09",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            139,
+            319,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 10.0000004073083,
+      "op": 15.0000006109625,
+      "st": 10.0000004073083,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 50,
+      "ty": 0,
+      "nm": "neon_light05",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            318.5,
+            198,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 10.0000004073083,
+      "op": 15.0000006109625,
+      "st": 10.0000004073083,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 51,
+      "ty": 0,
+      "nm": "neon_light02",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            254,
+            42,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 5.00000020365417,
+      "op": 10.0000004073083,
+      "st": 5.00000020365417,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 52,
+      "ty": 0,
+      "nm": "neon_light16",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            137,
+            20,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 5.00000020365417,
+      "op": 10.0000004073083,
+      "st": 5.00000020365417,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 53,
+      "ty": 0,
+      "nm": "neon_light10",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            85,
+            296.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 5.00000020365417,
+      "op": 10.0000004073083,
+      "st": 5.00000020365417,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 54,
+      "ty": 0,
+      "nm": "neon_light06",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            297,
+            252,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 5.00000020365417,
+      "op": 10.0000004073083,
+      "st": 5.00000020365417,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 55,
+      "ty": 0,
+      "nm": "neon_light14",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            46.5,
+            79,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 5.00000020365417,
+      "op": 10.0000004073083,
+      "st": 5.00000020365417,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 56,
+      "ty": 0,
+      "nm": "neon_light12",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            19,
+            198.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 5.00000020365417,
+      "op": 10.0000004073083,
+      "st": 5.00000020365417,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 57,
+      "ty": 0,
+      "nm": "neon_light04",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            318,
+            139.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 0,
+      "op": 5.00000020365417,
+      "st": 0,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 58,
+      "ty": 0,
+      "nm": "neon_light01",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            198.5,
+            19.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 0,
+      "op": 5.00000020365417,
+      "st": 0,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 59,
+      "ty": 0,
+      "nm": "neon_light11",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            42.5,
+            256.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 0,
+      "op": 5.00000020365417,
+      "st": 0,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 60,
+      "ty": 0,
+      "nm": "neon_light08",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            203.5,
+            317.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 0,
+      "op": 5.00000020365417,
+      "st": 0,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 61,
+      "ty": 0,
+      "nm": "neon_light07",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            256.5,
+            294.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 0,
+      "op": 5.00000020365417,
+      "st": 0,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 62,
+      "ty": 0,
+      "nm": "neon_light03",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            296,
+            84,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            23.5,
+            23.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 47,
+      "h": 47,
+      "ip": 0,
+      "op": 5.00000020365417,
+      "st": 0,
+      "bm": 2
+    },
+    {
+      "ddd": 0,
+      "ind": 63,
+      "ty": 2,
+      "nm": "noLight.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            170,
+            170,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            174,
+            173.5,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 50.0000020365418,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

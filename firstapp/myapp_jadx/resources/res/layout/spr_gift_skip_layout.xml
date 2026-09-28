@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:textColor="@color/text_disable_type1_primary"
+        android:gravity="center"
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:minHeight="32dp"
+        android:text="@string/component_coupon__note_cashout_is_unavailable_with_bets_using_gifts"
+        android:fontFamily="sans-serif"/>
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minHeight="42dp"
+        android:text="@string/component_coupon__use_cash_only"
+        android:layout_below="@+id/note"
+        style="@style/Widget.App.CommonButton.Outline.Large"/>
+</RelativeLayout>

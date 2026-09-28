@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_checked="true"
+        android:color="@color/brand_quaternary"
+        android:alpha="0.5"/>
+    <item
+        android:state_checked="false"
+        android:color="@color/text_type2_tertiary"
+        android:alpha="0.5"/>
+</selector>

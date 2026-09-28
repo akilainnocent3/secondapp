@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_width="80dp"
+    android:layout_height="80dp">
+    <com.sporty.android.common_ui.widgets.CircleImageView
+        android:id="@+id/avatar_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:circle_border_color="@color/brand_secondary"
+        app:circle_border_width="4dp"/>
+    <ImageView
+        android:layout_gravity="bottom|right"
+        android:id="@+id/tick_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tick_in_circle"/>
+</FrameLayout>

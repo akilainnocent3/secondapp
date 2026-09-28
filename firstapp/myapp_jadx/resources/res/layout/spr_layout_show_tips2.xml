@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/spr_tip_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:textColor="#353a45"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="@string/jackpot__the_match_is_void"
+        android:fontFamily="sans-serif"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+</LinearLayout>

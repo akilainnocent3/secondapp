@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/protection_container"
+    android:background="@color/absolute_type1"
+    android:paddingLeft="45dp"
+    android:paddingRight="45dp"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/protection_withdraw_img_icon"
+        android:layout_width="@dimen/withdraw_set_up_icon"
+        android:layout_height="@dimen/withdraw_set_up_icon"
+        android:layout_marginTop="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_security"/>
+    <TextView
+        android:textSize="@dimen/text_size_22dp"
+        android:textStyle="bold"
+        android:textColor="#353a45"
+        android:id="@+id/protection_withdraw_tv_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/page_withdraw__enhanced_protection"
+        android:fontFamily="sans-serif"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/protection_withdraw_img_icon"/>
+    <TextView
+        android:textSize="@dimen/text_size_14dp"
+        android:textColor="#353a45"
+        android:gravity="center"
+        android:id="@+id/protection_withdraw_tv_dialog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/protection_withdraw_tv_dialog_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

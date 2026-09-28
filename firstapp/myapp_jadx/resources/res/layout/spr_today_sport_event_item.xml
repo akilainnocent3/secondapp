@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/custom_absolute_type1_type1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/spr_sport_event_item_with_filter"/>
+    <com.sporty.android.common_ui.widgets.AspectRatioImageView
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+</LinearLayout>

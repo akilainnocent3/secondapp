@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1082002"
+    android:versionName="1.82.2"
+    android:compileSdkVersion="36"
+    android:compileSdkVersionCodename="16"
+    android:requiredSplitTypes="base__abi,base__density"
+    android:splitTypes=""
+    package="com.demonstration.android.gp.tz"
+    platformBuildVersionCode="36"
+    platformBuildVersionName="16">
+    <uses-sdk
+        android:minSdkVersion="32"
+        android:targetSdkVersion="36"/>
+    <queries>
+        <package android:name="com.android.chrome"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.twitter.android"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="org.telegram.messenger"/>
+        <package android:name="org.telegram.messenger.web"/>
+        <package android:name="com.google.android.apps.messaging"/>
+        <package android:name="com.android.mms"/>
+        <package android:name="com.samsung.android.messaging"/>
+        <package android:name="com.google.android.webview"/>
+        <package android:name="com.sporty.android"/>
+        <package android:name="com.sporty.android.uat"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.samsung.android.mapsagent"/>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission
+        android:name="android.permission.AUTHENTICATE_ACCOUNTS"
+        android:maxSdkVersion="22"/>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        android:maxSdkVersion="22"/>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        android:maxSdkVersion="22"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <permission
+        android:name="com.lede.common.service.DownloadService.com.sportybet.android.gp.tz"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.lede.common.service.DownloadService.com.sportybet.android.gp.tz"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-feature
+        android:glEsVersion="0x30001"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.samsung.android.mapsagent.permission.READ_APP_INFO"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <permission
+        android:name="com.sportybet.android.gp.tz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.sportybet.android.gp.tz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.pairip.vmencryption.KeyImportApplication"
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="com.pairip.vmencryption.KeyImportAppComponentFactory"
+        android:requestLegacyExternalStorage="true"
+        android:dataExtractionRules="@xml/appsflyer_data_extraction_rules"
+        android:enableOnBackInvokedCallback="true">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1"/>
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false"/>
+        <meta-data
+            android:name="APPBI_APPKEY"
+            android:value="sportybet_android"/>
+        <meta-data
+            android:name="VERSION"
+            android:value="1.82.2"/>
+        <meta-data
+            android:name="CHANNEL"
+            android:value="sportybet"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.sportybet.android.gp.tz.androidx-startup">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="okhttp3.internal.platform.PlatformInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <activity
+            android:theme="@style/Theme.App.Starting.Partnership"
+            android:name="com.sportybet.android.home.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sportybet.android.home.RestrictionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.home.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustNothing|stateHidden">
+            <intent-filter>
+                <action android:name="com.sportybet.android.gp.tz.ACTION_ROUTE_FROM_HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.sporty.bet.br"/>
+                <data android:host="www.sportybet.com"/>
+                <data android:host="www.sportybet.mx"/>
+                <data android:host="www.sportybet.co.cm"/>
+                <data android:host="www.sportybet.co.za"/>
+                <data android:host="www.sportybet.co.mz"/>
+                <data android:pathPattern="/...*/"/>
+                <data android:pathPattern="/...*/applink/..*"/>
+                <data android:pathPattern="/...*/m"/>
+                <data android:pathPattern="/...*/m/support"/>
+                <data android:pathPattern="/player/..*"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sportybet.android.auth.AuthActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.sportybet.android.account.international.INTAuthActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="test.easebet.com"/>
+                <data android:path="/int/m/ops/emailToken"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="sportybet.com"/>
+                <data android:path="/int/m/ops/emailToken"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sportybet.feature.profile.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.sportybet.android.user.ChangeUserInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.kepay.withdraw.KeWithdrawActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.kepay.deposit.KeDepositActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.kepay.TransactionSuccessfulActivity"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="com.sportybet.android.firebase.MessageService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/permission_PermissionActivity"
+            android:name="com.sporty.android.permission.PermissionActivity"
+            android:launchMode="standard"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/brand_primary"/>
+        <service
+            android:name="com.sportybet.android.auth.AuthService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator"/>
+        </service>
+        <provider
+            android:name="com.sportybet.android.auth.StubProvider"
+            android:exported="false"
+            android:authorities="com.sportybet.android.gp.tz.datasync.provider"
+            android:syncable="true"/>
+        <activity
+            android:name="com.sportybet.android.activity.AboutUsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.virtual.presentation.activity.VirtualGameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.country.ChangeRegionActivity"
+            android:screenOrientation="portrait"/>
+        <provider
+            android:name="com.sportybet.android.fileprovider.MyFileProvider"
+            android:exported="false"
+            android:authorities="com.sportybet.android.gp.tz.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity
+            android:theme="@style/AppTheme"
+            android:label="@string/app_common__jump_bank_activity"
+            android:name="com.sportybet.android.globalpay.jumpbank.JumpBankActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.user.avatar.ChangeAvatarActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.settings.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.settings.NotificationSettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.sportybet.android.payment.withdraw.presentation.activity.WithdrawKycAgentActivity"/>
+        <activity
+            android:name="com.sportybet.android.basepay.TransactionSuccessActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.ugpay.deposit.MedialOtherActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.user.ChangeLocationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.sportybet.plugin.jackpot.activities.JackpotMainActivity"/>
+        <activity android:name="com.sportybet.plugin.jackpot.activities.RJackpotBetHistoryActivity"/>
+        <activity android:name="com.sportybet.plugin.jackpot.activities.JackpotSuccessfulPageActivity"/>
+        <activity android:name="com.sportybet.plugin.jackpot.activities.RSportsBetTicketDetailsActivity"/>
+        <activity android:name="com.sportybet.plugin.realsports.prematch.PreMatchSportActivity"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.sportsmenu.SportsMenuActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.event.EventActivity"
+            android:configChanges="screenSize|uiMode|orientation"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.live.livepage.LivePageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.QuickMarketMenuTranslucent"
+            android:name="com.sportybet.plugin.realsports.quickmarket.QuickMarketOptionActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/AppTheme.QuickMarketMenuTranslucent"
+            android:name="com.sportybet.plugin.realsports.quickmarket.DarkQuickMenuOptionActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.live.livetournament.LiveTournamentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.openbet.presentation.activity.OpenBetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.android.openbet.presentation.activity.LiveOpenBetActivity"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.AZTournamentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.JackpotPlaceBetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.gift.gift.presentation.GiftActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.ResultsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.ResultsSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.BetSlipTranslucent"
+            android:name="com.sportybet.plugin.realsports.betslip.widget.BetslipActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.winning.WinningDialogActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.JackpotSuccessfulPageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.transaction.ui.txlist.TxListActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.common.gift.GiftsActivity"/>
+        <activity
+            android:name="com.sportybet.feature.playtimecontrol.PlayTimeControlActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.realsports.activities.AlertDialogActivity"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.realsports.activities.SportySimPromotionDialogActivity"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.realsports.activities.CommonDialogActivity"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.realsports.activities.AlertBannerActivity"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:name="com.sportybet.android.bethistory.presentation.activity.RSportsBetTicketDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.BetSlipTranslucent"
+            android:name="com.sportybet.plugin.realsports.autobet.widget.AutoBetActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.transaction.ui.calendar.TxCalendarActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.bethistory.presentation.activity.RSportsBetDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.RJackpotBetHistoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.PreMatchEventActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.CustomTranslucent"
+            android:name="com.sportybet.plugin.realsports.activities.CommentInputActivity"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.OfflineRequestListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.TransactionSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.PrevBetHistoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.virtual.presentation.activity.VirtualLobbyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.ScheduleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.choosebet.presentation.ChooseBetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.realsports.activities.ZoomImageActivity"/>
+        <activity
+            android:name="com.sportybet.plugin.webcontainer.activities.WebViewActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.sportybet.android.luckynumber.LuckyNumberWebView"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.android.share.presentation.activity.ShareCodeActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.android.bookingcode.presentation.activity.NonUILoadCodeActivity"/>
+        <activity
+            android:theme="@style/AppTheme.BetSlipTranslucent"
+            android:name="com.sportybet.android.bookingcode.presentation.activity.PreviewCodeActivity"/>
+        <activity
+            android:name="com.sportybet.android.crash.DevCrashActivity"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="com.sportybet.android.crash.UserCrashActivity"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="com.sportybet.android.crash.UserCrashNoticeActivity"
+            android:excludeFromRecents="true"/>
+        <activity android:name="com.sportybet.android.virtual.presentation.activity.MatchEventActivity"/>
+        <activity android:name="com.sportybet.android.virtual.presentation.activity.MatchEventDetailActivity"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.android.virtual.presentation.activity.InstantBetslipActivity"/>
+        <activity
+            android:name="com.sportybet.feature.facialrecognition.presentation.FacialRecognitionActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="www.sporty.bet.br"
+                    android:pathPrefix="/unico-callback"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="sportybet"
+                    android:host="unico-callback"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sportybet.feature.horseracing.view.HorseRacingActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.sportybet.android.limits.base.limitBase.LimitsActivity"/>
+        <activity android:name="com.sportybet.android.limits.edit.EditLimitsActivity"/>
+        <activity android:name="com.sportybet.android.limits.success.LimitsSuccessActivity"/>
+        <activity
+            android:theme="@style/DialogActivityTheme"
+            android:name="com.sportybet.android.limits.reached.ReachedLimitsActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.sportybet.feature.timeAlert.TimeAlertActivity"/>
+        <activity
+            android:theme="@style/DialogActivityTheme"
+            android:name="com.sportybet.feature.timeAlertReached.TimeAlertReachedActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/DialogActivityTheme"
+            android:name="com.sportybet.feature.playTimeControlDialog.PlayTimeControlDialogActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.sportybet.plugin.sportydesk.activities.SportyDeskActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.activity.BirthVerifyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.activity.BirthVerifySuccessActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.activity.VerifyDobInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.sportypin.WithdrawalPinActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.android.user.SelfExclusionDialogActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.user.selfexclusion.SelfExclusionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.bvn.VerifyBvnActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.bvn.VerifyBvnWithdrawActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.kyc.confirmAccountInfo.ConfirmAccountInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.sportybet.android.account.confirm.activity.NameBvnActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.sportybet.android.sportypin.VerifyResetPinActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/OTP_ACTIVITY_THEME"
+            android:name="com.sportybet.android.activity.OtpVerifyResultActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.livegame.LiveGameActivity"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.sportybet.android.ugpay.withdraw.momo.CommonMobileMoneyWithdrawActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.ugpay.deposit.CommonDepositActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/DialogActivityTheme"
+            android:name="com.sportybet.integrity.DeviceIntegrityActivity"
+            android:exported="false"/>
+        <provider
+            android:name="com.sportybet.android.InitProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:authorities="com.sportybet.android.gp.tz.provider.init"
+            android:initOrder="2500"/>
+        <activity
+            android:name="com.sportybet.android.payment.security.nameconfirm.bvn.presentation.activity.TransferBvnActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.sportybet.android.payment.security.sportypin.presentation.activity.TransferPinActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.update.ForceUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.swipebet.activities.SwipeBetActivity"/>
+        <activity
+            android:name="com.sportybet.plugin.swipebet.activities.SwipeBetSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.searchv2.SearchActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.sportybet.android.settings.popovers.PopoverSettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.myfavorite.activities.MyFavoriteSummaryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.myfavorite.activities.MyFavoriteBaseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.myfavorite.activities.MyTeamActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.myfavorite.activities.MyFavoriteTutorialActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.myfavorite.activities.PreMatchMyFavoriteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.outrights.detail.OutrightsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name="com.sportybet.plugin.sportypicks.ui.SportyPicksActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.account.AccountActivationActivity"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="com.sportybet.android.account.AccountActivationWebViewActivity"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.GlobalDepositActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.pixBtg.deposit.PixBtgDepositActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.mobileMoney.CmMobileMoneyDepositActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.pixBtg.withdraw.PixBtgWithdrawActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.pixBtg.depositQrCode.PixBtgQrCodeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.user.kyc.KYCActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.GlobalWithdrawActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.user.verifiedinfo.VerifiedInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.sportybet.plugin.realsports.activities.TransactionAgentActivity"/>
+        <activity
+            android:theme="@style/agent_activity"
+            android:name="com.sportybet.android.account.confirm.activity.CommonConfirmNameActivity"/>
+        <activity
+            android:name="com.sportybet.android.account.RegistrationKYCWebViewActivity"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="com.sportybet.android.account.KycNativeCameraActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.activity.LanguagePreferenceActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.activity.oddsformat.OddsFormatPreferenceActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.pixBtg.PixSuccessActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.multimaker.presentation.activity.MultiMakerActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.sportybet.android.ugpay.withdraw.momo.CommonMobileMoneyWithdrawAgentActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.sporty.android.platform.features.luckywheel.LuckyWheelActivity"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sporty.android.platform.features.captcha.inhouseCaptcha.CaptchaInHouseActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name="com.sportybet.android.bethistory.presentation.activity.BetHistoryCalendarActivity"/>
+        <activity
+            android:name="com.sportybet.android.country.CountryShutDownActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.payment.security.nameupdate.presentation.activity.NameUpdateWebViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.codehub.ui.CodeHubActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.BetSlipTranslucent"
+            android:name="com.sportybet.android.bookingcode.presentation.activity.HighLiabilityCodeActivity"
+            android:exported="false"/>
+        <activity android:name="com.sportybet.feature.kyc.nin.NINVerificationActivity"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sportybet.feature.kyc.nin.NINReVerifyActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sportybet.feature.kyc.nin.NINVerificationDialogActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.sportybet.android.editbet.presentation.view.EditHistoryDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.settings.shortcutwidget.ShortcutWidgetConfigureActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.sportybet.feature.settings.shortcutwidget.SportyShortcutAppWidgetProvider"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="                    sportybet.action.CLICK_SHORTCUT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_shortcut"/>
+        </receiver>
+        <service
+            android:name="com.sportybet.feature.settings.shortcutwidget.SportyShortcutWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.sportybet.feature.settings.shortcutwidget.AppWidgetPinnedReceiver"
+            android:exported="false"/>
+        <activity
+            android:name="com.sporty.android.platform.features.newotp.agent.OTPAgentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sporty.android.platform.features.newotp.channel.reverse.EmptyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.notifications.presentation.reward.LoyaltyRewardBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.notifications.presentation.mission.LoyaltyMissionBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.notifications.presentation.streakMission.BettingStreakMissionBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.notifications.presentation.worldcuppass.WorldCupPassAnnouncementActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.welcomereward.WelcomeRewardBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sportybet.feature.loyal.LoyalJoinDialogActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.sportybet.android.loyalty.LoyaltyWebActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.notificationcenter.NotificationCenterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sporty.android.platform.features.userfeedback.UserFeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.notifications.presentation.challenge.ChallengeAnnouncementBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sportybet.feature.inappreview.InAppReviewDialogActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.verifybet.VerifyBetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.virtual.presentation.activity.InstantCalendarActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.sportybet.android.social.presentation.SocialActivity"/>
+        <activity android:name="com.sportybet.android.social.presentation.creation.MySocialCreationActivity"/>
+        <activity
+            android:name="com.sportybet.android.social.presentation.custom.CustomCodeActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sporty.android.platform.features.loyalty.LoyaltyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sporty.android.platform.features.loyalty.upgradedialog.LoyaltyUpgradeActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sporty.android.platform.features.loyalty.downgrade.LoyaltyDowngradeDialogActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sporty.android.platform.features.account.register.presentation.RegistrationSuccessfulActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sporty.android.platform.features.kyc.domain.uploadfile.KycFileSubmissionBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/agent_activity"
+            android:name="com.sportybet.feature.kyc.verifyfailed.KycVerifyFailedActivity"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.realsports.home.KycRejectBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.plugin.realsports.home.KycVerificationInProgressBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sporty.android.platform.features.loyalty.unlockedbottomsheet.LoyaltyUnlockedActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sporty.android.platform.features.security.newdevicelogin.loginalert.LoginAlertActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sporty.android.platform.features.security.newdevicelogin.securityaction.SecurityActionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.kyc.za.ZAKycAgentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sporty.android.platform.features.dateofbirth.ui.screens.reminder.DobVerificationReminderActivity"/>
+        <activity
+            android:theme="@style/DialogActivity.Fullscreen.Transparent"
+            android:name="com.sportybet.feature.gift.giftreceived.presentation.dobreceived.DobGiftReceivedActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@style/DialogActivity.Fullscreen.Transparent"
+            android:name="com.sportybet.feature.gift.payday.presentation.PaydayGiftBottomSheetActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.android.globalpay.stp.spei.withdraw.pending.WithdrawalPendingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.loyalty.impl.bettingstreak.BettingStreakActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.feature.loyalty.impl.worldcuppass.WorldCupPassActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.worldcuppass.sportyTvRedirect.SportyTvRedirectActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.sportybet.feature.recap.presentation.RecapActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@style/AppTheme.BetSlipTranslucent"
+            android:name="com.sportybet.feature.remixbet.presentation.RemixBetActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.feature.dedicatedteampage.shared.ui.DedicatedTeamPageActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.sportybet.feature.worldcup.WorldCupActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.sporty.android.platform.features.welcomereward.presentation.WelcomeRewardActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.plugin.realsports.activities.ForcedPasswordResetActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.gift.giftreceived.presentation.giftreceived.GiftReceivedActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.devicemanagement.impl.ui.deviceblockingdialog.DeviceBlockingAlertDialogActivity"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sporty.android.platform.features.newotp.feature.verifyphoneforbonus.VerifyPhoneForBonusActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.feature.luckynumber.shared.presentation.LuckyNumberActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.sportybet.feature.luckynumber.luncher.LuckyNumberLuncherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.loyalty.impl.challenge.presentation.ChallengeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.android.social.presentation.codeChat.room.CodeChatRoomActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.feature.loyalty.impl.notifications.presentation.betslipThemeMission.BetslipThemeMissionBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sporty.android.platform.features.account.addemailprompt.AddEmailPromptBottomSheetActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.sportybet.feature.payment.impl.common.presentation.activity.TradingActivity"/>
+        <activity android:name="com.sportybet.feature.payment.impl.transaction.presentation.activity.TxSuccessActivity"/>
+        <activity
+            android:name="com.sportybet.feature.payment.impl.security.nameupdate.presentation.activity.NameMismatchCSActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/DialogActivity"
+            android:name="com.sportybet.feature.payment.impl.security.nameupdate.presentation.activity.NameUpdateResultPopupActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name="com.sportybet.feature.payment.impl.withdraw.presentation.activity.PartnerWithdrawRequestDetailsActivity"/>
+        <activity
+            android:name="com.sportybet.feature.payment.impl.deposit.presentation.activity.QuicktellerGuideActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.sportybet.feature.payment.impl.transaction.presentation.activity.TxFixStatusActivity"/>
+        <activity
+            android:name="com.sportybet.android.transaction.ui.txdetails.TxDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.payment.impl.transaction.presentation.activity.TxDetailsV2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/dummy_activity"
+            android:name="com.sportybet.android.game.activity.SportyGameLobbyDummyActivity"/>
+        <activity
+            android:theme="@style/dummy_activity"
+            android:name="com.sportybet.android.game.activity.SportyGameRouterActivity"/>
+        <receiver
+            android:name="com.sportybet.android.game.receiver.SportyGameLobbyReopenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.sportybet.android.game.REOPEN_GAME_LOBBY"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/LNWinningPopupActivityTheme"
+            android:name="com.sportybet.feature.luckynumber.winningpopup.presentation.LNWinningPopupActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.bethistory2.InstantWinBetHistoryActivity"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="com.sportybet.android.instantwin.presentation.buildandgo.BuildAndGoHistoryActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.footballfamilysettlement.FootballFamilySettlementActivity"/>
+        <activity
+            android:name="com.sportybet.android.instantwin.presentation.instantwin.view.InstantWinActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.kickoff.KickoffActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.openbet.OpenBetsActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.penalty.SportyPenaltyActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.penaltysettlement.SportyPenaltySettlementActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.racingevent.InstantRacingEventActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.racingrace.InstantRacingRaceActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.scheduledfootball.ScheduledFootballActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.scheduledfootballopenbets.ScheduledFootballOpenBetsActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.ticketdetail.InstantWinTicketDetailActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.legends.SportyLegendsActivity"/>
+        <activity android:name="com.sportybet.android.instantwin.presentation.legendsrace.SportyLegendsSettlementActivity"/>
+        <activity
+            android:name="com.sporty.android.sportymedia.ui.SportyMediaActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden">
+            <property
+                android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
+                android:value="true"/>
+        </activity>
+        <service
+            android:name="com.sporty.android.sportyfm.service.RadioService"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:name="com.sportybet.feature.debugscreen.impl.DebugScreenActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportybet.feature.debugscreen.impl.popupqueue.PopupQueueDebugActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+            android:name="com.sportygames.commons.components.SGConfirmDialogActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+            android:name="com.sportygames.commons.views.NavigationActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.sportygames.commons.views.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+            android:name="com.sportygames.commons.chat.views.ChatActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/Theme"
+            android:name="com.sportygames.commons.views.GameMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+            android:name="com.sportygames.commons.views.ExitDialogActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:theme="@style/Theme"
+            android:name="com.sportygames.roulette.activities.RouletteActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name="com.sportygames.sportysoccer.activities.GameModeActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportygames.sportysoccer.activities.GameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/anim_fade"
+            android:name="com.sportygames.sportysoccer.activities.TutorialActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportygames.sportysoccer.activities.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportygames.sportysoccer.activities.IntroductionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportygames.sportysoccer.activities.LeaderBoardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportygames.lobby.views.activity.GamesLobbyMainActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sportygames.anTesting.presentation.ui.ANTestingActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.sportygames.commons.components.ServiceObserver"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"
+            android:stopWithTask="false"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts"/>
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            android:value="GlideModule"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable.BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+                android:value="true"/>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <service
+            android:name="androidx.core.widget.RemoteViewsCompatService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-identifier"
+            android:value="ads-identifier:3.4.56.300"/>
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:pps-phone:adsbrainkit"
+            android:value="1"/>
+        <meta-data
+            android:name="componentverify_ag_cbg_root"
+            android:value="@string/ag_sdk_cbg_root"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <activity
+            android:name="com.pairip.licensecheck.LicenseActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.pairip.vmencryption.KeyImportActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.pairip.vmencryption.KeyImportService"
+            android:exported="true"/>
+        <provider
+            android:name="com.pairip.vmencryption.KeyImportReplacementProvider"
+            android:exported="false"
+            android:authorities="com.sportybet.android.gp.tz.com.pairip.vmencryption.KeyImportReplacementProvider"
+            android:initOrder="2147483647"/>
+        <meta-data
+            android:name="com.android.vending.splits.required"
+            android:value="true"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="4"/>
+    </application>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+</manifest>

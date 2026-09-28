@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:background="@color/brand_primary"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <ImageButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back_icon"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_action_bar_back"/>
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/text_type2_primary"
+            android:gravity="center_vertical"
+            android:id="@+id/back_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/bet_history__sports_bet_history"
+            android:layout_toRightOf="@+id/back_icon"
+            android:fontFamily="sans-serif"
+            android:layout_toEndOf="@+id/back_icon"/>
+    </RelativeLayout>
+    <com.sportybet.plugin.realsports.widget.NavigationBarLoadingView
+        android:id="@+id/loading_view"
+        android:background="@color/background_type1_secondary"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

@@ -1,0 +1,438 @@
+{
+  "tournamentId": "sr:tournament:16",
+  "lastUpdated": 1778076000000,
+  "stages": [
+    {
+      "stageId": "round_of_32",
+      "name": "BE Last 32",
+      "order": 1,
+      "status": "COMPLETED",
+      "matches": [
+        {
+          "matchSlotId": "sr:cup_round:2218601",
+          "eventId": "sr:match:69279552",
+          "displayOrder": 1,
+          "startTime": 1777737600000,
+          "status": "LIVE",
+          "home": { "placeholder": "1A", "team": { "id": "sr:competitor:4781", "name": "BE Mexico", "countryCode": "MEX", "abbreviation": "MEX" } },
+          "away": { "placeholder": "X1", "team": { "id": "sr:competitor:5001", "name": "BE Cameroon", "countryCode": "CMR", "abbreviation": "CMR" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218701"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218602",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 2,
+          "startTime": 1777737600000,
+          "status": "FINISHED",
+          "home": { "placeholder": "2B", "team": { "id": "sr:competitor:4698", "name": "BE Spain", "countryCode": "ESP", "abbreviation": "ESP" } },
+          "away": { "placeholder": "X2", "team": { "id": "sr:competitor:5002", "name": "BE Saudi Arabia", "countryCode": "SAU", "abbreviation": "KSA" } },
+          "homeScore": 3,
+          "awayScore": 1,
+          "nextSlotId": "sr:cup_round:2218701"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218603",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 3,
+          "startTime": 1777824000000,
+          "status": "FINISHED",
+          "home": { "placeholder": "1B", "team": { "id": "sr:competitor:4819", "name": "Argentina", "countryCode": "ARG", "abbreviation": "ARG" } },
+          "away": { "placeholder": "X3", "team": { "id": "sr:competitor:5003", "name": "Iran", "countryCode": "IRN", "abbreviation": "IRN" } },
+          "homeScore": 4,
+          "awayScore": 0,
+          "nextSlotId": "sr:cup_round:2218702"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218604",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 4,
+          "startTime": 1777824000000,
+          "status": "FINISHED",
+          "home": { "placeholder": "1C", "team": { "id": "sr:competitor:4481", "name": "France", "countryCode": "FRA", "abbreviation": "FRA" } },
+          "away": { "placeholder": "X4", "team": { "id": "sr:competitor:5004", "name": "Tunisia", "countryCode": "TUN", "abbreviation": "TUN" } },
+          "homeScore": 2,
+          "awayScore": 1,
+          "nextSlotId": "sr:cup_round:2218702"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218605",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 5,
+          "startTime": 1777910400000,
+          "status": "FINISHED",
+          "home": { "placeholder": "1D", "team": { "id": "sr:competitor:4748", "name": "Brazil", "countryCode": "BRA", "abbreviation": "BRA" } },
+          "away": { "placeholder": "X5", "team": { "id": "sr:competitor:5005", "name": "Serbia", "countryCode": "SRB", "abbreviation": "SRB" } },
+          "homeScore": 3,
+          "awayScore": 2,
+          "nextSlotId": "sr:cup_round:2218703"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218606",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 6,
+          "startTime": 1777910400000,
+          "status": "FINISHED",
+          "home": { "placeholder": "2C", "team": { "id": "sr:competitor:4705", "name": "Netherlands", "countryCode": "NED", "abbreviation": "NED" } },
+          "away": { "placeholder": "X6", "team": { "id": "sr:competitor:5006", "name": "Ecuador", "countryCode": "ECU", "abbreviation": "ECU" } },
+          "homeScore": 2,
+          "awayScore": 0,
+          "nextSlotId": "sr:cup_round:2218703"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218607",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 7,
+          "startTime": 1777996800000,
+          "status": "FINISHED",
+          "home": { "placeholder": "2D", "team": { "id": "sr:competitor:4715", "name": "Croatia", "countryCode": "CRO", "abbreviation": "CRO" } },
+          "away": { "placeholder": "X7", "team": { "id": "sr:competitor:5007", "name": "Canada", "countryCode": "CAN", "abbreviation": "CAN" } },
+          "homeScore": 1,
+          "awayScore": 0,
+          "nextSlotId": "sr:cup_round:2218704"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218608",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 8,
+          "startTime": 1777996800000,
+          "status": "FINISHED",
+          "home": { "placeholder": "2A", "team": { "id": "sr:competitor:4736", "name": "South Africa", "countryCode": "ZAF", "abbreviation": "RSA" } },
+          "away": { "placeholder": "X8", "team": { "id": "sr:competitor:5008", "name": "Ghana", "countryCode": "GHA", "abbreviation": "GHA" } },
+          "homeScore": 2,
+          "awayScore": 1,
+          "nextSlotId": "sr:cup_round:2218704"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218609",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 9,
+          "startTime": 1778169600000,
+          "status": "FINISHED",
+          "home": { "placeholder": "X9", "team": { "id": "sr:competitor:5009", "name": "Germany", "countryCode": "GER", "abbreviation": "GER" } },
+          "away": { "placeholder": "X10", "team": { "id": "sr:competitor:5010", "name": "Egypt", "countryCode": "EGY", "abbreviation": "EGY" } },
+          "homeScore": 2,
+          "awayScore": 1,
+          "nextSlotId": "sr:cup_round:2218705"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218610",
+          "eventId": "sr:match:61515276",
+          "displayOrder": 10,
+          "startTime": 1778169600000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "X11", "team": { "id": "sr:competitor:5011", "name": "England", "countryCode": "ENG", "abbreviation": "ENG" } },
+          "away": { "placeholder": "X12", "team": { "id": "sr:competitor:5012", "name": "Wales", "countryCode": "WAL", "abbreviation": "WAL" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218705"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218611",
+          "eventId": "sr:match:61515276",
+          "displayOrder": 11,
+          "startTime": 1778256000000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "X13", "team": { "id": "sr:competitor:5013", "name": "Portugal", "countryCode": "POR", "abbreviation": "POR" } },
+          "away": { "placeholder": "X14", "team": { "id": "sr:competitor:5014", "name": "Algeria", "countryCode": "DZA", "abbreviation": "ALG" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218706"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218612",
+          "eventId": "sr:match:61515276",
+          "displayOrder": 12,
+          "startTime": 1778256000000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "X15", "team": { "id": "sr:competitor:5015", "name": "Italy", "countryCode": "ITA", "abbreviation": "ITA" } },
+          "away": { "placeholder": "X16", "team": { "id": "sr:competitor:5016", "name": "Turkey", "countryCode": "TUR", "abbreviation": "TUR" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218706"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218613",
+          "eventId": "sr:match:61515276",
+          "displayOrder": 13,
+          "startTime": 1778342400000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "X17", "team": { "id": "sr:competitor:5017", "name": "Belgium", "countryCode": "BEL", "abbreviation": "BEL" } },
+          "away": { "placeholder": "X18", "team": { "id": "sr:competitor:5018", "name": "Morocco", "countryCode": "MAR", "abbreviation": "MAR" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218707"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218614",
+          "eventId": "sr:match:61515276",
+          "displayOrder": 14,
+          "startTime": 1778342400000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "X19", "team": { "id": "sr:competitor:5019", "name": "Uruguay", "countryCode": "URU", "abbreviation": "URU" } },
+          "away": { "placeholder": "X20", "team": { "id": "sr:competitor:5020", "name": "Colombia", "countryCode": "COL", "abbreviation": "COL" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218707"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218615",
+          "eventId": "sr:match:61515276",
+          "displayOrder": 15,
+          "startTime": 1778428800000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "X21", "team": { "id": "sr:competitor:5021", "name": "Denmark", "countryCode": "DEN", "abbreviation": "DEN" } },
+          "away": { "placeholder": "X22", "team": { "id": "sr:competitor:5022", "name": "Greece", "countryCode": "GRC", "abbreviation": "GRE" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218708"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218616",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 16,
+          "startTime": 1778428800000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "X23", "team": { "id": "sr:competitor:5023", "name": "Sweden", "countryCode": "SWE", "abbreviation": "SWE" } },
+          "away": { "placeholder": "X24", "team": { "id": "sr:competitor:5024", "name": "Norway", "countryCode": "NOR", "abbreviation": "NOR" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218708"
+        }
+      ]
+    },
+    {
+      "stageId": "round_of_16",
+      "name": "BE Last 16",
+      "order": 2,
+      "status": "ASFDSF",
+      "matches": [
+        {
+          "matchSlotId": "sr:cup_round:2218701",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 1,
+          "startTime": 1778601600000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "W1", "team": { "id": "sr:competitor:4781", "name": "Mexico", "countryCode": "MEX", "abbreviation": "MEX" } },
+          "away": { "placeholder": "W2", "team": { "id": "sr:competitor:4698", "name": "Spain", "countryCode": "ESP", "abbreviation": "ESP" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218801"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218702",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 2,
+          "startTime": 1778601600000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "W3", "team": { "id": "sr:competitor:4819", "name": "Argentina", "countryCode": "ARG", "abbreviation": "ARG" } },
+          "away": { "placeholder": "W4", "team": { "id": "sr:competitor:4481", "name": "France", "countryCode": "FRA", "abbreviation": "FRA" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218801"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218703",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 3,
+          "startTime": 1778688000000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "W5", "team": { "id": "sr:competitor:4748", "name": "Brazil", "countryCode": "BRA", "abbreviation": "BRA" } },
+          "away": { "placeholder": "W6", "team": { "id": "sr:competitor:4705", "name": "Netherlands", "countryCode": "NED", "abbreviation": "NED" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218802"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218704",
+          "eventId": "sr:match:66456904",
+          "displayOrder": 4,
+          "startTime": 1778688000000,
+          "status": "UPCOMING",
+          "home": { "placeholder": "W7", "team": { "id": "sr:competitor:4715", "name": "Croatia", "countryCode": "CRO", "abbreviation": "CRO" } },
+          "away": { "placeholder": "W8", "team": { "id": "sr:competitor:4736", "name": "South Africa", "countryCode": "ZAF", "abbreviation": "RSA" } },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218802"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218705",
+          "eventId": null,
+          "displayOrder": 5,
+          "startTime": 1778774400000,
+          "status": "TBD",
+          "home": { "placeholder": "W9", "team": { "id": "sr:competitor:5009", "name": "Germany", "countryCode": "GER", "abbreviation": "GER" } },
+          "away": { "placeholder": "W10", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218803"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218706",
+          "eventId": null,
+          "displayOrder": 6,
+          "startTime": 1778774400000,
+          "status": "TBD",
+          "home": { "placeholder": "W11", "team": null },
+          "away": { "placeholder": "W12", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218803"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218707",
+          "eventId": null,
+          "displayOrder": 7,
+          "startTime": 1778860800000,
+          "status": "TBD",
+          "home": { "placeholder": "W13", "team": null },
+          "away": { "placeholder": "W14", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218804"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218708",
+          "eventId": null,
+          "displayOrder": 8,
+          "startTime": 1778860800000,
+          "status": "TBD",
+          "home": { "placeholder": "W15", "team": null },
+          "away": { "placeholder": "W16", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218804"
+        }
+      ]
+    },
+    {
+      "stageId": "quarterfinal",
+      "name": "BE Quarterfinals",
+      "order": 3,
+      "status": "ONGOING",
+      "matches": [
+        {
+          "matchSlotId": "sr:cup_round:2218801",
+          "eventId": null,
+          "displayOrder": 1,
+          "startTime": 1779120000000,
+          "status": "TBD",
+          "home": { "placeholder": "W R16-1", "team": null },
+          "away": { "placeholder": "W R16-2", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218901"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218802",
+          "eventId": null,
+          "displayOrder": 2,
+          "startTime": 1779120000000,
+          "status": "TBD",
+          "home": { "placeholder": "W R16-3", "team": null },
+          "away": { "placeholder": "W R16-4", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218901"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218803",
+          "eventId": null,
+          "displayOrder": 3,
+          "startTime": 1779206400000,
+          "status": "TBD",
+          "home": { "placeholder": "W R16-5", "team": null },
+          "away": { "placeholder": "W R16-6", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218902"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218804",
+          "eventId": null,
+          "displayOrder": 4,
+          "startTime": 1779206400000,
+          "status": "TBD",
+          "home": { "placeholder": "W R16-7", "team": null },
+          "away": { "placeholder": "W R16-8", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2218902"
+        }
+      ]
+    },
+    {
+      "stageId": "semifinal",
+      "name": "BE Semifinals",
+      "order": 4,
+      "status": "UPCOMING",
+      "matches": [
+        {
+          "matchSlotId": "sr:cup_round:2218901",
+          "eventId": null,
+          "displayOrder": 1,
+          "startTime": 1779465600000,
+          "status": "TBD",
+          "home": { "placeholder": "W QF1", "team": null },
+          "away": { "placeholder": "W QF2", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2219001"
+        },
+        {
+          "matchSlotId": "sr:cup_round:2218902",
+          "eventId": null,
+          "displayOrder": 2,
+          "startTime": 1779552000000,
+          "status": "TBD",
+          "home": { "placeholder": "W QF3", "team": null },
+          "away": { "placeholder": "W QF4", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": "sr:cup_round:2219001"
+        }
+      ]
+    },
+    {
+      "stageId": "final",
+      "name": "BE Final",
+      "order": 5,
+      "status": "UPCOMING",
+      "matches": [
+        {
+          "matchSlotId": "sr:cup_round:2219001",
+          "eventId": null,
+          "displayOrder": 1,
+          "startTime": 1779897600000,
+          "status": "TBD",
+          "home": { "placeholder": "W SF1", "team": null },
+          "away": { "placeholder": "W SF2", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": null
+        }
+      ]
+    },
+    {
+      "stageId": "3rd_place_playoff",
+      "name": "BE Bronze Final",
+      "order": 5,
+      "status": "UPCOMING",
+      "matches": [
+        {
+          "matchSlotId": "sr:cup_round:2219001",
+          "eventId": null,
+          "displayOrder": 1,
+          "startTime": 1779897600000,
+          "status": "TBD",
+          "home": { "placeholder": "L SF1", "team": null },
+          "away": { "placeholder": "L SF2", "team": null },
+          "homeScore": null,
+          "awayScore": null,
+          "nextSlotId": null
+        }
+      ]
+    }
+  ]
+}

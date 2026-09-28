@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_type2_primary"
+    android:paddingLeft="14dp"
+    android:paddingTop="6dp"
+    android:paddingRight="14dp"
+    android:paddingBottom="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="6dp">
+    <View
+        android:background="@color/line_type2_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/remix_note_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

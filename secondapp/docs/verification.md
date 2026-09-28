@@ -1,5 +1,13 @@
 # Verification — 27 September 2026
 
+See [resumed verification](resume-verification-20260928.md) for checks executed
+after restoring the temporary toolchain. Missing split/SDK statements below are
+historical; device runtime checks remain pending.
+
+**Latest:** [28 September build preparation and verification](build-preparation-20260928.md)
+supersedes the historical missing-SDK/split/signing-check status below. Device
+runtime checks remain pending.
+
 Status is scoped to what ran. **The requested Android integration and full web
 content experience are not complete.** No production deployment, commit, push,
 ZIP creation, production signing or modification of firstapp occurred.
@@ -169,3 +177,12 @@ Legacy provider connectivity: credential-free `curl --max-time 20 -sS -I
 https://www.streamingucms.com/api/applications/` completed with HTTP/2 503 .
 This HEAD request does not authenticate, exercise the dynamic catalog protocol or
 establish media/CORS/DRM compatibility. No provider credentials were sent.
+
+## Split input update — 28 September 2026
+
+The newly supplied `Live Football Tv_3.3.8.apks` resolves the missing split-input
+blocker described in the historical results above. Base bytes match `Live.apk`;
+ARM64, English, and xhdpi APKs are present and their ZIP integrity checks pass.
+See `split-baseline-inventory.json` for hashes and native library inventory.
+Signature verification and runtime checks remain NOT RUN: this workspace has no
+Android SDK, attached device, or `/dev/kvm`. Native integration remains outstanding.

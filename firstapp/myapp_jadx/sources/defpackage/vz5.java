@@ -1,0 +1,30 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class vz5 {
+
+    /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+    /* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+    public static final class a {
+        public static final a a;
+        public static final /* synthetic */ a[] b;
+
+        static {
+            a aVar = new a("ERROR", 0);
+            a = aVar;
+            b = new a[]{aVar};
+        }
+
+        public a() {
+            throw null;
+        }
+
+        public static a valueOf(String str) {
+            return (a) Enum.valueOf(a.class, str);
+        }
+
+        public static a[] values() {
+            return (a[]) b.clone();
+        }
+    }
+}

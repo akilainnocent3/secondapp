@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.sporty.android.common_ui.widgets.TimelineView
+        android:id="@+id/timeline"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        app:endLineColor="@color/gray"
+        app:linePadding="1px"
+        app:lineStyle="normal"
+        app:lineWidth="1dp"
+        app:markerInCenter="true"
+        app:markerPaddingBottom="0dp"
+        app:markerPaddingLeft="0dp"
+        app:markerPaddingRight="0dp"
+        app:markerSize="20dp"
+        app:startLineColor="@color/gray"/>
+    <TextView
+        android:textSize="12dp"
+        android:textColor="@color/text_type1_primary"
+        android:id="@+id/bet_builder_market_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"/>
+</LinearLayout>

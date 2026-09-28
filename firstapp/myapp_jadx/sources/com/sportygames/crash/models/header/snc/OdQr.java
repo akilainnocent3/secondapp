@@ -1,0 +1,52 @@
+package com.sportygames.crash.models.header.snc;
+
+/* JADX INFO: loaded from: classes.dex */
+public class OdQr {
+    public static String AOwrvCHa;
+    public static String BFAtydXWBXNLd;
+    public static String BmbFQbTPPdy;
+    public static String CbVoXViMuaXCY;
+    public static String FOCNx;
+    public static String GkBiuPlniQMG;
+    public static String HSBTSluhpd;
+    public static String KHKy;
+    public static String LXVe;
+    public static String LgfyHFajpJ;
+    public static String NIPChYUyXbma;
+    public static String OIobVnrxfBA;
+    public static String OWg;
+    public static String PrypKZnToW;
+    public static String QvCfDX;
+    public static String SEQgxnxZ;
+    public static String TExmQBCJd;
+    public static String TpbxMcZJBPGlmjU;
+    public static String VNpsMBbKtm;
+    public static String VgOVrtokstowV;
+    public static String XHseCQYmQE;
+    public static String YDVKVV;
+    public static String YDawntIxDK;
+    public static String ZWagCxzMp;
+    public static String bcugQCrgwWMjhu;
+    public static String cSYubueUuiz;
+    public static String ezKgwjnI;
+    public static String fNUQTYJw;
+    public static String hGAxhaP;
+    public static String hWlRiLl;
+    public static String hxCSlNkUyP;
+    public static String ivrkPXdIduG;
+    public static String iwRak;
+    public static String jKZoaL;
+    public static String kDM;
+    public static String luHJBMnkWryg;
+    public static String mVyX;
+    public static String nPJKzcRBhntbgO;
+    public static String qFhlRQNYTp;
+    public static String rMEuKALoH;
+    public static String sqjUgCPXgiOH;
+    public static String tQFE;
+    public static String ujLYAkJcbD;
+    public static String wVO;
+    public static String xdghDrPrVn;
+    public static String xxBQfLwUZkx;
+    public static String zlgiSe;
+}

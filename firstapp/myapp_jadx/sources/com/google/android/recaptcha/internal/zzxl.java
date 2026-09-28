@@ -1,0 +1,66 @@
+package com.google.android.recaptcha.internal;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzxl extends zzsn implements zztt {
+    private static final zzxl zzb;
+    private static volatile zzua zzd;
+    private zzqm zze = zzqm.zzb;
+
+    static {
+        zzxl zzxlVar = new zzxl();
+        zzb = zzxlVar;
+        zzsn.zzI(zzxl.class, zzxlVar);
+    }
+
+    private zzxl() {
+    }
+
+    public static zzxl zzi() {
+        return zzb;
+    }
+
+    public final zzqm zzf() {
+        return this.zze;
+    }
+
+    @Override // com.google.android.recaptcha.internal.zzsn
+    public final Object zzh(int i, Object obj, Object obj2) {
+        zzua zzsiVar;
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return (byte) 1;
+        }
+        if (i2 == 2) {
+            return zzsn.zzF(zzb, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"zze"});
+        }
+        if (i2 == 3) {
+            return new zzxl();
+        }
+        zzyc zzycVar = null;
+        if (i2 == 4) {
+            return new zzxk(zzycVar);
+        }
+        if (i2 == 5) {
+            return zzb;
+        }
+        if (i2 != 6) {
+            throw null;
+        }
+        zzua zzuaVar = zzd;
+        if (zzuaVar != null) {
+            return zzuaVar;
+        }
+        synchronized (zzxl.class) {
+            try {
+                zzsiVar = zzd;
+                if (zzsiVar == null) {
+                    zzsiVar = new zzsi(zzb);
+                    zzd = zzsiVar;
+                }
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+        return zzsiVar;
+    }
+}

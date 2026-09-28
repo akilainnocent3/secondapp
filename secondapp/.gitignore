@@ -17,3 +17,6 @@ backend/staticfiles/
 # Unused Flutter template bitmap icons; branded web icon is SVG.
 flutter/web/favicon.png
 flutter/web/icons/*.png
+
+# Private Android release signing material
+android_integration/private/

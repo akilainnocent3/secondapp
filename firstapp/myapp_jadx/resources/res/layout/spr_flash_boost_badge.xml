@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportybet.plugin.realsports.widget.FlashBoostBadgeView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_flash_boost_badge_bottom"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/flash_boost_pill_height"
+    android:paddingStart="@dimen/flash_boost_pill_padding_start"
+    android:paddingEnd="@dimen/flash_boost_pill_padding_end">
+    <ImageView
+        android:layout_width="@dimen/flash_boost_pill_icon_size"
+        android:layout_height="@dimen/flash_boost_pill_icon_size"
+        android:src="@drawable/ic_flash_boost"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"/>
+    <TextView
+        android:textSize="@dimen/flash_boost_pill_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/flash_boost_badge_text"
+        android:id="@+id/flash_boost_badge_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/common_functions__boosted"
+        android:layout_marginStart="2dp"/>
+</com.sportybet.plugin.realsports.widget.FlashBoostBadgeView>

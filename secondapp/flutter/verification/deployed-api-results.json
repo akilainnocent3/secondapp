@@ -1,0 +1,148 @@
+[
+  {
+    "test": "anonymous account",
+    "status": 401,
+    "error": {
+      "code": "not_authenticated",
+      "message": "Authentication credentials were not provided.",
+      "fields": {
+        "detail": "Authentication credentials were not provided."
+      }
+    }
+  },
+  {
+    "test": "anonymous content",
+    "status": 401,
+    "error": {
+      "code": "not_authenticated",
+      "message": "Authentication credentials were not provided.",
+      "fields": {
+        "detail": "Authentication credentials were not provided."
+      }
+    }
+  },
+  {
+    "test": "mobile login",
+    "status": 200,
+    "entitlement": {
+      "status": "active_trial",
+      "allowed": true,
+      "expires_at": "2026-10-04T21:21:10.421475Z",
+      "server_time": "2026-09-27T21:21:10.442152Z",
+      "trial_start": "2026-09-27T21:21:10.421475Z",
+      "trial_end": "2026-10-04T21:21:10.421475Z",
+      "paid_until": null,
+      "reason": "",
+      "max_staleness_seconds": 60
+    }
+  },
+  {
+    "test": "mobile account",
+    "status": 200,
+    "entitlement": {
+      "status": "active_trial",
+      "allowed": true,
+      "expires_at": "2026-10-04T21:21:10.421475Z",
+      "server_time": "2026-09-27T21:21:10.595582Z",
+      "trial_start": "2026-09-27T21:21:10.421475Z",
+      "trial_end": "2026-10-04T21:21:10.421475Z",
+      "paid_until": null,
+      "reason": "",
+      "max_staleness_seconds": 60
+    }
+  },
+  {
+    "test": "mobile content",
+    "status": 503,
+    "error": {
+      "code": "content_unavailable",
+      "message": "Content provider integration is not yet available.",
+      "fields": {
+        "detail": "Content provider integration is not yet available."
+      }
+    }
+  },
+  {
+    "test": "mobile refresh",
+    "status": 200,
+    "entitlement": {
+      "status": "active_trial",
+      "allowed": true,
+      "expires_at": "2026-10-04T21:21:10.421475Z",
+      "server_time": "2026-09-27T21:21:10.828598Z",
+      "trial_start": "2026-09-27T21:21:10.421475Z",
+      "trial_end": "2026-10-04T21:21:10.421475Z",
+      "paid_until": null,
+      "reason": "",
+      "max_staleness_seconds": 60
+    }
+  },
+  {
+    "test": "refreshed mobile account",
+    "status": 200,
+    "entitlement": {
+      "status": "active_trial",
+      "allowed": true,
+      "expires_at": "2026-10-04T21:21:10.421475Z",
+      "server_time": "2026-09-27T21:21:10.924284Z",
+      "trial_start": "2026-09-27T21:21:10.421475Z",
+      "trial_end": "2026-10-04T21:21:10.421475Z",
+      "paid_until": null,
+      "reason": "",
+      "max_staleness_seconds": 60
+    }
+  },
+  {
+    "test": "web CSRF",
+    "status": 200,
+    "Access-Control-Allow-Origin": "https://soccerarena.org",
+    "Access-Control-Allow-Credentials": "true"
+  },
+  {
+    "test": "web login",
+    "status": 200,
+    "entitlement": {
+      "status": "active_trial",
+      "allowed": true,
+      "expires_at": "2026-10-04T21:21:10.421475Z",
+      "server_time": "2026-09-27T21:21:11.983114Z",
+      "trial_start": "2026-09-27T21:21:10.421475Z",
+      "trial_end": "2026-10-04T21:21:10.421475Z",
+      "paid_until": null,
+      "reason": "",
+      "max_staleness_seconds": 60
+    },
+    "Access-Control-Allow-Origin": "https://soccerarena.org",
+    "Access-Control-Allow-Credentials": "true"
+  },
+  {
+    "test": "web account",
+    "status": 200,
+    "entitlement": {
+      "status": "active_trial",
+      "allowed": true,
+      "expires_at": "2026-10-04T21:21:10.421475Z",
+      "server_time": "2026-09-27T21:21:12.064028Z",
+      "trial_start": "2026-09-27T21:21:10.421475Z",
+      "trial_end": "2026-10-04T21:21:10.421475Z",
+      "paid_until": null,
+      "reason": "",
+      "max_staleness_seconds": 60
+    },
+    "Access-Control-Allow-Origin": "https://soccerarena.org",
+    "Access-Control-Allow-Credentials": "true"
+  },
+  {
+    "test": "web content",
+    "status": 503,
+    "error": {
+      "code": "content_unavailable",
+      "message": "Content provider integration is not yet available.",
+      "fields": {
+        "detail": "Content provider integration is not yet available."
+      }
+    },
+    "Access-Control-Allow-Origin": "https://soccerarena.org",
+    "Access-Control-Allow-Credentials": "true"
+  }
+]

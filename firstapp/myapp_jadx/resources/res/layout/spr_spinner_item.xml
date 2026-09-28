@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="12sp"
+    android:textColor="@color/text_color_text_type2_tertiary_with_brand_secondary_variable_type3"
+    android:gravity="center"
+    android:id="@+id/spinner_text"
+    android:background="@color/brand_tertiary"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:minWidth="65dp"
+    android:maxLines="1"
+    android:fontFamily="sans-serif"
+    android:paddingHorizontal="4dp"
+    app:autoSizeMaxTextSize="12sp"
+    app:autoSizeMinTextSize="10sp"
+    app:autoSizeTextType="uniform"/>

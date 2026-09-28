@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.sportybet.plugin.realsports.betorder.calendar.view.customviews.CircleAnimationTextView
+        android:textSize="@dimen/spr_day_text_size"
+        android:textColor="@color/calendar_default_day_text_color"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tv_day_number"
+        android:padding="@dimen/spr_day_text_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,44 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes7.dex */
+public interface njz {
+
+    public static final class a implements njz {
+        public final int a;
+
+        public a(int i) {
+            this.a = i;
+        }
+
+        public final boolean equals(Object obj) {
+            if (this == obj) {
+                return true;
+            }
+            return (obj instanceof a) && this.a == ((a) obj).a;
+        }
+
+        public final int hashCode() {
+            return Integer.hashCode(this.a);
+        }
+
+        public final String toString() {
+            return rr1.b(new StringBuilder("Expand(id="), this.a, ')');
+        }
+    }
+
+    public static final class b implements njz {
+        public static final b a = new b();
+
+        public final boolean equals(Object obj) {
+            return this == obj || (obj instanceof b);
+        }
+
+        public final int hashCode() {
+            return -387886171;
+        }
+
+        public final String toString() {
+            return "LoadMore";
+        }
+    }
+}

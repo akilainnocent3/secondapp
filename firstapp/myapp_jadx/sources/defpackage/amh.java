@@ -1,0 +1,87 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class amh {
+    public static final e68 A;
+    public static final e68 B;
+    public static final e68 C;
+    public static final e68 D;
+    public static final e68 E;
+    public static final e68 F;
+    public static final e68 G;
+    public static final e68 H;
+    public static final e68 I;
+    public static final e68 J;
+    public static final e68 K;
+    public static final e68 a;
+    public static final e68 b;
+    public static final e68 c;
+    public static final cy80 d;
+    public static final e68 e;
+    public static final float f;
+    public static final e68 g;
+    public static final float h;
+    public static final e68 i;
+    public static final float j;
+    public static final e68 k;
+    public static final float l;
+    public static final e68 m;
+    public static final float n;
+    public static final e68 o;
+    public static final float p;
+    public static final e68 q;
+    public static final e68 r;
+    public static final e68 s;
+    public static final e68 t;
+    public static final e68 u;
+    public static final e68 v;
+    public static final e68 w;
+    public static final e68 x;
+    public static final e68 y;
+    public static final e68 z;
+
+    static {
+        e68 e68Var = e68.w;
+        a = e68Var;
+        e68 e68Var2 = e68.A;
+        b = e68Var2;
+        c = e68.I;
+        d = cy80.d;
+        e68 e68Var3 = e68.v;
+        e = e68Var3;
+        f = 0.38f;
+        g = e68Var3;
+        h = 0.38f;
+        i = e68Var3;
+        j = 0.38f;
+        k = e68Var3;
+        l = 0.38f;
+        m = e68Var3;
+        n = 0.38f;
+        o = e68Var3;
+        p = 0.38f;
+        e68 e68Var4 = e68.a;
+        q = e68Var4;
+        r = e68Var4;
+        s = e68Var3;
+        t = e68Var4;
+        u = e68Var;
+        v = e68Var4;
+        w = e68Var4;
+        x = e68Var2;
+        y = e68Var3;
+        z = e68Var2;
+        A = e68Var;
+        B = e68Var;
+        C = e68Var;
+        D = e68Var3;
+        fah0 fah0Var = fah0.a;
+        E = e68Var;
+        F = e68Var;
+        G = e68Var;
+        H = e68Var;
+        I = e68Var;
+        J = e68Var;
+        K = e68Var;
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportygames.sportysoccer.widget.TutorialBallsLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <ImageView
+        android:id="@+id/ball1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/sg_target_red_0"/>
+    <ImageView
+        android:id="@+id/ball2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/sg_target_red_0"/>
+    <ImageView
+        android:id="@+id/ball3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/sg_target_red_0"/>
+</com.sportygames.sportysoccer.widget.TutorialBallsLayout>

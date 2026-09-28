@@ -26,11 +26,17 @@ use OS-backed secure storage. Content is withheld during verification. Server ti
 and a monotonic elapsed clock determine a lease of at most 60 seconds and the exact
 known deadline. Foreground restoration requires fresh verification.
 
-Android integration is conditional on a launchable preservation baseline. No guessed
-replacement APK or separate-app launcher is supplied. Native enforcement must precede
-protected activity initialization, cover playback/background/Cast boundaries and
-verify server state independently of Dart messages. The current original APK remains
-unchanged and unprotected. No production signing identity has been supplied.
+The Android baseline now has user-confirmed launch/channel/video/audio results.
+The native account integration gates original activity initialization, start, resume,
+and new-intent entry. A server-derived monotonic lease lasts at most 60 seconds;
+periodic verification refreshes it, and expiry finishes protected activities and
+stops their players. Background exit invalidates access and stops local/Cast playback.
+The same-package native account screen supports registration, sign-in, renewal
+contacts, history, logout and deletion. Refresh tokens use Android Keystore AES-GCM;
+access tokens remain in process memory. The original reference APK stays unchanged.
+A new private signing identity signs the installable integration, requiring removal
+of the baseline before installation. Integrated phone runtime is not yet verified;
+see android-release-20260928.md for evidence and limits.
 
 The web content adapter must be built from authorized provider contracts. The API
 currently denies unavailable content with 503 after checking entitlement; it does

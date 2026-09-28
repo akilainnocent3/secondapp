@@ -1,0 +1,50 @@
+package defpackage;
+
+import com.google.gson.annotations.SerializedName;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: loaded from: classes7.dex */
+@Metadata(d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0002\b\u0004\n\u0002\u0010\u0006\n\u0002\b\u0005\b\u0087\b\u0018\u00002\u00020\u0001R\u001a\u0010\u0006\u001a\u00020\u00028\u0006X\u0087\u0004¢\u0006\f\n\u0004\b\u0003\u0010\u0004\u001a\u0004\b\u0003\u0010\u0005R\u001a\u0010\u000b\u001a\u00020\u00078\u0006X\u0087\u0004¢\u0006\f\n\u0004\b\b\u0010\t\u001a\u0004\b\b\u0010\n¨\u0006\f"}, d2 = {"Lhm4;", "", "", "a", "Ljava/lang/String;", "()Ljava/lang/String;", "giftId", "", "b", "D", "()D", "giftValue", "game-bonuscup_sportybetRelease"}, k = 1, mv = {2, 2, 0}, xi = 48)
+public final /* data */ class hm4 {
+
+    /* JADX INFO: renamed from: a, reason: from kotlin metadata */
+    @SerializedName("giftId")
+    private final String giftId;
+
+    /* JADX INFO: renamed from: b, reason: from kotlin metadata */
+    @SerializedName("giftValue")
+    private final double giftValue;
+
+    /* JADX INFO: renamed from: a, reason: from getter */
+    public final String getGiftId() {
+        return this.giftId;
+    }
+
+    /* JADX INFO: renamed from: b, reason: from getter */
+    public final double getGiftValue() {
+        return this.giftValue;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof hm4)) {
+            return false;
+        }
+        hm4 hm4Var = (hm4) obj;
+        return Intrinsics.g(this.giftId, hm4Var.giftId) && Double.compare(this.giftValue, hm4Var.giftValue) == 0;
+    }
+
+    public final int hashCode() {
+        return Double.hashCode(this.giftValue) + (this.giftId.hashCode() * 31);
+    }
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder("BonusCupGift(giftId=");
+        sb.append(this.giftId);
+        sb.append(", giftValue=");
+        return org0.a(sb, this.giftValue, ')');
+    }
+}

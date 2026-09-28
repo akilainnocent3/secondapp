@@ -1,0 +1,21 @@
+package defpackage;
+
+import android.app.Service;
+import android.content.Intent;
+import android.os.IBinder;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class es0 extends Service {
+    public static final /* synthetic */ int a = 0;
+
+    public static class a {
+        public static int a() {
+            return 512;
+        }
+    }
+
+    @Override // android.app.Service
+    public final IBinder onBind(Intent intent) {
+        throw new UnsupportedOperationException();
+    }
+}

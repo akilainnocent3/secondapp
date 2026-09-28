@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sportybet.plugin.myfavorite.widget.MyFavoriteSummaryItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:background="@color/background_type1_secondary"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/my_favorite_setting_item_height"
+    android:paddingHorizontal="16dp">
+    <TextView
+        android:textSize="14dp"
+        android:textColor="@color/text_type1_primary"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:textSize="12dp"
+        android:textColor="@color/text_type2_tertiary"
+        android:ellipsize="end"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/my_favourites_settings__add_now"
+        android:lines="1"
+        android:layout_toLeftOf="@+id/enter_icon"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/enter_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right_arrow_normal"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:tint="@color/text_type2_tertiary"/>
+    <View
+        android:background="@color/line_type1_primary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"/>
+</com.sportybet.plugin.myfavorite.widget.MyFavoriteSummaryItem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="20dp"
+    android:width="110dp"
+    android:viewportWidth="220"
+    android:viewportHeight="40">
+    <path
+        android:fillColor="@drawable/_loyal_red_button__0_res_0x7f08006f"
+        android:pathData="M5,1H215C217.21,1 219,2.79 219,5V35C219,37.21 217.21,39 215,39H5C2.79,39 1,37.21 1,35V5C1,2.79 2.79,1 5,1Z"
+        android:strokeColor="@drawable/_loyal_red_button__1_res_0x7f080070"
+        android:strokeWidth="2"/>
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coefficient_layout"
+    android:background="@drawable/sh_previous_chip_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="4dp">
+    <TextView
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/coefficient"
+        android:paddingLeft="@dimen/_13sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingRight="@dimen/_13sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:paddingVertical="@dimen/_2sdp"
+        style="@style/TextPrimaryBlack"/>
+</LinearLayout>

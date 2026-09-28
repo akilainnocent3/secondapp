@@ -1,0 +1,91 @@
+package defpackage;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+
+/* JADX INFO: loaded from: classes5.dex */
+@c0d(c = "com.sporty.android.platform.features.security.newdevicelogin.securityaction.SecurityActionViewModel$launchResetPasswordEvent$1", f = "SecurityActionViewModel.kt", l = {116, 118}, m = "invokeSuspend", v = 2)
+public final class f480 extends tje0 implements Function2<v5b, v1b<? super Unit>, Object> {
+    public int a;
+    public final /* synthetic */ h480 b;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public f480(h480 h480Var, v1b<? super f480> v1bVar) {
+        super(2, v1bVar);
+        this.b = h480Var;
+    }
+
+    @Override // defpackage.pz1
+    public final v1b<Unit> create(Object obj, v1b<?> v1bVar) {
+        return new f480(this.b, v1bVar);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(v5b v5bVar, v1b<? super Unit> v1bVar) {
+        return ((f480) create(v5bVar, v1bVar)).invokeSuspend(Unit.a);
+    }
+
+    /* JADX WARN: Code restructure failed: missing block: B:13:0x0031, code lost:
+    
+        if (r5.a.emit(r1, r4) == r0) goto L17;
+     */
+    /* JADX WARN: Code restructure failed: missing block: B:16:0x003e, code lost:
+    
+        if (r5.a.emit(r1, r4) == r0) goto L17;
+     */
+    /* JADX WARN: Code restructure failed: missing block: B:17:0x0040, code lost:
+    
+        return r0;
+     */
+    @Override // defpackage.pz1
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final java.lang.Object invokeSuspend(java.lang.Object r5) {
+        /*
+            r4 = this;
+            y5b r0 = defpackage.y5b.a
+            int r1 = r4.a
+            r2 = 2
+            r3 = 1
+            if (r1 == 0) goto L18
+            if (r1 == r3) goto L14
+            if (r1 != r2) goto Ld
+            goto L14
+        Ld:
+            java.lang.String r4 = "call to 'resume' before 'invoke' with coroutine"
+            defpackage.ib5.a(r4)
+            r4 = 0
+            return r4
+        L14:
+            defpackage.uj50.b(r5)
+            goto L41
+        L18:
+            defpackage.uj50.b(r5)
+            h480 r5 = r4.b
+            psm r1 = r5.c
+            boolean r1 = r1.b0()
+            ku90<ja> r5 = r5.v
+            if (r1 == 0) goto L34
+            ja$a r1 = ja.a.a
+            r4.a = r3
+            b390 r5 = r5.a
+            java.lang.Object r4 = r5.emit(r1, r4)
+            if (r4 != r0) goto L41
+            goto L40
+        L34:
+            ja$b r1 = ja.b.a
+            r4.a = r2
+            b390 r5 = r5.a
+            java.lang.Object r4 = r5.emit(r1, r4)
+            if (r4 != r0) goto L41
+        L40:
+            return r0
+        L41:
+            kotlin.Unit r4 = kotlin.Unit.a
+            return r4
+        */
+        throw new UnsupportedOperationException("Method not decompiled: defpackage.f480.invokeSuspend(java.lang.Object):java.lang.Object");
+    }
+}

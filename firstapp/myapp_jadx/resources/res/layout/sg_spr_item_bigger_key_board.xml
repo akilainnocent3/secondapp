@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/tv_key"
+        android:background="@drawable/sg_cmn_selector_item_key"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="40dp"
+        android:lineSpacingExtra="-3.2sp"
+        android:fontFamily="sans-serif-medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center"
+        android:id="@+id/rl_del"
+        android:background="@drawable/sg_cmn_selector_item_key"
+        android:padding="6dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:adjustViewBounds="true"
+        android:tint="#ffffff"
+        app:srcCompat="@drawable/sg_spr_ic_backspace_black_24dp"/>
+</FrameLayout>

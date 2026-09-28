@@ -1,0 +1,54 @@
+package com.sporty.android.core.model.bookingcode.jT;
+
+/* JADX INFO: loaded from: classes.dex */
+public class yFmFZvuWxAYfEj {
+    public static String CYQ;
+    public static String CmgEDdZ;
+    public static String DiveWepP;
+    public static String FnrpPhTl;
+    public static String GUiggoXBcPU;
+    public static String ICEkBYBIO;
+    public static String IXBMNWvKN;
+    public static String IbqxwTNiUHl;
+    public static String IxQRf;
+    public static String JsXm;
+    public static String LVkTJv;
+    public static String Ltn;
+    public static String NVjyWX;
+    public static String OxGYjbL;
+    public static String QKWKjqTZuFGTH;
+    public static String RZZAnoc;
+    public static String SKBSWrbuqQ;
+    public static String WNFGS;
+    public static String XLyFXgBLxec;
+    public static String XirVGLNoAbjDSiX;
+    public static String YQmFYaJrOZho;
+    public static String YxMltSNeOTiFsQq;
+    public static String aMicyoFUi;
+    public static String bLvnWZLrLHoDj;
+    public static String ePzPytNXx;
+    public static String fTtI;
+    public static String ghs;
+    public static String gpHkjVrhMZhCD;
+    public static String iJGm;
+    public static String iufbNNR;
+    public static String jhYsxbO;
+    public static String ktiWRvanzAgj;
+    public static String mHeGlv;
+    public static String omWNQBiL;
+    public static String owT;
+    public static String qOPHWbowQo;
+    public static String qSCdoB;
+    public static String qZOsYlIcIjLuMQ;
+    public static String sYGKZITABbnk;
+    public static String tHhqxZSPg;
+    public static String tmVkJ;
+    public static String tpAIJfx;
+    public static String uCdXqdSXWIkXQr;
+    public static String vWadhZKoWGG;
+    public static String wksSNDslbDheHig;
+    public static String xBWEInnogdI;
+    public static String xiMAwM;
+    public static String yzRzIzm;
+    public static String zxecgkNxzhxCtC;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="28dp"
+    android:width="229dp"
+    android:viewportWidth="229"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="@drawable/_keep_betting_strip__0_res_0x7f08006b"
+        android:pathData="M0,0H229V28H0V0Z"/>
+    <path
+        android:fillColor="@drawable/_keep_betting_strip__1_res_0x7f08006c"
+        android:pathData="M0,0H229V28H0V0Z"
+        android:fillAlpha="0.2"/>
+</vector>

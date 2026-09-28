@@ -1,0 +1,52 @@
+package com.sportygames.goldmine.data.dto.oBji;
+
+/* JADX INFO: loaded from: classes.dex */
+public class dLRYz {
+    public static String CQDc;
+    public static String CYEkazUXvfHqO;
+    public static String EkiFfgjzxrR;
+    public static String GIl;
+    public static String HajwMAbOm;
+    public static String KYynNuEEJ;
+    public static String LeVyMIjXhwELx;
+    public static String LsyIPNVuG;
+    public static String MFbnocLX;
+    public static String MIlcuSOcs;
+    public static String NGjaBCJikNX;
+    public static String OJAnk;
+    public static String QYwXuqhxFFlnq;
+    public static String QrElHPVZAbgU;
+    public static String QxLoqWucArI;
+    public static String SHmTvyJKCGMuGbV;
+    public static String SNQ;
+    public static String Sjo;
+    public static String UEqnwtdEBXoqRuh;
+    public static String WXyjkj;
+    public static String XTews;
+    public static String YXODJ;
+    public static String YxilqbLDBT;
+    public static String aPET;
+    public static String cYZKtMKZkQLU;
+    public static String eMhGuOdeO;
+    public static String hDYX;
+    public static String hDnrjqVvpQe;
+    public static String hESK;
+    public static String jMQcfkrQfPxg;
+    public static String jowWSozP;
+    public static String kJlq;
+    public static String kRQjSHpqjwsZ;
+    public static String lxPdGlJAuViMz;
+    public static String mVJkZvx;
+    public static String niFCJXNiZxKJhr;
+    public static String oSpAHA;
+    public static String ofXCkIySoAUPsoJ;
+    public static String pcXsNNqT;
+    public static String rOFwKjG;
+    public static String rkpDBkzFe;
+    public static String spjiWcDnVDnbT;
+    public static String tSfKeQXPMsl;
+    public static String tUMh;
+    public static String vgbquKG;
+    public static String xOEkv;
+    public static String yTuIMqTWV;
+}

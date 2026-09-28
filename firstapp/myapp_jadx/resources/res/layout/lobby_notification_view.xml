@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_33sdp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/notification_layout"
+        android:background="@color/notification_color"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/not_image"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/notification"
+            android:layout_marginStart="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/lobby_noti_bg"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.3"/>
+        <com.sportygames.lobby.utils.VerticalViewPager
+            android:id="@+id/notification_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/not_image"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.sportygames.lobby.views.LobbyBannerPlaceHolder
+        android:id="@+id/notification_shimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:background_color="@color/lobby_notification_placeholder_color"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

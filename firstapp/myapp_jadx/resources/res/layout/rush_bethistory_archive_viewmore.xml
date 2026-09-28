@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/archive_viewmore"
+    android:background="@color/sb_black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:backgroundTint="@color/sb_black"
+    app:cardBackgroundColor="@color/sb_black"
+    app:cardCornerRadius="@dimen/_10sdp">
+    <TextView
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/archive_viewmore_btn"
+        android:background="@color/sg_rush_more_bets"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_28sdp"
+        android:text="@string/more"
+        style="@style/TextPrimaryBold"/>
+</androidx.cardview.widget.CardView>

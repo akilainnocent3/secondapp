@@ -1,0 +1,108 @@
+package defpackage;
+
+import androidx.compose.runtime.m;
+import com.sportygames.commons.models.GiftItem;
+import com.sportygames.crash.models.BetData;
+import com.sportygames.crash.remote.models.MultiplierResponse;
+import com.sportygames.crash.remote.models.TopBets;
+import com.sportygames.crashInitiated.model.response.DetailResponse;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes7.dex */
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0007\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Ltl2;", "Lj8i0;", "<init>", "()V", "SGLibrary_sportybetRelease"}, k = 1, mv = {2, 2, 0}, xi = 48)
+public final class tl2 extends j8i0 {
+    public final ytw<Long> A;
+    public final ytw<Integer> B;
+    public final ytw<String> C;
+    public final ytw<Double> D;
+    public final ytw<Double> E;
+    public final ytw<Long> F;
+    public final ytw<Boolean> G;
+    public final ytw<Boolean> H;
+    public final ytw<Boolean> I;
+    public final ytw<Boolean> J;
+    public final ytw<Integer> K;
+    public final ytw<Float> L;
+    public final ytw<Float> M;
+    public final ytw<Boolean> N;
+    public final ytw<Boolean> O;
+    public final ytw<Integer> P;
+    public final ytw<Boolean> Q;
+    public final ytw<Boolean> R;
+    public final ytw<z83> S;
+    public final ytw<Double> T;
+    public final ytw<Double> U;
+    public final ytw<String> V;
+    public final ytw<Boolean> W;
+    public final ytw<String> X;
+    public final ytw<String> Y;
+    public final ytw<TopBets> Z;
+    public final ytw<Double> a0;
+    public final ytw<GiftItem> b0;
+    public final ytw<MultiplierResponse> c0;
+    public final ytw<Boolean> d;
+    public final ytw<DetailResponse> d0;
+    public final ytw<Boolean> e;
+    public final ytw<Boolean> e0;
+    public final ytw<Boolean> f;
+    public final ytw<String> f0;
+    public final ytw<Boolean> g0;
+    public final ytw<HashMap<Long, Boolean>> i;
+    public final ytw<Long> v;
+    public final ytw<File> w;
+    public final ytw<File> y;
+    public final ytw<File> z;
+    public final ytw<HashMap<Integer, Double>> a = m.b(new HashMap());
+    public final ytw<HashMap<Integer, Double>> b = m.b(new HashMap());
+    public final ytw<BetData> c = m.b(new BetData(null, null, 3, null));
+
+    public tl2() {
+        Boolean bool = Boolean.FALSE;
+        this.d = m.b(bool);
+        this.e = m.b(bool);
+        this.f = m.b(bool);
+        this.i = m.b(new HashMap());
+        this.v = m.b(0L);
+        this.w = m.b(null);
+        this.y = m.b(null);
+        this.z = m.b(null);
+        this.A = m.b(0L);
+        this.B = m.b(0);
+        this.C = m.b("5");
+        Double dValueOf = Double.valueOf(0.0d);
+        this.D = m.b(dValueOf);
+        this.E = m.b(dValueOf);
+        this.F = m.b(0L);
+        this.G = m.b(bool);
+        this.H = m.b(bool);
+        this.I = m.b(bool);
+        this.J = m.b(bool);
+        this.K = m.b(-1);
+        Float fValueOf = Float.valueOf(-1.0f);
+        this.L = m.b(fValueOf);
+        this.M = m.b(fValueOf);
+        this.N = m.b(bool);
+        this.O = m.b(bool);
+        this.P = m.b(-22);
+        this.Q = m.b(bool);
+        this.R = m.b(bool);
+        this.S = m.b(z83.a);
+        this.T = m.b(dValueOf);
+        this.U = m.b(Double.valueOf(1.0d));
+        this.V = m.b("Stance");
+        this.W = m.b(bool);
+        this.X = m.b("");
+        this.Y = m.b("");
+        this.Z = m.b(new TopBets(0L, 0L, 0, 0, 0.0d, 0.0d, null, "", "", "", "", "", "", "", "", null, null, null, null, null, null, null, null, null, 16252928, null));
+        this.a0 = m.b(dValueOf);
+        this.b0 = m.b(new GiftItem(0.0d, "", "", "", 0.0d, 0L, 0, dValueOf, null));
+        this.c0 = m.b(new MultiplierResponse(0L, "", false, 0, 0, "", 0L));
+        this.d0 = m.b(new DetailResponse(0.0d, 0.0d, 0.0d, 0.0d, 0.0d, 0.0d, 0.0d, 0.0d, new ArrayList()));
+        this.e0 = m.b(bool);
+        this.f0 = m.b("");
+        this.g0 = m.b(bool);
+    }
+}
